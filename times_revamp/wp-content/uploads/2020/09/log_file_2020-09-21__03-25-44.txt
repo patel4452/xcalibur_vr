@@ -1,0 +1,52 @@
+
+---Downloaded files---
+The import files for: Business Multipurpose were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://localhost/times_revamp
+Data file = D:\xampp\htdocs\times_revamp/wp-content/uploads/2020/09/demo-content-import-file_2020-09-21__03-25-44.xml
+Widget file = D:\xampp\htdocs\times_revamp/wp-content/uploads/2020/09/demo-widgets-import-file_2020-09-21__03-25-44.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Widget Area : 
+
+Search - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Genemy Recent Posts - No Title - Widget already exists
+Tag Cloud - Popular tags - Widget already exists
+Text - Image Widget - Widget already exists
+Text - Text Widget - Widget already exists
+Gallery - Gallery Widget - Widget already exists
+Genemy Newsletter form - Subscribe Us: - Widget already exists
+
+Shop Widget Area : 
+
+Product Search - No Title - Widget already exists
+Products - Products - Widget already exists
+Product Categories - Product categories - Widget already exists
+Genemy Recent Posts - No Title - Widget already exists
+Genemy Newsletter form - Subscribe Us: - Widget already exists
+
+Footer Widget Area 1 : 
+
+Genemy About us - GENEMY. - Widget already exists
+
+Footer Widget Area 2 : 
+
+Text - No Title - Widget already exists
+
+Footer Widget Area 3 : 
+
+Navigation Menu - Explore - Widget already exists
+
+Footer Widget Area 4 : 
+
+Text - No Title - Widget already exists
+
+
+
+---pt-ocdi/after_import---
+

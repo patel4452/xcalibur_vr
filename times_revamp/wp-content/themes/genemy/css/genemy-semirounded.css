@@ -1,0 +1,13 @@
+.genemy-layout-semirounded.woocommerce div.product .woocommerce-tabs ul.tabs li.active a, 
+.genemy-layout-semirounded.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-genemy .vc_tta-tabs-list .vc_active a,
+.genemy-layout-semirounded.woocommerce div.product .woocommerce-tabs ul.tabs, 
+.genemy-layout-semirounded.wpb-js-composer .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-genemy .vc_tta-tabs-list,
+.genemy-layout-semirounded.woocommerce button.button:disabled, 
+.genemy-layout-semirounded.woocommerce button.button:disabled[disabled], 
+.genemy-layout-semirounded.woocommerce .woocommerce-widget-layered-nav-dropdown__submit, 
+.genemy-layout-semirounded.woocommerce #respond input#submit, 
+.genemy-layout-semirounded.woocommerce a.button, 
+.genemy-layout-semirounded.woocommerce button.button, 
+.genemy-layout-semirounded .woocommerce input.button,
+.genemy-layout-semirounded .portfolio-filter .btn-group > .btn,
+.genemy-layout-semirounded .btn{ border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }

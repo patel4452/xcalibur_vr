@@ -1,0 +1,119 @@
+ .u-section-1 {
+  background-image: url("images/TY-BG.jpg");
+  background-position: 0% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 681px;
+}
+
+.u-section-1 .u-group-1 {
+  min-height: 270px;
+  width: 570px;
+  height: auto;
+  margin: 219px auto 0 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding-bottom: 0;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 10px auto 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 30px auto 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 360px;
+  height: 489px;
+  margin: -379px 70px 60px auto;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 0% 0%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 615px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 470px;
+    margin-top: 174px;
+    height: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 490px;
+    margin-top: -381px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 566px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 427px;
+    margin-top: 162px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 293px;
+    height: 399px;
+    margin-top: -348px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 461px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 313px;
+    min-height: 227px;
+    margin-top: 123px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 197px;
+    height: 268px;
+    margin-top: -254px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 378px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 214px;
+    min-height: 203px;
+    margin-top: 105px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 143px;
+    height: 194px;
+    margin-top: -203px;
+    margin-right: -27px;
+    margin-bottom: -57px;
+  }
+}

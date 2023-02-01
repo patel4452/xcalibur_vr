@@ -1,0 +1,557 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+.logo_a img {
+    width: 70px;
+    margin-left: 2%;
+}
+.header-social {
+    float: right;
+    margin: 3%;
+}
+.header-social li a img {
+    max-width: 24px;
+}
+.hearder-social li {
+    float: right;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6, p , span , a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3 {    
+    font-weight: bold;
+}
+*:focus {
+    outline: none;
+}
+a:hover {
+    transition: all ease 0.5s;
+	text-decoration: none;
+}
+a {
+    text-decoration: none;
+    /*color: #085aa6;*/
+}
+.blue_theme {
+    color: #50c9a8;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header-title-a:after,
+.header-title-b:after,
+.header-title-c:after{
+	content: '\2014  \2014';
+    margin: 10px auto 0;
+    display: block;
+    
+}
+.header-title-a{
+	color: #212121;
+	padding-bottom: 30px;
+}
+.header-title-b{
+	color:#3DA09D;
+	padding-bottom: 30px;
+}
+.header-title-c{
+	color:#C4975C;
+	padding-bottom: 30px;
+}
+.header-title-d {
+	color:#fff;
+	font-weight: normal;
+	margin-bottom: 35px;
+}
+.section-separator {
+    width: 90%;
+    margin-top: 125px;
+}
+.mission-separator{
+	width: 75%;
+    margin: 70px auto;
+	background:#50c9a8;
+}
+/* -- header -- */
+.top_hdr {
+    padding: 25px 0;
+}
+/* -- banner section -- */
+.banner_wrap{
+    background: url(../img/top_banner.jpg);
+    background-size: cover;
+    padding: 75px 0;
+    color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.thank-you-banner{
+	background: url(../img/thank_you_banner.jpg);
+    background-size: cover;
+    padding: 75px 0;
+    color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.thank-title{
+	color: #50c9a8;
+}
+.thankyou-block h1, .thankyou-block p {
+    margin-left: 65%;
+    display: block;
+}
+
+.thankyou-block p {
+    color: #000;
+}
+.banner_form {
+    background: #fff;
+    padding: 28px 35px 20px;
+	border-radius: 10px;
+}
+.banner_desc {
+    padding-top: 18%;
+    max-width: 585px;
+}
+.banner_desc h1 {
+    font-size: 44px;
+    margin-bottom: 25px;
+}
+.banner_desc p {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.banner_wrap p, .enquiry_banner2 p {
+    color: #fff;
+}
+.banner_wrap label.error{
+	color: red;
+}
+.banner_form form input, .banner_form form select, .banner_form form textarea {
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #505050;
+	border-radius: 10px;
+}
+select::-ms-expand {
+    display: none;
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: checkbox-container;
+    border-style: none;
+}
+.custom-btn {
+    background: #50c9a8;
+    border: 1px solid #50c9a8;
+    padding: 7px 20px;
+    font-size: 13px;
+	color:#fff;
+}
+.banner_form small {
+    color: darkgrey;
+    display: block;
+    margin: 10px 0 0;
+}
+.title-start {
+	font-size: 48px;
+	padding-top: 10%;
+}
+
+.text-start {
+	font-size: 28px;
+	padding-top: 2%;
+}
+
+.img-responsive {
+    max-width: 100%;
+    text-align: center;
+}
+.about-logo{
+	width: 200px;
+}
+.caption {
+    max-width: 200px;
+    text-align: center;
+    padding-top: 18px;
+	font-size: 30px;
+	color: #50c9a8;
+	font-weight: bold;
+}
+.about-title {
+    color: #50c9a8;
+    padding: 12% 08%;
+}
+.about-title-2 {
+    color: #804195;
+    padding: 8% 0%;
+}
+
+/* why study */
+.why-study {
+    padding: 50px 0;
+	background: #50c9a8;
+}
+
+.why-title{
+	padding: 65px 0;
+	color:#fff;
+}
+.card-whyus {
+    background: #fff;
+    margin: 15px;
+    border-radius: 15px;
+    max-width: 330px;
+    padding: 15px;
+	min-height: 550px;
+	box-shadow: 0px 0px black;
+}
+.card-whyus img {
+    margin: 0 auto;
+    display: block;
+    width: 130px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.card-whyus h3 {
+    padding: 25px 15px;
+	color: #50c9a8;
+}
+.card-whyus p {
+    padding-left: 15px;
+    padding-right: 15px;
+	color: #50c9a8;
+	font-weight: lighter;
+}
+
+/*enquify section */
+.enquiry_banner2{
+    background: url('../img/mid_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 12% 0;
+    color: #fff;
+    margin: 30px 0;
+}
+.site_heading h1{
+    color: #f3af42;
+    padding: 50px 0 10px;
+    text-align: center;
+    font-size: 47px;
+}
+.enquiry_banner2 h2 {
+    font-size: 44px;
+}
+.enquiry_banner2 .text-right {
+    max-width: 810px;
+    float: right;
+}
+.enquiry_banner2 p {
+    font-size: 23px;
+    max-width: 80%;
+    display: block;
+    text-align: right;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 0;
+}
+.title-apel {
+    color: #804195;
+}
+.text-apel {
+    color: #000 !important;
+}
+.btn-apel {
+    background-color: #50c9a8 !important;
+	margin-top: 5%;
+	border: 1px solid #50c9a8;
+    padding: 7px 20px;
+}
+
+/* rewards */
+.rewards {
+    padding: 50px 0;
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* achievements */
+.achievement {
+    padding: 50px 0;
+}
+.achievement-section {
+    margin-top: 35px;
+    border: 2px solid #40A09E;
+    padding: 50px 90px;
+    background: #EBEBEB;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+/* vision n mission */
+.mission-vision {
+    padding: 50px 0;
+	background: #333;
+	color: #fff;
+	background: url(../img/mission_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.mission-details {
+    font-size: 24px;
+	padding-bottom: 30px;
+}
+.title-program {
+    color: #50c9a8;
+    margin-bottom: 8%;
+}
+
+/* mode studies */
+.mode-study {
+    padding: 50px 0;
+}
+.mode-sub{
+	padding-bottom: 30px;
+}
+.card-mode img {
+    margin: 0 auto;
+    display: block;
+}
+.circle-design {
+    max-width: 80%;
+    width: 160px;
+    border: 5px solid #804195;
+    border-radius: 50%;
+    padding: 30px;
+    margin: 0 auto;
+}
+.circle-design::before {
+    content: '';
+    background: #50c9a8;
+    height: 2px;
+    position: absolute;
+    top: 12.5%;
+    left: 71%;
+    width: 59%;
+}
+.circle-design-last::before{
+	content: none;
+}
+.program-title{
+	color: #50c9a8;
+	min-height: 150px;
+	max-height: 200px;
+	
+}
+
+.card-mode h3 {
+    padding: 20px 20px 30px;
+}
+.card-mode p {
+    padding: 20px;
+}
+/* programmes */
+.programmes {
+    padding: 50px 0;
+}
+.card-header h5, .card-body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.card-header h5{
+	color:#fff;
+}
+.card-header {
+    background: #50c9a8;
+}
+.rotate-icon {
+    float: right;
+}
+
+/*footer*/
+.ftr_wrap {
+    background: #fff;
+    font-size: 16px;
+}
+.text-footer {
+    color: #50c9a8;
+    margin-bottom: 15px;
+    display: block;
+    padding-bottom: 15px;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 1024px) {
+    .card-whyus{
+		max-width: 290px;
+	}
+	.circle-design::before {
+		top: 10.5%;
+		left: 75%;
+		width: 52%;
+	}
+	.program-title {
+		font-size: 24px;
+		min-height: 130px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.circle-design::before {
+		top: 9%;
+		left: 83%;
+		width: 35%;
+	}
+}
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+  .circle-design::before{
+	  content: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+	.title-start {
+		font-size: 32px;
+	}
+    .card-whyus{
+		max-width: 100%;
+	}
+	.header-social {
+		margin-top: -13%;
+	}
+	.mr-5 {
+		margin-right: 1rem!important;
+	}
+	.about-title,.about-title-2, .about-us p {
+		text-align: center !important;
+	}
+	.about-us img {
+		margin: 0 auto;
+		display: block;
+	}
+	.caption {
+		max-width: 100%;
+		margin-bottom: 25px;
+	}
+	.enquiry_banner2 h2 {
+		font-size: 32px;
+	}
+	.text-start,
+	.enquiry_banner2 p {
+		font-size: 16px;
+	}
+	.title-program {
+		margin-bottom: 15%;
+	}
+	.hidden-xs{
+		display:none;
+	}
+	.thankyou-block {
+		text-align: center !important;
+	}
+	.thankyou-block h1, .thankyou-block p {
+		margin-left: unset;
+	}
+	.thank-you-banner {
+		background-position: center right;
+	}
+}
+
+/*Thank you page css*/
+
+.thank-you-banner {
+    height: 90vh;
+}
+.thank-you-block {
+    background: rgba(8, 89, 166, .78);
+}
+
+
+@media only screen and (max-width: 991px) {
+    .thank-you-block {
+        width: 75% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .thank-you-block {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,347 @@
+﻿/*@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*/@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(//db.onlinewebfonts.com/c/32441506567156636049eb850b53f02a?family=Times+New+Roman);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@1,300&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+
+    overflow-y: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Typography
+-------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 
+{ 
+	font-family: 'Open Sans', sans-serif; 
+    color: #222; 
+    font-weight: 600; 
+    line-height: 1.5; 
+    margin: 0 0 15px; 
+    text-rendering: optimizeLegibility; 
+}
+
+.visible-xs{
+	display:none;
+}
+.hidden-xs {
+    display: block;
+}
+header {
+    padding: 0px 40px 0px 40px;
+    height: auto;
+    overflow: hidden;
+    min-height: 75px;
+}
+
+header .left{ margin-top: 20px; }
+header .right{ margin-top: 20px; }
+header .right a{ padding: 6px;     font-size: 20px; margin-right: 0px; }
+header .right i{ color: #000; transform: scale(1); transition: all 0.5s;}
+header .right i:hover{ color: #a82c22; transform: scale(1.2); transition: all 0.5s;}
+
+/* Nav Css */
+.pos-f-t.custom-position {
+    position: fixed;
+    top: 78px;
+    left: 0;
+    z-index: 2;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 75px;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #111;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #222;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  /*background-color: #f1f1f1;*/
+  color: #111;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #f1f1f1;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* NAV Css End */
+.css-header-link{
+    background: #fff;
+}
+.css-container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.css-row{   
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.css-col-4{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.css-col-4 a{ padding: 15px 0; display: inline-block; }
+.css-fa{
+    font-size: 25px;
+    color: #000;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align:right;
+}
+.css-share{
+    font-size: 16px;
+    font-weight: 800;
+    color: #000 !important;
+
+}
+.logo-img img{
+    margin-bottom: -46px;
+    width: 130px;
+}
+.logo-img{ text-align:center;}
+.mainhead{ display: flex; }
+.share-links{
+    position: relative;
+}
+ul.share-dropdown{
+    position: absolute;
+    margin-top: 15px;
+    z-index: 9999;
+    background: #fff;
+    border: 1px solid #1c1a1a3b;
+    border-radius: 1px;
+    text-align: left;
+    padding: 20px 14px;
+    right: 0;
+    min-width: 200px;
+    transition: all 0.5s;
+}
+ul.share-dropdown li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+	list-style: none;
+}
+ul.share-dropdown li:last-child{
+    margin-bottom: unset;
+    border-bottom: 0;
+}
+ul.share-dropdown li i{ 
+    background: #eee;
+    padding: 5px;
+   
+}
+.hide-drop {
+    display: none;
+}
+ul.share-dropdown li a{
+    text-decoration: none;
+    color:#222;
+    font-size: 14px;
+}
+ul.share-dropdown li a:hover{
+	color: #ffffff;
+    background: #1d5aaa;
+}
+footer {
+    display: flex;
+    vertical-align: bottom;
+    padding: 25px;
+    margin: 15px;
+}
+
+/* layer 1 css */
+.layer1 {
+  height: 85vh;
+  min-height: 500px;
+  background-image: url('../images/banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fw-dark {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    text-align: center;
+}
+.fw-dark span{
+	color: #f26641;
+}
+.lead {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 3rem;
+	text-shadow: 3px 3px 3px #000;
+    text-align: center;
+	line-height: 1.4;
+}
+
+/* layer 2 css */
+.layer2 {
+    padding: 6rem 0;
+}
+.big-letter:first-letter {
+    font-size: 250%;
+    padding: 20px 20px 0;
+    float: left;
+    height: 20px;
+    line-height: 1;
+    color: #f26641;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+.text-indent {
+	text-indent: 4rem;
+}
+.copy-data {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.layer2 {
+    height: 85vh;
+    min-height: 500px;
+    background-image: url(../images/layer2.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+	position: relative;
+}
+.layer2-gif {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    width: 410px;
+    
+}
+
+/* layer3 css */
+.layer3 {
+  height: 75vh;
+  min-height: 350px;
+  background-image: url('../images/ceo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 100px;
+}
+.copy-quote {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1;
+    background-color: #f26641;
+    white-space: nowrap;
+    padding: 5px;
+    overflow-x: hidden;
+    display: inline-block;
+    color: #fff;
+}
+.layer3-left {
+    position: absolute;
+    max-height: 220px;
+    left: 0;
+    bottom: -88px;
+}
+
+@media (min-width: 1440px) and (min-width: 1920px){
+		
+}
+@media (min-width: 1024px) and (max-width: 1440px){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+@media (min-width: 420px) and (max-width: 768px){
+
+}
+/* iphone 13 pro and pro max css */
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+	.visible-xs{
+		display:block;
+	}
+	.hidden-xs {
+		display: none;
+	}
+	
+}
+/* regular mobile responsive css */
+@media (min-width: 320px) and (max-width: 420px){
+	.visible-xs{
+		display:block;
+	}
+	.hidden-xs {
+		display: none;
+	}
+	
+}

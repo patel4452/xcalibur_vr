@@ -1,0 +1,158 @@
+ .u-section-1 {
+  min-height: 593px;
+}
+
+.u-section-1 .u-image-1 {
+  object-position: 53.05% 50%;
+}
+
+.u-section-1 .u-image-2 {
+  width: 494px;
+  height: 144px;
+  margin: 44px auto 0 calc(((100% - 720px) / 2) + 48px);
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 594px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 127px;
+    height: 36px;
+    margin-top: 23px;
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    width: auto;
+    margin: 225px calc(((100% - 720px) / 2) + 217px) 60px calc(((100% - 720px) / 2));
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-2 {
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2) + 37px);
+    margin-left: calc(((100% - 540px) / 2));
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 593px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 84px;
+    height: 25px;
+    margin-top: 17px;
+    margin-left: calc(((100% - 340px) / 2) + -24px);
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+    margin-top: 266px;
+    margin-right: calc(((100% - 340px) / 2) + 17px);
+    margin-left: calc(((100% - 340px) / 2) + -24px);
+  }
+} .u-section-2 {
+  background-image: url("images/WATERMARKREMOVEDportrait-young-attractive-asian-woman-employee-wear-earphone-studying-online-course-program-home-asian-female-adult-with-headphones-working-from-home_52476-518.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 643px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 167px;
+  height: 49px;
+  margin: 44px 973px 0 0;
+}
+
+.u-section-2 .u-text-1 {
+  line-height: 1.2;
+  font-size: 2.25rem;
+  margin: 259px 573px 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 530px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 108px;
+    height: 37px;
+    margin-top: 71px;
+    margin-right: auto;
+    margin-left: 16px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 284px;
+    margin-right: 414px;
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 406px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin: 0 153px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 305px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 86px;
+    height: 29px;
+    margin-top: 39px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 270px;
+    margin-right: 39px;
+    margin-left: 11px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 192px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

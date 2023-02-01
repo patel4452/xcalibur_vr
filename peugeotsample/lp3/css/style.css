@@ -1,0 +1,1437 @@
+/* peugeot lp css */
+body{
+	background-color:#162133;
+	font-family: "peugeot-normal",sans-serif;
+}
+.no-padding{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+@media (min-width: 1200px){
+  .container {
+      width: 1200px;
+  }
+}
+.error{  
+    position: absolute;
+    top: 35px;
+    font-weight: normal;
+    font-size: 12px;
+     color: #017edb;
+}
+
+/* peugeot  font family css starts*/
+@font-face {
+    font-family: 'peugeot-normal';
+    src: url('../fonts/peugeot/peugeot-normal/peugeot-normal.eot');
+    src: url('../fonts/peugeot/peugeot-normal/peugeot-normal.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peugeot/peugeot-normal/peugeot-normal.woff2') format('woff2'),
+         url('../fonts/peugeot/peugeot-normal/peugeot-normal.woff') format('woff'),
+         url('../fonts/peugeot/peugeot-normal/peugeot-normal.ttf') format('truetype'),
+         url('../fonts/peugeot/peugeot-normal/peugeot-normal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'peugeot-light';
+    src: url('../fonts/peugeot/peugeot-light/peugeot-light.eot');
+    src: url('../fonts/peugeot/peugeot-light/peugeot-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peugeot/peugeot-light/peugeot-light.woff2') format('woff2'),
+         url('../fonts/peugeot/peugeot-light/peugeot-light.woff') format('woff'),
+         url('../fonts/peugeot/peugeot-light/peugeot-light.ttf') format('truetype'),
+         url('../fonts/peugeot/peugeot-light/peugeot-light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'peugeot-bold';
+    src: url('../fonts/peugeot/peugeot-bold/peugeot-bold.eot');
+    src: url('../fonts/peugeot/peugeot-bold/peugeot-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peugeot/peugeot-bold/peugeot-bold.woff2') format('woff2'),
+         url('../fonts/peugeot/peugeot-bold/peugeot-bold.woff') format('woff'),
+         url('../fonts/peugeot/peugeot-bold/peugeot-bold.ttf') format('truetype'),
+         url('../fonts/peugeot/peugeot-bold/peugeot-bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'peugeot-expanded-bold';
+    src: url('../fonts/peugeot/peugeot-expanded-bold/peugeot-expanded-bold.eot');
+    src: url('../fonts/peugeot/peugeot-expanded-bold/peugeot-expanded-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peugeot/peugeot-expanded-bold/peugeot-expanded-bold.woff2') format('woff2'),
+         url('../fonts/peugeot/peugeot-expanded-bold/peugeot-expanded-bold.woff') format('woff'),
+         url('../fonts/peugeot/peugeot-expanded-bold/peugeot-expanded-bold.ttf') format('truetype'),
+         url('../fonts/peugeot/peugeot-expanded-bold/peugeot-expanded-bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'peugeot-expanded-medium';
+    src: url('../fonts/peugeot/peugeot-expanded-medium/peugeot-expanded-medium.eot');
+    src: url('../fonts/peugeot/peugeot-expanded-medium/peugeot-expanded-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peugeot/peugeot-expanded-medium/peugeot-expanded-medium.woff2') format('woff2'),
+         url('../fonts/peugeot/peugeot-expanded-medium/peugeot-expanded-medium.woff') format('woff'),
+         url('../fonts/peugeot/peugeot-expanded-medium/peugeot-expanded-medium.ttf') format('truetype'),
+         url('../fonts/peugeot/peugeot-expanded-medium/peugeot-expanded-medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'peugeot-expanded-normal';
+    src: url('../fonts/peugeot/peugeot-expanded-normal/peugeot-expanded-normal.eot');
+    src: url('../fonts/peugeot/peugeot-expanded-normal/peugeot-expanded-normal.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peugeot/peugeot-expanded-normal/peugeot-expanded-normal.woff2') format('woff2'),
+         url('../fonts/peugeot/peugeot-expanded-normal/peugeot-expanded-normal.woff') format('woff'),
+         url('../fonts/peugeot/peugeot-expanded-normal/peugeot-expanded-normal.ttf') format('truetype'),
+         url('../fonts/peugeot/peugeot-expanded-normal/peugeot-expanded-normal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* peugeot  font family css ends*/
+	
+/* header block starts */
+header{
+    background-image: url('../img/banner_desktop.jpg');
+    min-height: 100%;
+    height: 720px;
+    position: relative;
+/*    background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header .top{
+    background-color: #162133;
+    padding: 20px 50px 15px;
+}
+header .banner{
+    padding: 35px 50px 0;
+}
+header .banner .banner-left{
+    padding: 0;
+}
+header .banner .banner-left .patch{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 25px 15px 20px;
+    width: 48%;
+}
+header .banner .banner-left .patch h2{
+    margin: 0 0 10px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: "peugeot-bold",sans-serif;
+    line-height: 22px;
+    font-weight: normal;
+}
+header .banner .banner-left .patch h3{
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "peugeot-light",sans-serif;
+    line-height: 22px;
+}
+header .banner form{
+    width: 330px;
+    background-color: transparent;
+    float: right;
+}
+header .banner form > .head{
+    background-color: #162133;
+    padding: 20px 25px 18px;
+}
+header .banner form > .head > h3{
+    margin: 0 0 5px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: "peugeot-bold",sans-serif;
+    line-height: 22px;
+    font-weight: normal;
+}
+header .banner form > .head > h4{
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+header .banner form > .body{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 25px 20px;
+    border: 1px solid #cccccc;
+}
+header .banner form > .body .form-group {
+    height: 35px;
+    position: relative;
+    margin-bottom: 10px;
+    transition: .3s border;
+    transition: .3s height;
+    border-bottom: 1px solid #cccccc;
+}
+header .banner form > .body .form-group .control-label {
+    line-height: 40px;
+    color: #010000;
+    transition: .3s;
+    transform-origin: 0 0;
+    font-size: 13px;
+    font-family: "peugeot-light",sans-serif;
+    padding: 0 4px;
+}
+header .banner form > .body .form-group .control-label+.input {
+    padding: 10px 4px 0;
+}
+header .banner form > .body .form-group .input,
+header .banner form > .body .form-group select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 0 0;
+    border: none;
+    color: #777777;
+    padding: 0;
+}
+header .banner form > .body .form-group .form-control {
+    height: 35px;
+    font-size: 13px;
+    color: #010000;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    font-family: "peugeot-light",sans-serif;
+    border-radius: 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #010000!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #010000!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #010000!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #010000!important;
+}
+header .banner form > .body .form-group.focused {
+    border-bottom: 1px solid #01a0c1;
+    z-index: 2;
+}
+header .banner form > .body .form-group.focused .control-label {
+    color: #01a0c1;
+    font-size: 18px;
+}
+header .banner form > .body .form-group.filled .control-label, 
+header .banner form > .body .form-group.focused .control-label {
+    transform: scale(.75);
+    line-height: 16px;
+    font-size: 16px;
+    color: #01a0c1;
+}
+header .banner form > .body .form-group.focused .error-msg{
+    display: block;
+}
+header .banner form > .body .form-group .error-msg {
+    background: #333333 !important;
+    padding: 4px 8px;
+    border-radius: 0 !important;
+    position: absolute;
+    display: none;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    color: #fff;
+    font-size: 10px;
+    top: 35px;
+    left: 0;
+    z-index: 6;
+    font-weight: normal;
+}
+header .banner form > .body .form-group .error-msg:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid #333;
+    position: absolute;
+    top: -7px;
+}
+header .banner form > .body .checkbox{
+    margin: 15px 0 15px;
+    float: left;
+}
+header .banner form > .body .checkbox label {
+    padding: 0;
+    font-size: 11px;
+    line-height: 16px;
+    color: #555555;
+}
+header .banner form > .body .checkbox label input[type="checkbox"] {
+    display: none;
+}
+header .banner form > .body .checkbox .cr {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    background-color: #cfd9db;
+}
+header .banner form > .body .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+header .banner form > .body .checkbox label input[type="checkbox"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+header .banner form > .body .checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 30%;
+    color: rgba(15, 18, 28, 0.5);
+}
+header .banner form > .body .checkbox .cr-icon {
+    margin-left: 0.04em;
+}
+header .banner form > .body .checkbox p{
+    float: left;
+    width: 85%;
+    color: #4d4d4d;
+    font-size: 11px;
+    margin: 0;
+    font-family: "peugeot-light",sans-serif;
+}
+header .banner form > .body > button{
+    margin: 0 auto 8px;
+    display: block;
+    background-color: #017edb;
+    border-bottom: 4px solid #0062c5;
+    border-radius: 0;
+    padding: 9px 20px 3px;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "peugeot-normal",sans-serif;
+}
+/* header block ends */
+
+
+/* awards section starts */
+#award{
+  background-color: #000;
+  padding: 40px 0;
+}
+#award .award-cmn{
+  float: left;
+  width: 22%;
+}
+#award .award-cmn.first{
+  margin: 5px 4% 0 0;
+  width: 30%;
+}
+#award .award-list{
+  float: left;
+  width: 100%;
+}
+#award .award-cmn .img-div img{
+  margin: 0 auto;
+  display: block;
+}
+
+@media only screen and (max-width : 767px){
+  #award .award-cmn {
+    float: left;
+    width: 100%;
+    padding: 0 15px 30px;
+  }
+  #award .award-cmn.first{
+  	margin: 0;
+	width: 100%;
+  }
+  #award .award-cmn:last-child {
+    padding: 0;
+  }
+}
+/* award section ends */
+
+/*Design block starts*/
+#design{
+  padding: 70px 0;
+  display: table;
+  width: 100%;
+}
+#design .design-block{
+  width: 1266px;
+  margin: auto;
+}
+#design h1{
+  color: #3c3947;
+  font-size: 37px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "peugeot-light",sans-serif;
+  margin: 0 0 70px;
+}
+#design .col-1{
+  width: 24%;
+  float: left;
+  margin: 0 5px;
+}
+#design .design-block .d-box{
+  position: relative;
+}
+#design .design-block .d-box .overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: rgba(18, 70, 130, 0.8);
+}
+/*#design .design-block .d-box:before{
+  position: absolute;
+  top: 50px;
+  transition: opacity .25s;
+  z-index: 1;
+  background-color: rgba(18,70,130,.8);
+  cursor: pointer;
+  width: 100%;
+  height: calc(100% - 50px);
+  opacity: 0;
+  content: "";
+}*/
+#design .design-block .d-box:hover:before{
+    opacity: 0;
+}
+#design .design-block .d-box.active .overlay{
+  background-color: rgba(0, 126, 219, 0.8);
+}
+#design .design-block .d-box.active:before{
+  position: absolute;
+  top: 50px;
+  transition: opacity .25s;
+  z-index: 1;
+  background-color: rgba(0, 126, 219, 0.8);
+  cursor: pointer;
+  width: 100%;
+  height: calc(100% - 50px);
+  opacity: 0;
+  content: "";
+}
+#design .design-block .d-box:hover:before,
+#design .design-block .d-box:hover .plus{
+    opacity: 1;
+}
+#design .design-block .d-box .head{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 10px;
+}
+#design .design-block .d-box .plus{
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  cursor: pointer;
+  transition: opacity .25s;
+  opacity: 0;
+  content: "";
+}
+
+#design .design-block .d-box .plus:before,
+#design .design-block .d-box .plus:after{
+  display: block;
+  position: absolute;
+  top: calc(50% - 1px);
+  left: calc(50% - 15px);
+  transform: translateZ(0);
+  border-radius: 0;
+  background: #fff;
+  width: 30px;
+  height: 2px;
+  content: "";
+}
+#design .design-block .d-box .plus:before{
+  transform: rotate(90deg) translateZ(0);
+}
+#design .design-block .d-box.active:hover .plus:after{
+  display: block;
+  position: absolute;
+  top: calc(50% - 1px);
+  left: calc(50% - 15px);
+  transform: translateZ(0);
+  border-radius: 0;
+  background: #fff;
+  width: 30px;
+  height: 2px;
+  content: "";
+}
+#design .design-block .d-box.active:hover .plus:before{
+  background: transparent;
+}
+#design .design-block .d-box .head h4{
+  font-family: "peugeot-light",sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 7px 0;
+  color: #fff;
+}
+#design .design-block .well{
+  padding: 5px 0 0;
+  margin: 70px 0 0; 
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+#design .design-block .exp-block{
+  width: 100%;
+  display: block;
+  transition: opacity .2s ease-in-out,transform .2s ease-in-out;
+  transform: translateX(0);
+}
+#design .design-block .exp-block .img-sec{
+    margin: 0 0 35px;
+    display: table;
+}
+#design .design-block .exp-block .img-sec .two{
+  float: left;
+  width: 49.6%;
+  padding: 0 5px;
+}
+#design .design-block .exp-block .img-sec .three{
+  float: left;
+  width: 33.3%;
+  padding: 0 5px;
+}
+#design .design-block .exp-block p{
+  display: block;
+  font-family: "peugeot-light",sans-serif;
+  font-size: 16px;
+  margin: 15px 0;
+}
+#design .design-block .well .media-left{
+  width: 20%;
+  padding-left: 5%;
+}
+#design .design-block .well .media-right{
+  width: 40%;
+  padding: 2% 15.3% 0 2%;
+}
+@media (min-width : 992px) and (max-width : 1199px){	
+  #design .design-block{
+    width: 100%;
+  }
+  #design h1{
+    font-size: 30px;
+  }
+  #design .col-1{
+    width: 23%;
+    margin: 0 5px 0 14px;
+  }
+  #design .design-block .d-box .head h4{
+    font-size: 16px;
+  }
+  #design .design-block .well{
+    margin: 60px 0 0;
+  }
+}
+@media (min-width : 768px) and (max-width : 991px){
+  #design{
+    padding: 35px 0;
+  }
+  #design h1{
+    font-size: 22px;
+    margin: 0 0 30px;
+  }
+  #design .design-block{
+    width: 100%;
+  }
+  #design .col-1 {
+    width: 23%;
+    float: left;
+    margin: 0 5px 0 9px;
+  }
+  #design .design-block .d-box:before,
+  #design .design-block .d-box.active:before{
+    height: calc(100% - 40px);
+    top: 40px;
+  }
+  #design .design-block .d-box .plus:before, #design .design-block .d-box .plus:after,#design .design-block .d-box.active:hover .plus:after{
+    width: 20px;
+  }
+  #design .design-block .d-box .head{
+    top: 5px;
+  }
+  #design .design-block .d-box .head h4{
+    font-size: 11px;
+  }
+  #design .design-block .d-box .overlay{
+    height: 40px;
+  }
+  #design .design-block .well{
+    margin: 30px 0 0;
+  }
+  #design .design-block .exp-block .img-sec{
+    margin: 0 0 15px;
+  }
+  #design .design-block .exp-block p{
+    font-size: 14px;
+    margin: 10px 0;
+  }
+}
+@media (max-width : 767px){
+  #design{
+    padding: 35px 0;
+  }
+  #design h1{
+    font-size: 18px;
+    margin: 0 0 30px;
+  }
+  #design .design-block .d-box img{
+    width: 100%;
+  }
+  #design .design-block{
+    width: 100%;
+    padding: 0 10px;
+  }
+  #design .col-1 {
+    width: 100%;
+    margin: 0 0px 10px 0px;
+  }
+  #design .design-block .d-box:before,
+  #design .design-block .d-box.active:before{
+    height: calc(100% - 40px);
+    top: 40px;
+  }
+  #design .design-block .d-box .plus:before, #design .design-block .d-box .plus:after,#design .design-block .d-box.active:hover .plus:after{
+    width: 20px;
+  }
+  #design .design-block .d-box .head{
+    top: 5px;
+  }
+  #design .design-block .d-box .head h4{
+    font-size: 12px;
+  }
+  #design .design-block .d-box .overlay{
+    height: 40px;
+  }
+  #design .design-block .well{
+    margin: 30px 0 0;
+  }
+  #design .design-block .exp-block .img-sec{
+    margin: 0 0 15px;
+  }
+  #design .design-block .exp-block .img-sec .two,
+  #design .design-block .exp-block .img-sec .three{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #design .design-block .exp-block p{
+    font-size: 13px;
+    margin: 10px 0;
+  }
+  #design .design-block .well .media-left{
+    width: 100%;
+    float: left;
+  }
+  #design .design-block .well .media-right{
+    width: 100%;
+    padding: 2% 0 0 2%;
+  }  
+}
+/*design block ends*/
+
+/*video block starts*/
+.jquery-background-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width:100%; 
+  height:700px;
+}
+.jquery-background-video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/*video block ends*/
+
+/*gallery block starts*/
+
+#gallery .left img:before {
+    position: absolute;
+    top: 50px;
+    transition: opacity .25s;
+    z-index: 1;
+    background-color: rgba(18,70,130,.8);
+    cursor: pointer;
+    width: 100%;
+    height: calc(100% - 50px);
+    opacity: 0;
+    content: "";
+}
+#gallery{
+    padding: 70px 0;
+}
+#gallery h1{
+  color: #3c3947;
+  font-size: 37px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "peugeot-light",sans-serif;
+  margin: 0 0 70px;
+}
+#gallery .first-level>.left {
+  padding: 2px 8px 0 0;
+}
+#gallery .first-level>.right {
+  padding: 0px;
+}
+#gallery .first-level>.left .front-drive {
+  /*padding-bottom: 12px;*/
+}
+#gallery .gallery-slider :after {
+    background-image: url(../img/search.png);
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+
+/*Second Row*/
+#gallery .second-level {
+  padding-top: 10px;
+}
+#gallery .second-level .one, #gallery .second-level .two{
+  padding-left: 0px;
+  padding-right: 8px;
+}
+#gallery .second-level .two{
+  padding-left: 0px;
+  padding-right: 4px;
+}
+#gallery .second-level .three {
+  padding-left: 4px;
+  padding-right: 0px;
+}
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:0%;
+  width:4%;
+}
+#modal-gallery .modal-header {
+  border-bottom: 0px;
+  padding: 0px;
+  background: rgba(12,45,71,.95); 
+  box-shadow: none;
+}
+#modal-gallery {
+  background: rgba(12,45,71,.95); 
+}
+.modal-carousel {
+   background: rgba(12,45,71,.95); 
+   padding: 0px;
+}
+.modal-content {
+  box-shadow: none;
+}
+.close {
+   position: absolute;
+    top: -8px;
+    right: -20%;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#modal-views.close:hover,
+#modal-views .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+#modal-views img {
+  width: 100%;
+}
+.close {
+  color: #d1d7dc !important;
+  text-shadow: none;
+  opacity: 1 !important;
+}
+
+/*Second Change -389*/ 
+#modal-gallery .carousel-control.left{ 
+    margin-left: -24%;
+}
+#modal-gallery .carousel-control.right {
+  margin-right: -24%;
+}
+#modal-gallery .carousel-control {
+  opacity: 1;
+  color: #d1d7dc;
+}
+#gallery .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(18, 70, 130, 0.8);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#gallery .search-hover:hover .overlay {
+  height: 100%;
+  cursor: pointer;
+}
+
+#gallery .search-button {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#gallery .second-level >.one >.overlay {
+  width: 98%;
+}
+#gallery .second-level >.two >.overlay {
+  width: 99%;
+}
+#gallery .second-level >.three >.overlay {
+  width: 99%;
+  left: 4px;
+}
+/*gallery block ends*/
+/* footer-patch block starts */
+#footer-patch{
+  background-image: url(../img/footer-patch-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 94px 0;
+  text-align: center;
+}
+#footer-patch h3{
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 30px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+#footer-patch a{
+  background-color: #007edb;
+  border-bottom: 3px solid #0062c5;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 4px 30px 3px;
+  border-radius: 0;
+  float: left;
+  margin-left: 30px;
+}
+/* footer-patch block ends */
+
+/* footer block starts */
+footer{
+  padding: 18px 15px 15px;
+  color: #d6dbde;
+  background-color: #162133;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: "peugeot-light",sans-serif;
+}
+/* footer block ends */
+
+/*thankyou page css starts*/        
+header.thankyou{
+    background-image: url(../img/thankyou-banner-bg.jpg);
+	background-position: center bottom;
+	height: 728px;
+}
+header.thankyou .banner .banner-left .patch {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 18px 20px 12px;
+    width: 100%;
+}
+header.thankyou .banner .banner-left .visitButton{
+  background-color : #017edb;
+  border:none;
+  border-bottom : 4px solid #0062c5;
+  color : #ffffff;
+  font-family : "peugeot-normal",sans-serif;
+  text-transform : uppercase;
+  font-size : 14px;
+  margin-top: 22px;
+  padding: 10px 18px 5px 18px;
+}
+header.thankyou .banner .banner-left a{
+  text-decoration: none;
+}
+header.thankyou .banner .banner-left .patch h2 {
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "peugeot-normal",sans-serif;
+    line-height: 22px;
+    font-weight: normal;
+}
+header .banner .banner-left .patch h3 {
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    text-transform: none;
+    font-size: 14px;
+    font-family: "peugeot-light",sans-serif;
+    line-height: 22px;
+}
+/*thankyou page css ends*/
+	
+/* Media query starts */
+@media (min-width : 992px) and (max-width : 1199px) {
+		header {
+		  height: 610px;
+		}
+    header .top {
+        padding: 20px 30px 15px;
+    }
+    header .banner {
+        padding: 35px 30px 0;
+    }
+    header .banner .banner-left .patch {
+        padding: 20px 15px 12px;
+    }
+    header .banner .banner-left .patch h2 {
+        margin: 0 0 5px;
+        font-size: 18px;
+    }
+    header .banner .banner-left .patch h3 {
+        font-size: 14px;
+    }
+    header .banner form {
+        width: 310px;
+    }
+    header .banner form > .head {
+        padding: 20px 15px 18px;
+    }
+    header .banner form > .head > h3 {
+        margin: 0 0 2px;
+        font-size: 16px;
+    }
+    header .banner form > .head > h3 span{
+      font-size: 14px !important;
+    }
+    header .banner form > .head > h4 {
+        font-size: 15px;
+    }
+    header .banner form > .body .form-group .control-label,
+    header .banner form > .body .form-group .form-control {
+        font-size: 12px;
+    }
+    header .banner form > .body > button {
+        padding: 8px 20px 4px;
+        font-size: 14px
+    }
+    header.thankyou .banner .banner-left .patch h2 {
+        font-size: 14px;
+    }
+    header .banner .banner-left .patch h3 {
+        font-size: 10px;
+    }   
+    header.thankyou .banner .banner-left .patch {
+        padding: 18px 15px 12px;
+        width: 65%;
+    }
+  .close {
+    position: absolute;
+    top: -8px;
+    right: -4%;
+    z-index: 1111;
+  }
+  .second-level .one a img {
+    height: 180px;
+  }
+  /*Second Change -389*/ 
+  #modal-gallery .carousel-control.left{ 
+      margin-left: -5%;
+  }
+  #modal-gallery .carousel-control.right {
+    margin-right: -5%;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {	
+		header, header.thankyou {
+	    background-image: none;
+	    height: auto;
+		}
+    header .top {
+        padding: 15px 35px;
+        background-color: #000;
+    }
+    header .mob-banner{
+        padding: 0;
+    }
+    header .banner {
+        padding: 0;
+    }
+    header .banner .banner-left .patch {
+        padding: 15px 10px 8px;
+        width: 52%;
+    }
+    header .banner .banner-left .patch h2 {
+        margin: 0 0 2px;
+        font-size: 14px;
+    }
+    header .banner .banner-left .patch h3 {
+        font-size: 12px;
+    }
+    header .banner form{
+		    width: 100%;
+		    margin: 5px 0 15px;
+    }
+    header .banner form > .head {
+        padding: 15px 15px 10px;
+        background-color: #000;
+    }
+    header .banner form > .head > h3 {
+        margin: 0;
+        font-size: 14px;
+    }
+    header .banner form > .head > h3 span {
+      font-size: 11px !important;
+    }
+    header .banner form > .body {
+        padding: 10px 15px 20px;
+    }
+    header .banner form > .body .checkbox p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+    header .banner form > .head > h4 {
+        font-size: 13px;
+    }
+    header .banner form > .body .form-group .control-label,
+    header .banner form > .body .form-group .form-control {
+        font-size: 12px;
+    }
+    header .banner form > .body > button {
+        padding: 8px 20px 4px;
+        font-size: 14px
+    }
+    header.thankyou .banner .banner-left .patch h2 {
+        font-size: 11px;
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    header .banner .banner-left .patch h3 {
+        font-size: 10px;
+        line-height: 14px;
+    }   
+    header.thankyou .banner .banner-left .patch {
+        padding: 18px 15px 12px;
+        width: 65%;
+    }
+    #footer-patch h3 {
+      font-size: 17px;
+    }
+    #footer-patch a {
+      font-size: 10px;
+      padding: 3px 30px 2px;
+    }
+    .jquery-background-video-wrapper {
+      height:500px;
+    }
+    .close {
+      right: -10%;
+      z-index: 1111;
+    }
+    #gallery .first-level>.left .front-drive {
+      padding-bottom: 10px;
+    }
+    .second-level .one a img {
+      height: 139px;
+    }
+    #gallery {
+      padding: 20px 0;
+    }
+    #gallery h1 {
+      font-size: 20px;
+      margin: 0 0 20px;
+    }
+    #modal-gallery .carousel-control.left{ 
+      margin-left: -12%;
+    }
+    #modal-gallery .carousel-control.right {
+      margin-right: -12%;
+    }
+}
+
+@media (max-width : 767px){
+    header, header.thankyou {
+        background-image: none;
+        height: auto;
+    }
+    header .top {
+        padding: 10px;
+        background-color: #162133;
+    }
+    header .top img{
+       margin: 0 auto;
+    }
+    header .mob-banner{
+        padding: 0;
+    }
+    header .banner {
+        padding: 0;
+    }
+    header .banner .banner-left .patch {
+        padding: 12px 10px 8px;
+        width: 100%;
+        background-color: #000;
+    }
+    header .banner .banner-left .patch h2 {
+        margin: 0 0 2px;
+        font-size: 16px;
+    }
+    header .banner .banner-left .patch h3 {
+        font-size: 13px;
+    }
+    header .banner form {
+        width: 100%;
+        margin: 5px 0 15px;
+    }
+    header .banner form > .head {
+        padding: 10px 10px 8px;
+        background-color: #162133;
+    }
+    header .banner form > .head > h3 {
+        margin: 0;
+        font-size: 15px;
+    }
+    header .banner form > .head > h3 span{
+      font-size: 12px !important;
+    }
+    header .banner form > .head > h4 {
+        font-size: 13px;
+        font-family: "peugeot-bold",sans-serif;
+    }
+    header .banner form > .body {
+        padding: 10px 10px 20px;
+    }
+    header .banner form > .body .form-group .control-label,
+    header .banner form > .body .form-group .form-control {
+        font-size: 12px;
+    }
+    header .banner form > .body > button {
+        padding: 8px 25px 4px;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    header .banner form > .body .checkbox p {
+        width: 90%;
+    }
+    header.thankyou .banner .banner-left .patch h2 {
+        font-size: 10px;
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    header .banner .banner-left .patch h3 {
+        font-size: 9px;
+        line-height: 14px;
+    }   
+    header.thankyou .banner .banner-left .patch {
+        padding: 12px 10px 8px;
+        width: 100%;
+        background-color: #000;
+        margin: 0 0 5px;
+    }
+    
+    #gallery .first-level>.left {
+      padding: 2px 10px 0 10px;
+    }
+    #gallery .first-level>.right {
+      padding: 10px 10px;
+    }
+    #gallery .second-level .one, #gallery .second-level .two {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+    #gallery .second-level {
+      padding-top: 0px;
+    }
+    #gallery .second-level .three {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .modal-dialog {
+      position: relative;
+      width: auto;
+      margin: 50px 10px !important;
+    }
+    .close {
+      position: absolute;
+      top: -30px;
+      right: 0%;
+      color: #f1f1f1;
+      font-size: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    #gallery h1 {
+    
+      font-size: 20px;
+      line-height: 22px;
+      margin: 0 0 10px;
+    }
+    #gallery {
+      padding: 15px 0;
+    }
+    /*Second Change -389*/ 
+    #modal-gallery .carousel-control.left{ 
+        margin-left: 2%;
+    }
+    #modal-gallery .carousel-control.right {
+      margin-right: 2%;
+    }
+    #footer-patch {
+        padding: 30px 0;
+    }
+    #footer-patch h3 {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 15px;
+        display: block;
+        margin: 0 0 5px;
+    }
+    #footer-patch a {
+      font-size: 9px;
+      padding: 3px 30px 2px;
+    }
+    footer {
+      padding: 12px 10px 10px;
+      font-size: 8px;
+    }
+    .jquery-background-video-wrapper {
+      height:250px;
+    }
+    .jquery-background-video{
+      left: 68%!important;
+    }
+    header.thankyou .banner .banner-left .visitButton{
+          font-size: 11px;
+    margin-top: 11px;
+    padding: 10px 13px 2px 13px;
+    margin-bottom: 11px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+  header.thankyou .banner .banner-left .visitButton{
+    float: left;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+  header.thankyou .banner .banner-left .visitButton{
+    float: left;
+  }
+}
+/* Media query ends */
+
+/*grid rows*/
+.grid_row {
+    float: left;
+    width: 100%;
+    margin-top: -60px;
+	margin-left: 8%;
+}
+.box_col1 {
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.box_col1 img {
+    width: 100%;
+    padding: 0 3px 10px;
+}
+.grid_cars{
+	position: relative;
+	background: #162133;
+}
+/* -- Footer starts -- */
+.footer_box {
+    padding: 25px 0 35px 0;
+    background: #162133; /*#000000;*/
+    margin: 0 -15px 0 -15px;
+}
+.footer_box .social{
+display: block;
+float: left;
+margin: 0;
+padding: 0;
+}
+.footer_box .social li{
+float: left;
+list-style: none;
+margin: 0 8px 0 0;
+}
+.footer_box .social li img{width: 25px;}
+.footer_cs1 {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  color: #ffffff;
+  font-size: 11px;
+  }
+
+.footer_cs3{
+height: 72px;
+border-left: 1px solid #ffffff;
+}
+
+.footer_cs4{
+    padding: 10px 0px 0 0px;
+}   
+.footer_cs5{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 3px 0px;
+    margin: 0;
+}
+.footer_cs6{
+    height: 72px;
+    border-left: 1px solid #ffffff;
+}
+.footer_cs7{
+    color: #969494;
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding: 17px 0 0 1px;
+	word-wrap: break-word;
+}
+.footer_cs8{
+    height: 72px;
+    border-left: 1px solid #ffffff;
+}
+
+.footer_cs10{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 0 0 0;
+}
+.no-padding{
+  padding-left:0!important;
+  padding-right:0!important;
+}
+.footer_cs7 a {
+    color: #fff;
+}
+@media only screen and (max-width: 767px) {
+	.grid_row {
+        margin: 0;
+    }
+	.box_col1 {
+        width: 33.33%;
+        font-size: 10px;
+    }
+    .box_col1 img {
+        padding: 0 1px 9px;
+    }
+    .box_col1.first, .box_col1:nth-last-child(2) {
+        margin-left: 16.5%;
+    }
+    .box_col1 p {
+        padding: 0 1px;
+        min-height: 30px;
+    }
+	.footer_cs3, .footer_cs6, .footer_cs8 {
+        border: none;
+    }
+    .footer_cs3, .footer_cs6, .footer_cs8 {
+        border: none;
+    }
+	.footer_box {
+        margin: 0;
+    }
+    .footer_box .col-md-3 {
+        width: 50%;
+        float: left;
+        max-width: 50%;
+        flex: 50%;
+		height: 75px;
+    }
+}
+@media only screen and (max-width: 575px) {
+	.grid_row {
+        margin-top: 20px;
+        position: relative;
+    }
+	.footer_box img {
+        width: 100%;
+    }
+    .footer_cs10 {
+        font-size: 9px;
+        padding: 4px 0 0 0;
+    }
+    .footer_box{
+        padding: 0px 0 10px 0;
+    }
+}
+

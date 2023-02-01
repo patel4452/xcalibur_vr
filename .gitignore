@@ -1,0 +1,5 @@
+demo_import/
+derrick/
+segidemo/
+test3/
+find . -size +50M | cat

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17919" appversion="6.1.4" start="node1">
+  <panorama id="node1">
+    <input width="1972" levelbias="0.400" overlap="1" levelingroll="0" height="1972" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1972" preload="0" height="1972" predecode="0"/>
+      <level width="986" preload="0" height="986" predecode="0"/>
+      <level width="493" preload="1" height="493" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="8.6793" fov="70" pan="125.053"/>
+      <flyin projection="12" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="120" scaletofit="1" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata nodeid="node1" customnodeid="" heading="0" description="" longitude="" tags="Our Virtual Tour" datetime="20/2/2018 9:44 AM" latitude="" source="" author="" copyright="" info="" title="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" width="180" backgroundalpha="1" border="1" height="20" bordercolor="0x000000" borderalpha="1" wordwrap="1" background="1" textalpha="1" textcolor="0x000000" enabled="1" borderradius="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot skinid="ht_node" distance3D="514.352" target="" customimage="media/Hotspot.svg" customimagewidth="90" description="" url="{node2}" use3D="0" tilt="4.45" customimageheight="90" fov="10" id="Point01" pan="-233.62" title="Go To The Plaza"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomout="0" zoomfov="20" type="crossdissolve" blendcolor="0x000000" softedge="0" blendtime="1" zoomoutpause="1" enabled="1" zoomin="0"/>
+    <autorotate useanimation="0" speed="0.100" nodedelay="0.00" nodefilter="" noderandom="1" startloaded="0" enabled="1" delay="1.00" returntohorizon="0.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" contextprojections="0" contextfullscreen="1" invertwheel="0" sensitivity="8" hideabout="0" rubberband="0" speedwheel="1" lockedkeyboardzoom="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="1970" levelbias="0.400" overlap="1" levelingroll="0" height="1970" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1970" preload="0" height="1970" predecode="0"/>
+      <level width="985" preload="0" height="985" predecode="0"/>
+      <level width="492" preload="1" height="492" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="120" scaletofit="1" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata nodeid="node2" customnodeid="" heading="0" description="" longitude="" tags="Our Virtual Tour" datetime="20/2/2018 11:50 AM" latitude="" source="" author="" copyright="" info="" title="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" width="180" backgroundalpha="1" border="1" height="20" bordercolor="0x000000" borderalpha="1" wordwrap="1" background="1" textalpha="1" textcolor="0x000000" enabled="1" borderradius="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot skinid="ht_node" distance3D="411.482" target="" customimage="media/Hotspot.svg" customimagewidth="72" description="" url="{node3}" use3D="0" tilt="0.65" customimageheight="72" fov="10" id="Point01" pan="-149.67" title="Go To Rooftop Garden"/>
+      <hotspot skinid="ht_node" distance3D="388.622" target="" customimage="media/Hotspot.svg" customimagewidth="68" description="" url="{node1}" use3D="0" tilt="-0.64" customimageheight="68" fov="10" id="Point02" pan="-221.89" title="Go To The Lake"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomout="0" zoomfov="20" type="crossdissolve" blendcolor="0x000000" softedge="0" blendtime="1" zoomoutpause="1" enabled="1" zoomin="0"/>
+    <autorotate useanimation="0" speed="0.100" nodedelay="0.00" nodefilter="" noderandom="1" startloaded="0" enabled="1" delay="1.00" returntohorizon="0.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" contextprojections="0" contextfullscreen="1" invertwheel="0" sensitivity="8" hideabout="0" rubberband="0" speedwheel="1" lockedkeyboardzoom="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input width="1971" levelbias="0.400" overlap="1" levelingroll="0" height="1971" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1971" preload="0" height="1971" predecode="0"/>
+      <level width="985" preload="0" height="985" predecode="0"/>
+      <level width="492" preload="1" height="492" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="120" scaletofit="1" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata nodeid="node3" customnodeid="" heading="0" description="" longitude="" tags="Our Virtual Tour" datetime="20/2/2018 9:25 AM" latitude="" source="" author="" copyright="" info="" title="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" width="180" backgroundalpha="1" border="1" height="20" bordercolor="0x000000" borderalpha="1" wordwrap="1" background="1" textalpha="1" textcolor="0x000000" enabled="1" borderradius="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot skinid="ht_node" distance3D="388.622" target="" customimage="media/Hotspot.svg" customimagewidth="68" description="" url="{node4}" use3D="0" tilt="2.24" customimageheight="68" fov="10" id="Point01" pan="-148.48" title="Back to The Plaza"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomout="0" zoomfov="20" type="crossdissolve" blendcolor="0x000000" softedge="0" blendtime="1" zoomoutpause="1" enabled="1" zoomin="0"/>
+    <autorotate useanimation="0" speed="0.100" nodedelay="0.00" nodefilter="" noderandom="1" startloaded="0" enabled="1" delay="1.00" returntohorizon="0.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" contextprojections="0" contextfullscreen="1" invertwheel="0" sensitivity="8" hideabout="0" rubberband="0" speedwheel="1" lockedkeyboardzoom="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input width="1970" levelbias="0.400" overlap="1" levelingroll="0" height="1970" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1970" preload="0" height="1970" predecode="0"/>
+      <level width="985" preload="0" height="985" predecode="0"/>
+      <level width="492" preload="1" height="492" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="120" scaletofit="1" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata nodeid="node4" customnodeid="" heading="0" description="" longitude="" tags="Pictures" datetime="20/2/2018 10:22 AM" latitude="" source="" author="" copyright="" info="" title="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label backgroundcolor="0xffffff" width="180" backgroundalpha="1" border="1" height="20" bordercolor="0x000000" borderalpha="1" wordwrap="1" background="1" textalpha="1" textcolor="0x000000" enabled="1" borderradius="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomout="0" zoomfov="20" type="crossdissolve" blendcolor="0x000000" softedge="0" blendtime="1" zoomoutpause="1" enabled="1" zoomin="0"/>
+    <autorotate useanimation="0" speed="0.100" nodedelay="0.00" nodefilter="" noderandom="1" startloaded="0" enabled="1" delay="1.00" returntohorizon="0.000"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" invertcontrol="1" contextprojections="0" contextfullscreen="1" invertwheel="0" sensitivity="8" hideabout="0" rubberband="0" speedwheel="1" lockedkeyboardzoom="0" simulatemass="1" lockedwheel="0"/>
+  </panorama>
+  <masternode>
+    <userdata nodeid="master" customnodeid="" heading="0" description="" longitude="" tags="" datetime="" latitude="" source="" author="" copyright="" info="" title="" comment=""/>
+  </masternode>
+</tour>

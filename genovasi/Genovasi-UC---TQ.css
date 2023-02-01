@@ -1,0 +1,121 @@
+ .u-section-1 {
+  background-image: url("images/imgonline-com-ua-CompressToSize-drdHjfEywQFYf.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 50vw;
+}
+
+.u-section-1 .u-image-1 {
+  width: 211px;
+  height: 54px;
+  margin: 41px auto 0 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin: 205px 454px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  font-size: 2.75rem;
+  margin: 9px 471px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 400;
+  font-size: 1.375rem;
+  margin: 16px 303px 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 184px;
+    margin-right: 274px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 2.25rem;
+    width: auto;
+    margin-top: 12px;
+    margin-right: 417px;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 1.25rem;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 532px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 288px;
+    margin-right: 314px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 16px;
+    margin-right: 173px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: 10px;
+    margin-right: 58px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    background-position: 58.85% 0%;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 0.875rem;
+    margin-top: 340px;
+    margin-right: 111px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.875rem;
+    margin-top: 11px;
+    margin-right: 101px;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 1rem;
+    margin-top: 21px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 56.06% 0%;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 133px;
+    height: 94px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 0.75rem;
+    margin-top: 321px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 8px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-top: 20px;
+  }
+}

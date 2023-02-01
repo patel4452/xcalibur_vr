@@ -1,0 +1,196 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 782px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 394px;
+  margin-top: 93px;
+  margin-bottom: 13px;
+}
+
+.u-section-1 .u-text-1 {
+  background-image: none;
+  font-size: 3rem;
+  margin: 30px auto 60px;
+}
+
+.u-section-1 .u-image-2 {
+  width: 170px;
+  height: 50px;
+  margin: -1243px auto 60px;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.125rem;
+  width: auto;
+  margin: 80px 21px 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    height: 1275px;
+    width: 1434px;
+    margin: 0 -357px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 491px;
+    margin-top: -1054px;
+    margin-bottom: 0;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 148px;
+    height: 43px;
+    margin-top: -1376px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    height: 480px;
+    width: 540px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    height: 782px;
+    width: 440px;
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    font-size: 1.1875rem;
+    margin: -662px 0 0;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 119px;
+    height: 34px;
+    margin-top: -114px;
+    margin-bottom: 0;
+    margin-left: 108px;
+  }
+} .u-section-2 {
+  background-image: url("images/law-portrait-of-asian-business-woman-with-arms-crossed-2022-02-07-01-18-05-utc.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 710px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 153px;
+  height: 45px;
+  margin: 66px auto 0 0;
+}
+
+.u-section-2 .u-text-1 {
+  line-height: 1.2;
+  font-size: 2.25rem;
+  margin: 318px 616px 0 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-size: 1.125rem;
+  margin: 13px 642px 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 585px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 108px;
+    margin-top: 71px;
+    margin-left: 16px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    font-size: 1.875rem;
+    margin-top: 20px;
+    margin-right: 322px;
+    margin-left: 16px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 442px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 448px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 0;
+    margin-right: 196px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 222px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 336px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 116px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 116px;
+    margin-right: 16px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 42px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 212px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 0;
+  }
+}

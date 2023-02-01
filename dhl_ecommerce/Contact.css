@@ -1,0 +1,13 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}@font-face {
+  font-family: 'Delivery_Arabic_Bd';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Delivery_Arabic_Bd.ttf);
+}@font-face {
+  font-family: 'Delivery_Arabic_Rg';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Delivery_Arabic_Rg.ttf);
+}

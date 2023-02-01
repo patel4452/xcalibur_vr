@@ -1,0 +1,241 @@
+1.4.8 - 21th august, 2020
+Changelog: 
+1. WPBakery Page Builder update
+2. JS console issues fixed
+3. Option tree updated
+4. CSS fixed
+
+1.4.7 - 20th august, 2020
+Changelog: 
+1. WP 5.5 compatibility issues fixed
+2. Hero slider issues fixed
+3. CSS issue fixed
+
+1.4.6 - 13th august, 2020
+Changelog: 
+1. WP 5.5 compatibility issues fixed
+2. Theme required plugins updated
+3. Product category issues
+4. Demo import issues fixed
+5. CSS issue fixed
+
+1.4.5 - 18th June, 2020
+Changelog:
+1. Video Popup issue fixed
+2. Typo Issue fixed
+3. Post , Portfolio Order Issue fixed
+4. CSS issue fixed
+
+1.4.4 - 16th June, 2020
+Changelog:
+1. Post type order issues fixed
+
+1.4.3 - 15th June, 2020
+Changelog:
+1. Custom post id's order issues fixed
+2. CSS fixed
+
+1.4.2 - 7th June, 2020
+Changelog:
+1. Product category issues fixed
+2. Theme required plugins updated
+3. CSS fixed
+
+1.4.1 - 22th April, 2020
+Changelog:
+1. Theme required plugin updated
+2. CSS fixed
+
+1.4.0 - 22th March, 2020
+Changelog:
+1. Woocommerce template files updated
+2. Convertplug plugin updated
+3. Active menu class issues fixed
+4. CSS fixed
+
+1.3.9 - 4th February, 2020
+Changelog:
+1. Woocommerce template files updated
+2. JS fixed
+
+
+1.3.8 - 9th January, 2020
+Changelog:
+1. JS Composer plugin updated.
+2. Backtotop on-off options added
+3. Video popup options added in post
+4.JS file updated
+5. CSS fixed
+
+1.3.7 - 7th December, 2019
+Changelog:
+1. Newsletter bugs fixed
+2. CSS fixed
+
+1.3.6 - 12th November, 2019
+Changelog:
+1. Portfolio Single updated
+2. Team Single updated
+3. Newsletter updated
+4. Single post, portfolio title tag options added
+5. CSS fixed
+
+1.3.5 - 8th October, 2019
+Changelog:
+1. Hero Creative Business background image option added
+2. Demo Data updated
+3. CSS fixed
+
+1.3.4 - 26th August, 2019
+Changelog:
+1. Typography issues fixed
+2. Nav menu hover color issues fixed
+3. Woocommerce files updated
+4. Video background element added
+5. CSS fixed
+
+1.3.3 - 22th July, 2019
+Changelog:
+1. JS Composer plugin updated.
+2. CSS fixed
+
+1.3.2 - 30th June, 2019
+Changelog:
+1. JS Composer plugin updated.
+2. Demo data import issues fixed
+3. CSS fixed
+
+1.3.1 - 22th May, 2019
+Changelog:
+1. JS Composer Fatal issue fixed .
+
+1.3.0 - 21th April, 2019
+Changelog:
+1. Post Carousel added
+2. Post Isotope added
+3. Woocommerce template files updated
+4. RTL Supported
+5. Plugins updated
+6. JS file updated
+7. CSS fixed
+
+1.2.9 - 14th March, 2019
+Changelog:
+1. Typography bug fixed
+2. Plugins updated
+3. Woocommerce css files updated
+4. Email subscriber widget issues fixed
+5. landing page template logo height issues fixed
+6. CSS fixed
+
+1.2.8 - 10th March, 2019
+Changelog:
+1. Modal button options added in header nav button
+2. Guttenberg optimized
+3. Woocommerce css files updated
+4. Email subscriber form issues fixed
+5. CSS fixed
+
+1.2.7 - 16th Feb, 2019
+Changelog:
+1. Pricing table button postion options added
+2. WPBakery Page Builder plugin updated
+3. CSS fixed
+
+1.2.6 - 4th Feb, 2019
+Changelog:
+1. Hero sliders control options added
+2. pricing tables button color options added
+3. Mobile image options added for VC elements
+4. Navigation Hover typography options added
+5. Service box button option & title link options included
+6. Js files updated
+7. CSS fixed
+
+1.2.5 - 17th January, 2019
+Changelog:
+1. Single blog post Comment submission bug fixed
+2. Product quantity bug fixed
+3. Woocommerce wishlist bug fixed
+4. Single product popup options included
+5. Typography options added in "Section title" VC element
+6. Subscription form bug fixed
+7. Js files updated
+8. CSS fixed
+
+1.2.4 - 14th January, 2019
+Changelog:
+1. Footer bug fixed
+2. Plugin updated
+
+1.2.3 - 8th January, 2019
+Changelog:
+1. Twitter share link fixed
+2. Plugin updated
+
+1.2.2 - 6th January, 2019
+Changelog:
+1. Responsive issue fixed for nav style2
+2. Multiple sentences in the “lead text” area
+3. Add Carousel options on Testimonial and Our clients element
+4. Footer spacing issues fixed
+5. Custom typography & highlight text options added Some of elements
+	'genemy_slide_item', 
+        'genemy_text_box', 
+        'genemy_hero_slide', 
+        'genemy_hero_slide',         
+        'genemy_startup_landing',         
+        'genemy_startup_agency',         
+        'genemy_hero_design_studio',         
+        'genemy_hero_digital_agency',         
+        'genemy_hero_marketing_agency',         
+        'genemy_hero_app_showcase',         
+        'genemy_creative_business',         
+        'genemy_hero_business_agency',         
+        'genemy_hero_freelancer',         
+        'genemy_hero_app_landing',
+
+
+1.2.1 - 14th December, 2018
+Changelog:
+1. Our clients link option added
+2. Portfolio single page display options added
+3. Sharing icon option (color/grey) added
+4. Menu & submenu typography options added in theme options
+5. CSS fixed
+
+
+1.2.0 - 10th December, 2018
+Changelog:
+1. typography vc param type added
+2. Subscription form fixed
+3. Guttenberg compatitable
+4. vc template files updated
+5. CSS fixed
+
+1.1.4 - 5th Dec, 2018
+Changelog
+1. Portfolio share link issues fixed
+2. preloader color depends on preset color
+3.
+
+1.1.0 - 26th Oct, 2018
+Changelog:
+1. Woocommerce supported
+2. Megamenu supported
+3. Marekting tool "Convertplus" plugin added 
+4. Additional color added
+5. Header background image change issues fixed
+6. Video popup issues fixed
+7. Responsive issues fixed
+8. Hero content, Hero Slide added
+9. Section content element added
+10. JS fixed
+11. Responsive issues fixed
+12. Child theme included
+
+
+1.0.0 - 18th Oct, 2018
+Initial Release
+
+

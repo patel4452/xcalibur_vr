@@ -1,0 +1,4 @@
+2020-12-04T17:15:11+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 20480 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-includes/functions.php on line 624
+
+2020-12-04T17:15:11+00:00 CRITICAL Out of memory (allocated 52428800) (tried to allocate 20480 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Features/Onboarding.php on line 876
+

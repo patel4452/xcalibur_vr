@@ -1,0 +1,157 @@
+ .u-section-1 {
+  min-height: 593px;
+}
+
+.u-section-1 .u-image-1 {
+  object-position: 53.05% 50%;
+}
+
+.u-section-1 .u-image-2 {
+  width: 494px;
+  height: 144px;
+  margin: 44px auto 0 calc(((100% - 720px) / 2) + 48px);
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 594px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 127px;
+    height: 36px;
+    margin-top: 55px;
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    width: auto;
+    margin: 327px calc(((100% - 720px) / 2) + 217px) 60px calc(((100% - 720px) / 2));
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-2 {
+    margin-top: 20px;
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2) + 37px);
+    margin-left: calc(((100% - 540px) / 2));
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 593px;
+  }
+
+  .u-section-1 .u-image-1 {
+    object-position: 10.93% 50%;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 86px;
+    height: 25px;
+    margin-top: 56px;
+    margin-left: calc(((100% - 340px) / 2) + -24px);
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+    margin-top: 268px;
+    margin-right: calc(((100% - 340px) / 2) + 17px);
+    margin-left: calc(((100% - 340px) / 2) + -24px);
+  }
+} .u-section-2 {
+  background-image: url("images/black-young-asian-hipster-man-sitting-cafe-with-laptop-using-smartphone.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 735px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 167px;
+  height: 49px;
+  margin: 42px auto 0 0;
+}
+
+.u-section-2 .u-text-1 {
+  line-height: 1.2;
+  font-size: 2.25rem;
+  margin: 348px 130px 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 638px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 108px;
+    height: 37px;
+    margin-top: 56px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 294px;
+    margin-right: 430px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1114px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 527px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 86px;
+    height: 29px;
+    margin-top: 48px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+    margin: 294px 39px 60px 11px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 2226px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin: 0;
+  }
+}

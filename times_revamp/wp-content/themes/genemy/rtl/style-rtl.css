@@ -1,0 +1,134 @@
+
+
+/*Global CSS.*/
+html{
+	overflow-x: hidden;
+}
+#sidebar-right,
+.about-txt, 
+.abox-1,
+.abox-2, 
+.abox-3,
+.portfolio-filter,
+.content-txt,
+.footer-widget,
+.hero-txt,
+.hbox-1,
+.sbox,
+.cta-txt,
+.blog-post,
+#recent-comments-2,
+#recent-posts-2,
+.contacts-1,
+.barWrapper p,
+.footer-copyright,
+.sub-menu{
+	text-align: initial;
+}
+
+.p-left-45{ padding-right: 45px; padding-left: 0; }
+.text-left{ text-align: initial !important; }
+#scrollUp { right: auto; left: 40px; }
+.p-left-60{ padding-left: 0; padding-right: 60px; }
+/*Blog*/
+
+#search-field .btn{ 
+	-webkit-border-radius:  6px 0 0 6px;
+	-moz-border-radius: 6px 0 0 6px;
+	border-radius: 6px 0 0 6px;
+}
+#search-field .form-control{
+	-webkit-border-radius: 0 6px 6px 0;
+	-moz-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+	height: inherit;
+}
+.footer-form .btn{ border-radius: 4px 0 0 4px;}
+.footer-form .form-control{ border-radius: 0 4px 4px 0; }
+ /*Navbar CSS.*/
+
+ .navbar-brand{ margin-right: 0; margin-left: 5rem; }
+.navbar-nav{ margin-left: initial !important; margin-right: auto;}
+.post-summary{ padding-left: 0 !important; padding-right: 20px; }
+
+
+ /*Hero Css*/
+
+ #hero-4 .hero-txt p, 
+ #hero-8 .hero-txt p,
+#hero-1 .hero-txt p,
+#hero-11 .hero-txt p{padding-right: 0;	padding-left: 10%;}
+
+#hero-14 p{ padding-right: 0;	padding-left: 14%; }
+#hero-13 p,
+#footer-2 .section-title p,
+#hero-3 .hero-txt p{ padding-right: 0;	padding-left: 15%; }
+.hero-section .newsletter-form{ margin-right: 0; margin-left: 25%; }
+.hero-section .newsletter-form .btn{ transform: rotate(180deg); }
+.hero-section .newsletter-form .form-control{ border-radius: 0 8px 8px 0; }
+.hero-11-img{ left: auto; right: 51%; }
+.modal-video a .svg-inline--fa{ margin-left: 5px; margin-right: 0; top: 15px;}
+.modal-video span{ line-height: 2; left: 48px; }
+/*Content Css*/
+ 
+.content-4-img{ padding-left: 0; padding-right: 40px;}
+#portfolio .section-title{ text-align: initial !important; }
+.portfolio-filter button{ margin-right: 0; margin-left: 40px; }
+ul.content-list{ margin-left: 0; margin-right: 15px; }
+#banner-2 p,
+#cta-1 .cta-txt p{ padding-right: 0; padding-left: 20%; }
+
+.hero-form p,
+#banner-2 .text-left{ text-align: initial !important; }
+
+.contact-form-2
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+	direction: rtl;
+}
+#contacts form,
+.hero-form .form-control{ text-align: right;}
+.form-btn{ text-align: right; }
+.skill-percent{ right: auto; left: 2px; }
+#services .section-title p{ padding-right: 0; padding-left: 15%; }
+.project-data{ text-align: initial; right: 8%; left: auto; }
+
+/* Woocommerce */
+.woocommerce span.onsale{ right: auto; left: 15px; }
+.product-item .product-inner-buttons{ left: auto; right: 15px; }
+.product-item .product-inner-buttons{ text-align: right; }
+.quantity .input-group-text{ transform: rotate(180deg); }
+.woocommerce .quantity .qty{ height: inherit; }
+.woocommerce div.product .woocommerce-tabs ul.tabs{ align-items: center; }
+
+
+
+/* Responsive RTL */
+@media (min-width: 768px) {
+	.offset-md-0{ margin-right: 0; margin-left: 0; }
+	.offset-md-1{ margin-right: 8.333333%; margin-left: 0; }
+	.offset-md-2{ margin-right: 16.666667%; margin-left: 0; }
+	.offset-md-7 { margin-right: 58.333333%; margin-left: 0; }
+}
+@media (min-width: 992px) {
+	.offset-lg-0{ margin-right: 0; margin-left: 0; }
+	.offset-lg-1 { margin-right: 8.333333%; margin-left: 0; }
+	.offset-lg-2 { margin-right: 16.666667%; margin-left: 0; }
+	.offset-lg-8 { margin-right: 66.666667%; margin-left: 0; }
+}
+@media (min-width: 1200px) {
+	.offset-xl-0{ margin-right: 0; margin-left: 0; }
+	.offset-xl-1 { margin-right: 8.333333%; margin-left: 0; }
+	.offset-xl-2 { margin-right: 16.666667%; margin-left: 0; }
+	.offset-xl-8 { margin-right: 66.666667%; margin-left: 0; }
+}
+
+@media (min-width: 321px) (max-width: 415px) {
+	#hero-1 .hero-txt p, 
+	#hero-11 .hero-txt p{
+		padding-right: 0!important;
+		padding-left: 5%;
+	}
+}

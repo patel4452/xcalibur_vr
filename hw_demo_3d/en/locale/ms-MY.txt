@@ -1,0 +1,71 @@
+#: locale=ms-MY
+
+## Tour
+
+### Title
+tour.name = HW University (English)
+
+## Skin
+
+### Multiline Text
+HTMLText_35E5597F_2281_38E8_41C0_286411681249.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-shadow:1px 1px 12px rgba(0,0,0,0.5);text-align:left;"><SPAN STYLE="letter-spacing:0vw; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:1.88vw;"><B>{{title}}</B></SPAN></SPAN></DIV></div>
+HTMLText_3769EE64_2283_F818_41A2_CA3DC311E805.html = <div style="text-align:left; color:#000; "><DIV STYLE="text-align:left;"><SPAN STYLE="letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:1.62vmin;">{{subtitle}}</SPAN></SPAN></DIV></div>
+
+## Media
+
+### Subtitle
+panorama_2A551826_214B_9E42_41B1_F550CE42B339.subtitle = The campus is the first in Malaysia to have a living grass roof. At 300 metres long and 30 metres wide, it is the most recognisably sustainable feature of the campus. The roof shades the naturally ventilated spaces below, reduces thermal transmittance, and acts as an observation deck, accessible by glass lift.
+panorama_2A552B3C_214A_B246_41AD_F2C0F94D4C05.subtitle = Our Electrical lab is where students can perform various experiments involving analogue electronics, power electronics, electrical machines, embedded systems etc. Numerous electrical and electronic equipment are available to use.
+panorama_2A552C19_214B_964E_41BB_FFC55CF8C927.subtitle = Our Mechanical Lab houses the machining equipment used for milling, turning CNC etc. It is also where students fabricate products which have been designed using specific softwares.
+panorama_2A554682_214B_F23D_41B6_92340F361E03.subtitle = Description to be placed.
+panorama_2A554A00_214B_B23E_41BC_5738D29347DC.subtitle = Description to be placed.
+panorama_2A554D1B_214A_9642_41BD_A7B56842F1C7.subtitle = The Civil lab is where most of the equipment and experiments are conducted for students intending to develop and explore structures, concrete and analysing the failure and strengthening of buildings, bridges etc. The Petroleum engineering lab is located together with the Civil engineering lab, and give students the opportunity to investigate mud sampling, as well as using the Filtration Instrument. They also learn about the soil/rock related to Geology subjects etc.
+panorama_2A55598D_214A_9E46_41A9_CF42F133A978.subtitle = Description to be placed.
+panorama_2A556793_214A_F242_41B8_C203DCCA331A.subtitle = Description to be placed.
+panorama_2A55854E_214A_96C2_41B7_CD3325637B07.subtitle = Description to be placed.
+panorama_2A55AD8D_214B_7646_41A6_BC73CFFF4BC1.subtitle = Description to be placed.
+panorama_2A55B192_214A_8E42_41A6_261EAC07595C.subtitle = We have two lecture theatres on campus, each able to fit up to 250 people. There are also a number of smaller lecture rooms
+panorama_2A55CFA9_214A_924E_41B0_8CFEC053BD63.subtitle = The library overlooks the lake, and provides 215 study spaces which includes 47 individual carrels in an open area, 18 individual carrels in a silent study room, 2 x 4 persons discussion rooms, 1 x 8 discussion room and 1 x 10 persons meeting room.
+panorama_2A55E3A4_214A_B246_4182_F0F0CB4FD700.subtitle = Description to be placed.
+panorama_2A6A5F34_2149_7245_41C0_508DAA61AFC4.subtitle = Description to be placed.
+panorama_2A6A7C45_214B_76C6_41A8_E16E99983F0B.subtitle = The Thermo lab & Fluid lab is used cross-discipline and is the most common lab for the engineering field. This lab gives the opportunity for students to experience and learn by applying theory and doing experiments related to temperature, conduction and convection, fundamentals of pressure, turbine characteristics, valve and fitting assembly, etc.
+panorama_2A6A7E33_214B_9242_41BA_548996775A08.subtitle = Description to be placed. 
+panorama_2A6AA23E_214B_B242_4150_1C2D20A2E0E5.subtitle = Description to be placed.
+panorama_2A6AD005_214B_8E46_41B9_01ED5C76C86A.subtitle = Description to be placed.
+panorama_2A6AF437_214B_9642_41B7_B3EEC99AE501.subtitle = Description to be placed.
+panorama_2A6B77F1_214A_B1DE_4164_1E170D46BCD6.subtitle = The campus is located next to the Putrajaya Lake, close to the Putrajaya Marina and its modern leisure and sports facilities. A jogging path wraps around the lake, enabling members of the public to jog, cycle or conduct recreational activities. This is a fantastic green area, part of Putrajaya Lake’s ‘green continuum’, and the building design is a conscious reference.
+panorama_2A6B931D_214A_F246_41C0_8C838D490BBE.subtitle = Meaning 'Silence' in Scottish, the Wheesht room has 76 individual study carrels and is open 24 hours, all year round. The Wheesht Room is open for students who wish to study individually in a silent environment. There's also a special area where the Scottish Gallery and the Malaysia Campus Provost Gallery is situated.
+panorama_2A6BAA1D_214A_9246_40D3_20C150F65280.subtitle = The Unit Operation lab is one of the fundamental labs used by chemical engineering students. This lab gives an opportunity to students to experiment work related to mixing chemicals, study reaction engineering, separation processes and process control.
+panorama_2A6BE586_214A_9642_41C0_4D650001204B.subtitle = The Wet Lab is used by Chemical Engineering and Foundation Chemistry students. The lab houses analytical instruments used by the students for experiments.
+panorama_2D641D38_2149_964E_41B8_E7812B8DB25C.subtitle = The 365 Room is located outside the library, and is open 24 hours a day, seven days a week. It has 118 study spaces, and includes a silent PC room with 12 high performance computers and 5 individual carrels.
+
+### Title
+panorama_2A551826_214B_9E42_41B1_F550CE42B339.label = Rooftop Garden
+panorama_2A552B3C_214A_B246_41AD_F2C0F94D4C05.label = Electrical Engineering Lab
+panorama_2A552C19_214B_964E_41BB_FFC55CF8C927.label = Mechanical Lab
+panorama_2A554682_214B_F23D_41B6_92340F361E03.label = Shaftsbury... - Studio with Bathroom
+panorama_2A554A00_214B_B23E_41BC_5738D29347DC.label = Psychology Lab
+panorama_2A554D1B_214A_9642_41BD_A7B56842F1C7.label = Civil & Petroleum Engineering Labs
+panorama_2A55598D_214A_9E46_41A9_CF42F133A978.label = IT & Group Studies
+panorama_2A556793_214A_F242_41B8_C203DCCA331A.label = Kanvas Soho - Twin Sharing Room
+panorama_2A55854E_214A_96C2_41B7_CD3325637B07.label = Kanvas Soho - Pool Area
+panorama_2A55AD8D_214B_7646_41A6_BC73CFFF4BC1.label = Library Section 2
+panorama_2A55B192_214A_8E42_41A6_261EAC07595C.label = Lecture Theatre
+panorama_2A55CFA9_214A_924E_41B0_8CFEC053BD63.label = Library Section 1
+panorama_2A55E3A4_214A_B246_4182_F0F0CB4FD700.label = Kanvas Soho - Kitchen Lounge
+panorama_2A6A5F34_2149_7245_41C0_508DAA61AFC4.label = Cafeteria
+panorama_2A6A7C45_214B_76C6_41A8_E16E99983F0B.label = Thermo & Fluid Lab
+panorama_2A6A7E33_214B_9242_41BA_548996775A08.label = The Plaza
+panorama_2A6AA23E_214B_B242_4150_1C2D20A2E0E5.label = Shaftsbury... - Twin Sharing Room
+panorama_2A6AD005_214B_8E46_41B9_01ED5C76C86A.label = Student Common & Recreation Room
+panorama_2A6AF437_214B_9642_41B7_B3EEC99AE501.label = Shaftsbury... - Pool Area
+panorama_2A6B77F1_214A_B1DE_4164_1E170D46BCD6.label = Welcome To Heriot-Watt Malaysia
+panorama_2A6B931D_214A_F246_41C0_8C838D490BBE.label = Wheesht Room
+panorama_2A6BAA1D_214A_9246_40D3_20C150F65280.label = Unit Operation Lab
+panorama_2A6BE586_214A_9642_41C0_4D650001204B.label = Wet Lab
+panorama_2D641D38_2149_964E_41B8_E7812B8DB25C.label = 365 Room
+
+## Action
+
+### URL
+LinkBehaviour_1A0EE627_3519_D488_41C7_AB112FAAD851.source = https://xcaliburdigital.com/vr/hw_demo_3d/bm/

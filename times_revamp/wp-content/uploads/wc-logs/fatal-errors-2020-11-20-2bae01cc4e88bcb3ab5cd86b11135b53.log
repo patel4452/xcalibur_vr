@@ -1,0 +1,14 @@
+2020-11-20T17:19:26+00:00 CRITICAL Out of memory (allocated 75497472) (tried to allocate 20480 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-includes/functions.php on line 624
+
+2020-11-20T17:19:26+00:00 CRITICAL Out of memory (allocated 71303168) (tried to allocate 20480 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-content/themes/genemy/admin/google-web-fonts.php on line 9
+
+2020-11-20T17:19:26+00:00 CRITICAL Out of memory (allocated 75497472) (tried to allocate 20480 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-includes/functions.php on line 624
+
+2020-11-20T17:19:26+00:00 CRITICAL Out of memory (allocated 75497472) (tried to allocate 20480 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-includes/functions.php on line 624
+
+2020-11-20T17:19:26+00:00 CRITICAL Out of memory (allocated 77594624) (tried to allocate 491520 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-includes/wp-db.php on line 2033
+
+2020-11-20T18:19:00+00:00 CRITICAL Out of memory (allocated 77594624) (tried to allocate 491520 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-includes/wp-db.php on line 2033
+
+2020-11-20T18:19:00+00:00 CRITICAL Out of memory (allocated 77594624) (tried to allocate 491520 bytes) in /home/xcaliburdigital/public_html/vr/times_revamp/wp-includes/wp-db.php on line 2033
+

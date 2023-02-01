@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+body { /*padding-top: 110px;*/ }
+
+::selection{
+  color: #fff;
+  background: #d43f8d;
+}
+.container{
+  width: 330px;
+  background: #fff;
+  text-align: left;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px 35px 10px 0;
+}
+
+.container header{
+  font-size: 35px;
+  font-weight: 600;
+  margin: 25px 0 35px 0;
+}
+
+.container .content .caption {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  #some-element { display: none; }
+
+  .container {
+    text-align: left;
+    font-size: 10px;
+    
+  }
+  .container header {
+    font-weight: 300;
+  }
+
+  .container .content .caption {
+    font-size: 8px;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  body {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+}
+
+.container .form {
+  padding-top: 20px;
+  margin: 20px 0 50px 0;
+}
+img.img-responsive {
+    margin-bottom: 20px;
+	width: 50%;
+}
+
+.container .form .submit {
+  text-align: center;
+  /*width: 25%;*/
+  height: 30px;
+  border: none;
+  /*background: #d33f8d;*/
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.btn-custom {
+    padding: 10px;
+    background: #028577 !important;
+    border: 1px solid #028577 !important;
+}
+
+textarea.form-control {
+    max-height: 150px;
+    min-height: 200px;
+    height: auto;
+}

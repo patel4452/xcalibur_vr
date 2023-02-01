@@ -1,0 +1,4239 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.0.7, nicepage.com">
+    <link rel="icon" href="images/favicon.png">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "CEdEC"
+}</script>
+    <meta name="theme-color" content="#ededed">
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+<style>
+.fixed-custom { max-height:85vh; overflow: scroll; }
+/*@media only screen and (max-width: 1440px) {
+	.fixed-custom { max-height:85vh; overflow: scroll; }
+}
+@media only screen and (max-width: 768px) {
+	.fixed-custom { max-height:85vh; overflow: scroll; }
+}
+@media only screen and (max-width: 575px) {
+	.fixed-custom { max-height:85vh; overflow: scroll; }
+}*/
+</style>
+<!--  multistep form css -->
+<!--<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet'>-->
+<link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' rel='stylesheet'>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>    
+<style>::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} /* your CSS goes here*/
+ body {
+    background: #eee
+}
+
+#regForm {
+    background-color: #ffffff;
+    margin: 0px auto;
+    /*font-family: 'Montserrat';*/
+    padding: 40px;
+    border-radius: 10px
+}
+
+
+
+input {
+    padding: 10px;
+    /*width: 100%;*/
+    font-size: 16px !important;
+    /*font-family: 'Montserrat';*/
+    border: 1px solid #aaaaaa
+}
+
+input[type=text]::placeholder,
+input[type=tel]::placeholder,
+input[type=email]::placeholder{
+	color: #111111 !important;
+	background-color: #ffffff;
+	opacity: 1;
+}
+
+input.invalid, select.invalid {
+    background-color: #ffdddd
+}
+
+.tab,.tab2 {
+    display: none;
+	width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    /*font-size: 17px;
+    font-family: Raleway;*/
+    cursor: pointer
+}
+
+button:hover {
+    opacity: 0.8
+}
+
+#prevBtn,#prevBtn2 {
+    background-color: #bbbbbb
+}
+
+.u-button-style.u-button-style-custom.u-palette-3-base[class*="u-border-"] {
+  color: #fc0000 !important;
+  background-color: #ffffff !important;
+  /*border: 2px solid #fc0000 !important;*/
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5
+}
+
+.step.active {
+    opacity: 1
+}
+
+.step.finish {
+    background-color: #4CAF50
+}
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.thanks-message {
+    display: none
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    /*font-size: 22px;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.container input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+/*.u-section-1 .u-group-1{ width: 330px; min-height: 530px;}*/
+.u-form-vertical.u-form-spacing-5 .u-form-group { padding-bottom: 5px;}
+a { text-decoration: none; }
+</style> 
+<script>(function(w, d) { w.CollectId = "61f0b719be19f1762af03393"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N559JGK');</script>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Ads: 307381526 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-307381526"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-307381526'); </script>
+
+  </head>
+  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N559JGK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --> 
+  
+  <header class="u-clearfix u-header u-header" id="sec-c629"><div class="u-align-left u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+        <img class="u-align-center-xs u-image u-image-default u-image-1" src="images/msucedec2-054.png" alt="" data-image-width="1600" data-image-height="260">
+      </div></header>
+    <section class="u-clearfix u-image u-section-1" id="sec-cb0c" data-image-width="1200" data-image-height="588">
+      <div class="u-clearfix u-sheet u-valign-middle-xl u-sheet-1">
+        <div class="u-clearfix u-container-align-center-sm u-group-elements u-group-elements-1">
+          <h1 class="u-align-center-sm u-align-center-xs u-text u-text-1">5-Star University For Working Adults</h1>
+          <div class="u-clearfix u-container-align-center-sm u-container-align-center-xs u-expanded-width-xl u-expanded-width-xs u-group-elements u-group-elements-2">
+            <h6 class="u-align-center-sm u-align-center-xs u-hover-feature u-text u-text-2"> MSU CEdEC is the only *5-Star rated university for working adults in <span style="font-weight: 700;"></span>Malaysia
+            </h6>
+            <p class="u-align-center-sm u-align-center-xs u-small-text u-text u-text-variant u-text-3">* Based on QS 5-Star University Ranking 2022</p>
+          </div>
+        </div>
+        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="images/hero.png" alt="" data-image-width="614" data-image-height="594">
+        <div class="u-align-center u-container-style u-expanded-width-xs u-group u-palette-3-base u-radius-20 u-shape-round u-group-1">
+          <div class="u-container-layout u-valign-bottom-xs u-container-layout-1">
+            <h6 class="u-align-center u-text u-text-4">Enquire For Our 2022 Intake Now</h6>
+            <div class="u-border-4 u-border-palette-2-base u-expanded-width u-form u-radius-20 u-white u-form-1">
+              <form id="multi-step-form" action="contact-form-handler.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-8 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;height: 314px;" redirect="true">
+                <div class="tab">
+					<div class="u-form-group u-form-select u-label-none u-form-group-1">
+					  <label for="select-060f" class="u-label u-spacing-0 u-label-1">Field of Study</label>
+					  <div class="u-form-select-wrapper">
+						<select id="select-060f" name="field_of_study" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+						  <option value="">Choose a field of study</option>
+						  <option value="Business Management">Business Management</option>
+						  <option value="Education &amp; Social Sciences">Education &amp; Social Sciences</option>
+						  <option value="Health &amp; Life Sciences">Health &amp; Life Sciences</option>
+						  <option value="Hospitality &amp; Creative Arts">Hospitality &amp; Creative Arts</option>
+						  <option value="Information Sciences &amp; Engineering">Information Sciences &amp; Engineering</option>
+						  <option value="Medicine">Medicine</option>
+						  <option value="Pharmacy">Pharmacy</option>
+						  <option value="Postgraduate Studies">Postgraduate Studies</option>
+						</select>
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+					  </div>
+					</div>
+					<div class="u-form-group u-form-select u-label-none u-form-group-2">
+					  <label for="select-db35" class="u-label u-spacing-0 u-label-2">Qualification</label>
+					  <div class="u-form-select-wrapper">
+						<select id="select-db35" name="qualification_level" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+						  <option value="">Your qualification level</option>
+						  <option value="SPM/O-Level">SPM/O-Level</option>
+						  <option value="STPM/A-Level/Pre-U/Foundation/Matriculation">STPM/A-Level/Pre-U/Foundation/Matriculation</option>
+						  <option value="Diploma">Diploma</option>
+						  <option value="Bachelor's Degree">Bachelor's Degree</option>
+						  <option value="Postgraduate Studies">Postgraduate Studies</option>
+						  <option value="Others">Others</option>
+						</select>
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+					  </div>
+					</div>
+					<div class="u-form-group u-form-select u-label-none u-form-group-3">
+					  <label for="select-b64f" class="u-label u-spacing-0 u-label-3">Employment Status</label>
+					  <div class="u-form-select-wrapper">
+						<select id="select-b64f" name="employability" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+						  <option value="">Employability status</option>
+						  <option value="Unemployed">Unemployed</option>
+						  <option value="Employed">Employed</option>
+						</select>
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+					  </div>
+					</div>
+					<div class="u-form-group u-form-select u-label-none u-form-group-3">
+					  <label for="select-68e5" class="u-label u-spacing-0 u-label-4">Nationality</label>
+					  <div class="u-form-select-wrapper">
+						<select id="select-68e5" name="nationality" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+						  <option value="">Nationality</option>
+						  <option value="Malaysian">Malaysian</option>
+						  <option value="Non-Malaysian">Non-Malaysian</option>
+						</select>
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+					  </div>
+					</div>
+				</div>
+				<div class="tab">
+					<div class="u-form-group u-form-name u-label-none">
+					  <label for="name-ff36" class="u-label u-spacing-0 u-label-5">Name</label>
+					  <input type="text" placeholder="Enter your Name" id="name-ff36" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+					</div>
+					<div class="u-form-email u-form-group u-label-none">
+					  <label for="email-ff36" class="u-label u-spacing-0 u-label-6">Email</label>
+					  <input type="email" placeholder="Enter a valid email address" id="email-ff36" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+					</div>
+					<div class="u-form-group u-form-phone u-label-none u-form-group-7">
+					  <label for="phone-841c" class="u-label u-spacing-0 u-label-7">Phone</label>
+					  <input type="tel" placeholder="Enter your phone (e.g. 601123456789)" id="phone-841c" name="phone" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+					</div>
+					<div class="u-form-agree u-form-group u-form-group-4">
+					  <input type="checkbox" checked="checked" id="agree-40b4" name="agree" class="u-agree-checkbox" required="" autofocus="autofocus">
+					  <label for="agree-40b4" class="u-agree-label u-label">By continuing you agree to be successful!</label>
+					</div>
+                </div>
+                <!--<div class="u-align-center u-form-group u-form-submit u-label-none">
+                  <input type="submit" value="submit" class="u-form-control-hidden">
+                  <a href="#" class="u-active-palette-2-base u-border-3 u-border-active-black u-border-hover-palette-3-base u-border-palette-3-base u-btn u-btn-submit u-button-style u-hover-white u-palette-3-base u-text-active-black u-text-body-alt-color u-text-hover-palette-3-base u-btn-1">Enquire Now</a>
+                </div>-->
+				<div style="overflow:auto;width:100%;" id="nextprevious">
+                    <div style="float:right;"> <button type="button" class="u-active-palette-2-base u-border-3 u-button-style-custom u-border-active-black u-border-hover-palette-3-base u-border-palette-3-base u-btn u-btn-submit u-button-style u-hover-white u-palette-3-base u-text-active-black u-text-body-alt-color u-text-hover-palette-3-base u-btn-1" id="prevBtn" onclick="nextPrev(-1)">Previous</button> <button type="button" id="nextBtn" class="u-active-palette-2-base u-border-3 u-border-active-black u-border-hover-palette-3-base u-border-palette-3-base u-btn u-btn-submit u-button-style u-hover-white u-palette-3-base u-text-active-black u-text-body-alt-color u-text-hover-palette-3-base u-btn-1" onclick="nextPrev(1)">Next</button> </div>
+                </div>
+                <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                <input type="hidden" value="" name="recaptchaResponse">
+				<input type="hidden" value="Main" name="leadsource">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-0996">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+        <img class="u-image u-image-contain u-image-default u-image-1" src="images/rockett.png" alt="" data-image-width="427" data-image-height="298">
+        <p class="u-align-center-sm u-align-center-xs u-text u-text-palette-3-base u-text-1"> Biggest Selection of Courses</p>
+        <h2 class="u-align-center-sm u-align-center-xs u-text u-text-2"> Over <span class="u-text-custom-color-2">170 Courses</span> Available
+        </h2>
+        <p class="u-align-center-sm u-align-center-xs u-large-text u-text u-text-variant u-text-3"> Learn the world at large.</p>
+        <img class="u-hidden-sm u-hidden-xs u-image u-image-contain u-image-default u-image-2" src="images/bg4.png" alt="" data-image-width="551" data-image-height="500" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-direction="">
+        <div class="u-expanded-width-md u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-3" src="images/business.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-4">Business Management</p>
+                <p class="u-text u-text-5"> The start to your business success story begins here.</p>
+                <a href="#sec-f4d0" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-1">See list</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-4" src="images/Health--Life-Sciences.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-6"> Health &amp; Life Sciences</p>
+                <p class="u-text u-text-7"> Committed to enhancing healthcare&nbsp;standards,&nbsp;locally and globally.</p>
+                <a href="#carousel_ef9f" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-2">See list</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-5" src="images/eng.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-8"> Information Sciences &amp; Engineering</p>
+                <p class="u-text u-text-9"> Ignite your passion&nbsp;for the sciences.</p>
+                <a href="#carousel_cbd3" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-3">See list</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-6" src="images/hosp.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-10"> Medicine</p>
+                <p class="u-text u-text-11"> Your stepping stone&nbsp;to&nbsp;becoming a&nbsp;full-fledged doctor.</p>
+                <a href="#carousel_d403" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-4">See list</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-5">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-7" src="images/Social-Sciences.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-12"> Education &amp;&nbsp;Social Sciences</p>
+                <p class="u-text u-text-13"> Shape the future by way of&nbsp;education&nbsp;.</p>
+                <a href="#carousel_8053" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-5">See list</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-6">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-8" src="images/Hospitality--Creative-Arts.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-14"> Hospitality &amp;&nbsp;Creative Arts</p>
+                <p class="u-text u-text-15"> Be inspired by a&nbsp;world of wonders.</p>
+                <a href="#carousel_6923" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-6">See list</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-7">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-9" src="images/Medicine.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-16"> Pharmacy</p>
+                <p class="u-text u-text-17"> Your prescription&nbsp;for success.</p>
+                <a href="#carousel_e1c3" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-7">See list</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-8">
+                <img class="u-align-left u-image u-image-contain u-image-default u-image-10" src="images/Postgraduate-Studies.png" alt="" data-image-width="395" data-image-height="354">
+                <p class="u-text u-text-18"> Postgraduate&nbsp;<br>Studies
+                </p>
+                <p class="u-text u-text-19"> Learn the world&nbsp;at large.</p>
+                <a href="#carousel_1d77" class="u-active-none u-border-2 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-8">See list</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-hidden-sm u-hidden-xs u-image u-section-3" id="sec-9ec1" data-image-width="1140" data-image-height="500">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-hidden-xl u-shape u-shape-rectangle u-shape-1"></div>
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-2"></div>
+        <h1 class="u-text u-text-1"> Largest selection of courses for <span class="u-text-custom-color-2">working adults</span>
+        </h1>
+        <p class="u-large-text u-text u-text-variant u-text-2"> Find the best one for you.</p>
+        <a href="#sec-fc54" class="infinite u-active-none u-border-2 u-border-active-custom-color-2 u-border-custom-color-1 u-border-hover-custom-color-2 u-btn u-button-style u-custom-color-2 u-dialog-link u-hover-custom-color-2 u-text-hover-white u-btn-1" data-animation-name="pulse" data-animation-duration="1000" data-animation-direction="">download brochure</a>
+      </div>
+    </section>
+    <section class="u-clearfix u-container-align-left-xs u-hidden-lg u-hidden-md u-hidden-xl u-image u-section-4" id="carousel_80c7" data-image-width="561" data-image-height="783">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
+        <h1 class="u-align-left-xs u-text u-text-1"> Largest selection of courses for <span class="u-text-custom-color-2">working adults</span>
+        </h1>
+        <p class="u-align-left-xs u-text u-text-2"> Find the best one for you.</p>
+        <a href="#sec-fc54" class="u-active-none u-align-left-xs u-border-2 u-border-active-custom-color-2 u-border-custom-color-1 u-border-hover-custom-color-2 u-btn u-button-style u-custom-color-2 u-hover-custom-color-2 u-text-hover-white u-btn-1 u-dialog-link ">download brochure</a>
+        <div class="u-custom-color-5 u-hidden-xl u-shape u-shape-rectangle u-shape-1"></div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-5" id="sec-b15e">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+        <h2 class="u-align-center-sm u-align-center-xs u-text u-text-1"> How Will You <span class="u-text-custom-color-2">Learn</span>
+        </h2>
+        <p class="u-align-center u-large-text u-text u-text-variant u-text-2"> Find out how MSU CEdEC is designed to fit perfectly into your working lifestyle while maintaining the quality of education as well as adding value to your professional attributes.</p>
+        <div class="u-container-style u-expanded-width-lg u-expanded-width-xl u-group u-palette-1-base u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <img class="u-hidden-lg u-hidden-sm u-hidden-xl u-hidden-xs u-image u-image-contain u-image-default u-image-1" src="images/bg5.png" alt="" data-image-width="1376" data-image-height="335">
+            <img class="u-hidden-sm u-hidden-xs u-image u-image-contain u-image-default u-image-2" src="images/bg5.png" alt="" data-image-width="1376" data-image-height="335">
+            <div class="u-expanded-width u-list u-list-1">
+              <div class="u-repeater u-repeater-1">
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-container-layout-2">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-3" src="images/11.png" alt="" data-image-width="177" data-image-height="176">
+                    <p class="u-text u-text-default u-text-3"> Peer-to-Peer Study</p>
+                    <p class="u-text u-text-default u-text-4"> Study with MSU CEdEC's students of various backgrounds and expertise as you build up your network and connections.</p>
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-container-layout-3">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-4" src="images/21.png" alt="" data-image-width="177" data-image-height="176">
+                    <p class="u-text u-text-default u-text-5"> Virtual Classroom</p>
+                    <p class="u-text u-text-default u-text-6"> Face to face learning is done fully online giving full accessibility to students to study anywhere at their convenience.</p>
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-container-layout-4">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-5" src="images/31.png" alt="" data-image-width="177" data-image-height="176">
+                    <p class="u-text u-text-default u-text-7"> Online Resources</p>
+                    <p class="u-text u-text-default u-text-8"> MSU CEdEC gives full support to the students by providing access to study materials and resources in their online library.</p>
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-container-layout-5">
+                    <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-6" src="images/41.png" alt="" data-image-width="176" data-image-height="175">
+                    <p class="u-text u-text-default u-text-9"> Study at Your Pace</p>
+                    <p class="u-text u-text-default u-text-10"> MSU CEdEC gives full flexibility for you to manage your study as you juggle with your professional and personal life.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-6" id="sec-9559">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+        <h2 class="u-align-center u-text u-text-default-md u-text-default-sm u-text-default-xs u-text-1">
+          <span class="u-text-custom-color-2">Flexible Education</span> for&nbsp;Working Adults
+        </h2>
+        <p class="u-align-center u-large-text u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xs u-text-variant u-text-2"> Find out why MSU CEdEC is the best option for working adults.</p>
+        <div class="u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-container-layout-1">
+                <img class="u-image u-image-contain u-image-default u-image-1" src="images/edu2.png" alt="" data-image-width="595" data-image-height="573">
+                <p class="u-align-left u-custom-item u-text u-text-default u-text-3"> Quality Education</p>
+                <p class="u-align-left u-custom-item u-text u-text-default-xl u-text-4"> MSU CEdEC strives to provide top-quality education with highly qualified academicians with Professorship.</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-container-layout-2">
+                <img class="u-image u-image-contain u-image-default u-image-2" src="images/Accessibility1.png" alt="" data-image-width="595" data-image-height="573">
+                <p class="u-align-left u-custom-item u-text u-text-default u-text-5"> Accessibility</p>
+                <p class="u-align-left u-custom-item u-text u-text-default-xl u-text-6"> MSU CEdEC learning centres are located nationwide and lectures are conducted online.</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-container-layout-3">
+                <img class="u-image u-image-contain u-image-default u-image-3" src="images/work.png" alt="" data-image-width="595" data-image-height="573">
+                <p class="u-align-left u-custom-item u-text u-text-default u-text-7"> Work Experience</p>
+                <p class="u-align-left u-custom-item u-text u-text-default-xl u-text-8"> Use your work experience to shorten your study period. Graduate faster with MSU CEdEC.</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-container-layout-4">
+                <img class="u-image u-image-contain u-image-default u-image-4" src="images/networking.png" alt="" data-image-width="595" data-image-height="573">
+                <p class="u-align-left u-custom-item u-text u-text-default u-text-9"> Networking</p>
+                <p class="u-align-left u-custom-item u-text u-text-default-xl u-text-10"> Learn with like-minded students working in top companies and build connections with your peers.</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-container-layout-5">
+                <img class="u-image u-image-contain u-image-default u-image-5" src="images/afoordable.png" alt="" data-image-width="595" data-image-height="573">
+                <p class="u-align-left u-custom-item u-text u-text-default u-text-11"> Affordable</p>
+                <p class="u-align-left u-custom-item u-text u-text-default-xl u-text-12"> Our fees are affordable for working adults. We have various financing options to help lessen your burden.</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-container-layout-6">
+                <img class="u-image u-image-contain u-image-default u-image-6" src="images/global.png" alt="" data-image-width="595" data-image-height="573">
+                <p class="u-align-left u-custom-item u-text u-text-default u-text-13"> Global Recognition</p>
+                <p class="u-align-left u-custom-item u-text u-text-default-xl u-text-14"> Our programs are globally recognized. You can continue your studies at our overseas partner universities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-7" id="sec-c661">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-expanded-height-lg u-expanded-height-md u-expanded-height-xl u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-1" src="images/bg7.png" alt="" data-image-width="1027" data-image-height="689">
+        <div class="u-container-style u-group u-image u-image-2" data-image-width="552" data-image-height="209">
+          <div class="u-container-layout u-container-layout-1">
+            <h5 class="u-text u-text-default u-text-1"> 97.5% Graduation Rate</h5>
+            <p class="u-large-text u-text u-text-default-lg u-text-default-xl u-text-variant u-text-2"> Highest graduation rate among working adults</p>
+          </div>
+        </div>
+        <div class="u-container-style u-group u-image u-image-3" data-image-width="552" data-image-height="209">
+          <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-2">
+            <h5 class="u-text u-text-default u-text-3"> 5-Star Rated University</h5>
+            <p class="u-large-text u-text u-text-default u-text-variant u-text-4"> Awarded by QS World University Ranking</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-8" id="sec-ea73">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-hidden-xs u-shape u-shape-rectangle u-shape-1"></div>
+        <h2 class="u-align-center-lg u-align-center-sm u-align-center-xl u-align-center-xs u-text u-text-default-lg u-text-default-xl u-text-1"> Your <span class="u-text-custom-color-2">Professional Experience</span> Matters
+        </h2>
+        <p class="u-align-center-lg u-align-center-sm u-align-center-xl u-align-center-xs u-large-text u-text u-text-variant u-text-2"> Using Accreditation of Prior Experiential Learning (APEL) you can get&nbsp;credit&nbsp;exemption and shorten your study duration.</p>
+        <img class="u-hidden-sm u-hidden-xs u-image u-image-contain u-image-default u-image-1" src="images/bg3.png" alt="" data-image-width="551" data-image-height="500">
+        <img class="u-hidden-xs u-image u-image-contain u-image-default u-preserve-proportions u-image-2" src="images/arrow2.png" alt="" data-image-width="92" data-image-height="105">
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-align-left-lg u-container-align-left-md u-container-align-left-sm u-container-align-left-xl u-container-style u-custom-item u-image u-image-round u-list-item u-radius-30 u-repeater-item u-shape-round u-image-3" data-image-width="1240" data-image-height="472">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-1">
+                <h6 class="u-align-left u-custom-item u-text u-text-body-alt-color u-text-3">apel a</h6>
+                <div class="u-bottom-left-radius-30 u-bottom-right-radius-30 u-container-style u-custom-item u-expanded-width u-group u-shape-round u-white u-group-1">
+                  <div class="u-container-layout u-container-layout-2">
+                    <p class="u-custom-item u-text u-text-default u-text-4"> APEL (A) provides an opportunity for individuals with working experience but lack of formal academic qualifications to pursue their studies in Higher Education Institutions (HEIs). In general, knowledge obtained through formal education and working experience will be both assessed in APEL’s assessment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-container-style u-custom-item u-image u-image-round u-list-item u-radius-30 u-repeater-item u-shape-round u-image-4" data-image-width="1240" data-image-height="472">
+              <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-3">
+                <h6 class="u-align-left u-custom-item u-text u-text-body-alt-color u-text-5">apel C</h6>
+                <div class="u-bottom-left-radius-30 u-bottom-right-radius-30 u-container-style u-custom-item u-expanded-width u-group u-shape-round u-white u-group-2">
+                  <div class="u-container-layout u-container-layout-4">
+                    <p class="u-custom-item u-text u-text-default u-text-6"> APEL (C) is an assessment of prior learning (informal and non-formal) of individuals based on their cumulative experiences (knowledge and skills) that are relevant and specific to the learning outcomes of a course within a programme for the purpose of credit award.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-white u-section-9" id="sec-ac83">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+        <div class="u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-1" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-2" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-3" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-4" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-4"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-5" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-5"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-6" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-6"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-7" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-7"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-8" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-8"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-9" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-9"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-10" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-10"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-11" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-11"></div>
+            </div>
+            <div class="u-container-style u-image u-list-item u-repeater-item u-image-12" data-image-width="300" data-image-height="300">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-12"></div>
+            </div>
+          </div>
+        </div>
+        <p class="u-align-center-md u-align-center-sm u-align-center-xs u-small-text u-text u-text-custom-color-2 u-text-default u-text-variant u-text-1"> #beMSUrians</p>
+        <h2 class="u-align-center-md u-align-center-sm u-align-center-xs u-text u-text-default-md u-text-default-sm u-text-2"> Where do MSU's&nbsp;<span class="u-text-custom-color-2">graduates work</span>
+        </h2>
+        <p class="u-align-center-md u-align-center-sm u-align-center-xs u-large-text u-text u-text-variant u-text-3"> Our students are from global companies&nbsp;providing you the opportunity to&nbsp;learn and network from your peers</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-hidden-xs u-section-10" id="sec-581f">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+        <h2 class="u-align-center u-text u-text-1"> Read what our <span class="u-text-custom-color-2">students say</span>
+        </h2>
+        <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-none u-gallery-1">
+          <div class="u-gallery-inner u-gallery-inner-1">
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="1260" data-image-height="511">
+                <img class="u-back-image u-expanded" src="images/testimony-21.png">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-1">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="1260" data-image-height="511">
+                <img class="u-back-image u-expanded" src="images/testimony-11.png">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-2">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-hidden-lg u-hidden-md u-hidden-sm u-hidden-xl u-section-11" id="carousel_3a4a">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+        <h2 class="u-align-center u-text u-text-1"> Read what our <span class="u-text-custom-color-2">students say</span>
+        </h2>
+        <div class="u-align-center-xs u-expanded-width-lg u-expanded-width-md u-expanded-width-xl u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-none u-gallery-1">
+          <div class="u-gallery-inner u-gallery-inner-1">
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="500" data-image-height="600">
+                <img class="u-back-image u-expanded" src="images/mobile-testimony-11.png">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-1">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="500" data-image-height="600">
+                <img class="u-back-image u-expanded" src="images/mobile-testimony-21.png">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-2">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-12" id="sec-e125">
+      <div class="u-align-center u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+      <h2 class="u-align-center u-text u-text-custom-color-2 u-text-default u-text-1"> Awards &amp;&nbsp;Recognitions</h2>
+      <p class="u-align-center u-custom-font u-text u-text-2"> Accolades</p>
+      <div class="u-align-center-md u-align-center-sm u-align-center-xs u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
+        <div class="u-repeater u-repeater-1">
+          <div class="u-container-style u-image u-list-item u-repeater-item u-image-1" data-image-width="378" data-image-height="378">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1"></div>
+          </div>
+          <div class="u-container-style u-image u-list-item u-repeater-item u-image-2" data-image-width="378" data-image-height="378">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2"></div>
+          </div>
+          <div class="u-container-style u-image u-list-item u-repeater-item u-image-3" data-image-width="378" data-image-height="378">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3"></div>
+          </div>
+          <div class="u-container-style u-image u-list-item u-repeater-item u-image-4" data-image-width="378" data-image-height="378">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-4"></div>
+          </div>
+          <div class="u-container-style u-image u-list-item u-repeater-item u-image-5" data-image-width="378" data-image-height="377">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-5"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-13" id="sec-d0ae">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-custom-color-5 u-shape u-shape-rectangle u-shape-1"></div>
+        <h2 class="u-text u-text-default u-text-1"> Blog</h2>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-palette-1-base u-repeater-item u-list-item-1">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                <img class="u-expanded-width-lg u-expanded-width-xl u-expanded-width-xs u-image u-image-default u-image-1" src="images/cheerful-asian-man-sitting-outdoor-cafe-looking-laptop-screen-with-excitement.jpg" alt="" data-image-width="1628" data-image-height="1253">
+                <p class="u-custom-font u-text u-text-2"> A guide to flexible learning options in Malaysia</p>
+                <p class="u-custom-font u-text u-text-3"> With the advent of new technology and innovation for...</p>
+                <a href="https://cedec-blog.msu.edu.my/a-guide-to-flexible-learning-options-in-malaysia/" class="u-active-none u-border-2 u-border-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-custom-font u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-1" target="_blank">Read more</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-palette-1-base u-repeater-item u-list-item-2">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                <img class="u-expanded-width-lg u-expanded-width-xl u-expanded-width-xs u-image u-image-default u-image-2" src="images/asia-businesswoman-using-laptop-talk-colleagues-about-plan-video-call-meeting-living-room.jpg" alt="" data-image-width="1628" data-image-height="1253">
+                <p class="u-custom-font u-text u-text-4"> The difference between full time and Open Distance Learning (ODL) universities</p>
+                <p class="u-custom-font u-text u-text-5"> As the world’s many industries and sectors grow...</p>
+                <a href="https://cedec-blog.msu.edu.my/the-difference-between-full-time-and-open-distance-learning-odl-universities/" class="u-active-none u-border-2 u-border-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-custom-font u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-2" target="_blank">Read more</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-palette-1-base u-repeater-item u-list-item-3">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                <img class="u-expanded-width-lg u-expanded-width-xl u-expanded-width-xs u-image u-image-default u-image-3" src="images/two-content-business-partners-discussing-issue.jpg" alt="" data-image-width="1628" data-image-height="1253">
+                <p class="u-custom-font u-text u-text-6"> The importance of continuing education for career progression</p>
+                <p class="u-custom-font u-text u-text-7"> MSU CEdEC (Continuing and Extended Education Centre)...</p>
+                <a href="https://cedec-blog.msu.edu.my/the-importance-of-continuing-education-for-career-progression/" class="u-active-none u-border-2 u-border-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-custom-font u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-3" target="_blank">Read more</a>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-palette-1-base u-repeater-item u-list-item-4">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+                <img class="u-expanded-width-lg u-expanded-width-xl u-expanded-width-xs u-image u-image-default u-image-4" src="images/tired-young-woman-table-office.jpg" alt="" data-image-width="1628" data-image-height="1253">
+                <p class="u-custom-font u-text u-text-8"> Why do so many adult learners dropout</p>
+                <p class="u-custom-font u-text u-text-9"> In 2018, Richard Garrett, Chief Research Officer at...</p>
+                <a href="https://cedec-blog.msu.edu.my/why-do-so-many-adult-learners-dropout/" class="u-active-none u-border-2 u-border-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-custom-font u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-4" target="_blank">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-image u-section-14" id="sec-bd79" data-image-width="1200" data-image-height="480">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-sheet-1">
+        <h1 class="u-align-center u-text u-text-body-alt-color u-text-default u-title u-text-1"> What are you waiting for? </h1>
+        <h6 class="u-align-center u-text u-text-body-alt-color u-text-2"> Kickstart Your Future With A 5-Star University Today.</h6>
+        <a href="Home.html#sec-cb0c" class="u-active-black u-align-center u-border-2 u-border-active-white u-border-custom-color-2 u-border-hover-white u-btn u-button-style u-hover-custom-color-2 u-text-active-white u-text-hover-white u-white u-btn-1">enquire now</a>
+        <a href="#sec-fc54" class="u-active-none u-align-center u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-white u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-dialog-link u-hover-none u-none u-radius-0 u-text-hover-white u-top-left-radius-0 u-top-right-radius-0 u-btn-2">Download Brochure</a>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-d7b0"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1"> Copyright © 2022. All rights reserved.</p>
+      </div></footer>
+  <section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-top u-dialog-section-17" id="sec-fc54">
+      <div class="u-align-center u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+            <div class="u-layout">
+              <div class="u-layout-row">
+                <div class="u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="1000" data-image-height="811">
+                  <div class="u-container-layout u-container-layout-2"></div>
+                </div>
+                <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                  <div class="u-container-layout u-container-layout-3">
+                    <h4 class="u-align-center u-text u-text-1">I'm ready to read&nbsp;<span style="font-weight: 700;"> this brochure</span>
+                    </h4>
+                    <div class="u-expanded-width u-form u-form-1">
+                      <form action="contact-form-handler-download.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-8 u-form-vertical u-inner-form" source="email" name="form" style="padding: 10px;" redirect="true">
+                        <div class="u-form-group u-form-name u-label-none">
+                          <label for="name-ff36" class="u-label u-spacing-0 u-label-1">Name</label>
+                          <input type="text" placeholder="Enter your Name" id="name-ff36" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                        </div>
+                        <div class="u-form-email u-form-group u-label-none">
+                          <label for="email-ff36" class="u-label u-spacing-0 u-label-2">Email</label>
+                          <input type="email" placeholder="Enter a valid email address" id="email-ff36" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                        </div>
+                        <div class="u-form-group u-form-phone u-label-none u-form-group-3">
+                          <label for="phone-841c" class="u-label u-spacing-0 u-label-3">Phone</label>
+                          <input type="tel" placeholder="Enter your phone (e.g. 601123456789)" id="phone-841c" name="phone" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                        </div>
+                        <div class="u-form-group u-form-select u-label-none u-form-group-4">
+                          <label for="select-060f" class="u-label u-spacing-0 u-label-4">Field of Study</label>
+                          <div class="u-form-select-wrapper">
+                            <select id="select-060f" name="field_of_study" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+                              <option value="">Choose a field of study</option>
+                              <option value="Business Management">Business Management</option>
+                              <option value="Education &amp; Social Sciences">Education &amp; Social Sciences</option>
+                              <option value="Health &amp; Life Sciences">Health &amp; Life Sciences</option>
+                              <option value="Hospitality &amp; Creative Arts">Hospitality &amp; Creative Arts</option>
+                              <option value="Information Sciences &amp; Engineering">Information Sciences &amp; Engineering</option>
+                              <option value="Medicine">Medicine</option>
+                              <option value="Pharmacy">Pharmacy</option>
+                              <option value="Postgraduate Studies">Postgraduate Studies</option>
+                            </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                          </div>
+                        </div>
+                        <div class="u-form-group u-form-select u-label-none u-form-group-5">
+                          <label for="select-db35" class="u-label u-spacing-0 u-label-5">Qualification</label>
+                          <div class="u-form-select-wrapper">
+                            <select id="select-db35" name="qualification_level" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+                              <option value="">Your qualification level</option>
+                              <option value="SPM/O-Level">SPM/O-Level</option>
+                              <option value="STPM/A-Level/Pre-U/Foundation/Matriculation">STPM/A-Level/Pre-U/Foundation/Matriculation</option>
+                              <option value="Diploma">Diploma</option>
+                              <option value="Bachelor's Degree">Bachelor's Degree</option>
+                              <option value="Postgraduate Studies">Postgraduate Studies</option>
+                              <option value="Others">Others</option>
+                            </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                          </div>
+                        </div>
+                        <div class="u-form-group u-form-select u-label-none u-form-group-6">
+                          <label for="select-b64f" class="u-label u-spacing-0 u-label-6">Employment Status</label>
+                          <div class="u-form-select-wrapper">
+                            <select id="select-b64f" name="employability" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+                              <option value="">Employability status</option>
+                              <option value="Unemployed">Unemployed</option>
+                              <option value="Employed">Employed</option>
+                            </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                          </div>
+                        </div>
+                        <div class="u-form-group u-form-select u-label-none u-form-group-7">
+                          <label for="select-68e5" class="u-label u-spacing-0 u-label-7">Nationality</label>
+                          <div class="u-form-select-wrapper">
+                            <select id="select-68e5" name="nationality" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="required">
+                              <option value="">Nationality</option>
+                              <option value="Malaysian">Malaysian</option>
+                              <option value="Non-Malaysian">Non-Malaysian</option>
+                            </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                          </div>
+                        </div>
+                        <div class="u-form-agree u-form-group u-form-group-8">
+                          <input type="checkbox" id="agree-40b4" name="agree" class="u-agree-checkbox" required="" autofocus="autofocus">
+                          <label for="agree-40b4" class="u-agree-label u-label">By continuing you agree to receive this free brochure.</label>
+                        </div>
+                        <div class="u-align-center u-form-group u-form-submit u-label-none">
+                          <input type="submit" value="submit" class="u-form-control-hidden">
+                          <a href="#" class="u-active-palette-2-base u-border-3 u-border-active-black u-border-hover-palette-3-base u-border-palette-3-base u-btn u-btn-submit u-button-style u-hover-white u-palette-3-base u-text-active-black u-text-body-alt-color u-text-hover-palette-3-base u-btn-1">Get Brochure</a>
+                        </div>
+                        <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                        <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                        <input type="hidden" value="" name="recaptchaResponse">
+                        <input type="hidden" value="Brochure" name="leadsource">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-50 u-icon-1">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e2d"></use></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-4e2d" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg>
+      </button>
+      </div>
+    </section><style> .u-dialog-section-17 {
+  min-height: 826px;
+}
+
+.u-dialog-section-17 .u-dialog-1 {
+  width: 980px;
+  min-height: 226px;
+  background-image: none;
+  height: auto;
+  margin: 0 auto 60px;
+}
+
+.u-dialog-section-17 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-dialog-section-17 .u-layout-wrap-1 {
+  width: 981px;
+  margin: 0 auto;
+}
+
+.u-dialog-section-17 .u-image-1 {
+  min-height: 474px;
+  background-image: url("images/STJ_7158.jpg");
+  background-position: 50% 50%;
+}
+
+.u-dialog-section-17 .u-container-layout-2 {
+  padding: 0 0 30px;
+}
+
+.u-dialog-section-17 .u-layout-cell-2 {
+  min-height: 474px;
+}
+
+.u-dialog-section-17 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-dialog-section-17 .u-text-1 {
+  margin: 0 30px;
+}
+
+.u-dialog-section-17 .u-form-1 {
+  height: 546px;
+  margin-top: 13px;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-17 .u-label-1 {
+  width: 64px;
+}
+
+.u-dialog-section-17 .u-label-2 {
+  width: 64px;
+}
+
+.u-dialog-section-17 .u-form-group-3 {
+  margin-left: 0;
+}
+
+.u-dialog-section-17 .u-label-3 {
+  width: 64px;
+}
+
+.u-dialog-section-17 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-dialog-section-17 .u-label-4 {
+  width: 64px;
+}
+
+.u-dialog-section-17 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-dialog-section-17 .u-label-5 {
+  width: 64px;
+}
+
+.u-dialog-section-17 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-dialog-section-17 .u-label-6 {
+  width: 64px;
+}
+
+.u-dialog-section-17 .u-form-group-7 {
+  margin-left: 0;
+}
+
+.u-dialog-section-17 .u-label-7 {
+  width: 64px;
+}
+
+.u-dialog-section-17 .u-form-group-8 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-dialog-section-17 .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  font-size: 1rem;
+}
+
+.u-dialog-section-17 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 14px;
+  position: absolute;
+  right: 14px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-17 .u-dialog-1 {
+    width: 940px;
+    min-height: 243px;
+  }
+
+  .u-dialog-section-17 .u-layout-wrap-1 {
+    position: relative;
+    width: 940px;
+  }
+
+  .u-dialog-section-17 .u-image-1 {
+    min-height: 454px;
+  }
+
+  .u-dialog-section-17 .u-layout-cell-2 {
+    min-height: 454px;
+  }
+
+  .u-dialog-section-17 .u-text-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-17 .u-dialog-1 {
+    width: 720px;
+    min-height: 214px;
+  }
+
+  .u-dialog-section-17 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-dialog-section-17 .u-image-1 {
+    min-height: 348px;
+    background-position: 45.75% 50%;
+  }
+
+  .u-dialog-section-17 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-dialog-section-17 .u-container-layout-3 {
+    padding-top: 14px;
+  }
+
+  .u-dialog-section-17 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-17 .u-dialog-1 {
+    width: 540px;
+  }
+
+  .u-dialog-section-17 .u-layout-wrap-1 {
+    width: 540px;
+  }
+
+  .u-dialog-section-17 .u-image-1 {
+    min-height: 15px;
+    background-position: 45.43% 0%;
+  }
+
+  .u-dialog-section-17 .u-layout-cell-2 {
+    min-height: 480px;
+  }
+
+  .u-dialog-section-17 .u-container-layout-3 {
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-17 .u-dialog-1 {
+    width: 340px;
+  }
+
+  .u-dialog-section-17 .u-layout-wrap-1 {
+    width: 340px;
+  }
+
+  .u-dialog-section-17 .u-image-1 {
+    background-position: 0% 0%;
+    background-size: 155%;
+  }
+
+  .u-dialog-section-17 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-18" id="sec-f4d0">
+      <div class="u-align-center u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-style u-expanded-width u-group u-image u-image-1" data-image-width="3556" data-image-height="1246">
+            <div class="u-container-layout u-container-layout-2">
+              <h6 class="u-text u-text-body-alt-color u-text-1"> Faculty of Business Management and Professional Studies</h6>
+              <h2 class="u-subtitle u-text u-text-2"> The Faculty of Business Management and Professional Studies (FBMP) at Management &amp; Science University (MSU) comprises the two departments of Business Management and Accounting &amp; Finance.</h2>
+            </div>
+          </div>
+          <div class="u-expanded-width-xs u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-spacing-10 u-tab-list u-unstyled u-tab-list-1" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-active-grey-40 u-button-style u-custom-font u-heading-font u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true">Diploma</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-active-grey-40 u-button-style u-custom-font u-heading-font u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false">Degree</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <div class="u-list u-list-1">
+                    <div class="u-repeater u-repeater-1">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-4">
+                          <ul class="u-text u-text-3">
+                            <li style="padding-left: 10px;"> Diploma in Accounting&nbsp;</li>
+                            <li style="padding-left: 10px;">Diploma in Entrepreneurship&nbsp;</li>
+                            <li style="padding-left: 10px;">Diploma in Human Capital Management&nbsp;</li>
+                            <li style="padding-left: 10px;">Diploma in Investment Management&nbsp;</li>
+                            <li style="padding-left: 10px;">Diploma in Islamic Banking&nbsp;<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-5">
+                          <ul class="u-text u-text-4">
+                            <li style="padding-left: 10px;"> Diploma in Islamic Finance</li>
+                            <li style="padding-left: 10px;">Diploma in Logistics Management&nbsp;</li>
+                            <li style="padding-left: 10px;">Diploma in Management&nbsp;</li>
+                            <li style="padding-left: 10px;">Diploma in Office Management Technology</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-valign-top u-container-layout-6">
+                  <div class="u-expanded-width u-list u-list-2">
+                    <div class="u-repeater u-repeater-2">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-7">
+                          <ul class="u-text u-text-5">
+                            <li style="padding-left: 10px;"> Bachelor in Accountancy (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Accounting and Finance (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelo​r in Economics and Finance (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Entrepreneurship&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Finance (Hons)&nbsp; </li>
+                            <li style="padding-left: 10px;">Bachelor in Human Capital Management (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Industrial Management (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in International Business (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Takaful (Hons)</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-8">
+                          <ul class="u-text u-text-6">
+                            <li style="padding-left: 10px;"> Bachelor in Islamic Banking (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Islamic Finance (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Islamic Management (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Law and Commerce (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Logistics Management (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Marketing with Psychology (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Office Management Technology (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Retail Management (Hons)&nbsp;</li>
+                            <li style="padding-left: 10px;">Bachelor in Investment Management (Hons)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-18 {
+  min-height: 500px;
+}
+
+.u-dialog-section-18 .u-dialog-1 {
+  width: 1140px;
+  min-height: 286px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto 60px;
+}
+
+.u-dialog-section-18 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-18 .u-image-1 {
+  min-height: 396px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/Faculty-of-Business-Management-and-Professional-Studies1.png");
+  background-position: 50% 50%;
+}
+
+.u-dialog-section-18 .u-container-layout-2 {
+  padding: 65px 595px 30px 30px;
+}
+
+.u-dialog-section-18 .u-text-1 {
+  text-transform: uppercase;
+  margin: 0 55px 0 0;
+}
+
+.u-dialog-section-18 .u-text-2 {
+  font-size: 1.125rem;
+  margin: 30px 0 0;
+}
+
+.u-dialog-section-18 .u-tabs-1 {
+  min-height: 235px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  width: 1140px;
+}
+
+.u-dialog-section-18 .u-tab-list-1 {
+  background-image: none;
+}
+
+.u-dialog-section-18 .u-tab-link-1 {
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-weight: 700;
+  padding: 5px 20px;
+}
+
+.u-dialog-section-18 .u-tab-link-2 {
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-weight: 700;
+  padding: 5px 20px;
+}
+
+.u-dialog-section-18 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-18 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-dialog-section-18 .u-list-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 1080px;
+}
+
+.u-dialog-section-18 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 0;
+}
+
+.u-dialog-section-18 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-dialog-section-18 .u-text-3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-18 .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-dialog-section-18 .u-text-4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-18 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-18 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-dialog-section-18 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-18 .u-repeater-2 {
+  grid-gap: 15px 15px;
+  grid-template-columns: calc(50% - 7.5px) calc(50% - 7.5px);
+  min-height: 270px;
+}
+
+.u-dialog-section-18 .u-container-layout-7 {
+  padding: 0;
+}
+
+.u-dialog-section-18 .u-text-5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-18 .u-container-layout-8 {
+  padding: 0;
+}
+
+.u-dialog-section-18 .u-text-6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-18 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+  background-image: none;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-18 .u-dialog-1 {
+    width: 940px;
+    min-height: 292px;
+  }
+
+  .u-dialog-section-18 .u-image-1 {
+    min-height: 346px;
+    height: auto;
+  }
+
+  .u-dialog-section-18 .u-container-layout-2 {
+    padding-top: 45px;
+    padding-right: 495px;
+  }
+
+  .u-dialog-section-18 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-18 .u-text-2 {
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .u-dialog-section-18 .u-tabs-1 {
+    width: 940px;
+  }
+
+  .u-dialog-section-18 .u-list-1 {
+    width: 880px;
+  }
+
+  .u-dialog-section-18 .u-repeater-2 {
+    min-height: 220px;
+  }
+
+  .u-dialog-section-18 .u-text-5 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-18 .u-text-6 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-18 .u-dialog-1 {
+    width: 720px;
+    min-height: 290px;
+  }
+
+  .u-dialog-section-18 .u-image-1 {
+    background-position: 0% 0%;
+    min-height: 272px;
+    background-size: auto 105%;
+  }
+
+  .u-dialog-section-18 .u-container-layout-2 {
+    padding-top: 50px;
+    padding-right: 335px;
+    padding-left: 20px;
+  }
+
+  .u-dialog-section-18 .u-text-2 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-18 .u-tabs-1 {
+    min-height: 328px;
+    width: 720px;
+  }
+
+  .u-dialog-section-18 .u-list-1 {
+    width: 660px;
+  }
+
+  .u-dialog-section-18 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-18 .u-container-layout-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .u-dialog-section-18 .u-repeater-2 {
+    grid-gap: 6px 6px;
+    min-height: 332px;
+    grid-template-columns: calc(50% - 3px) calc(50% - 3px);
+  }
+
+  .u-dialog-section-18 .u-text-5 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-18 .u-text-6 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-18 .u-dialog-1 {
+    width: 540px;
+    min-height: 212px;
+  }
+
+  .u-dialog-section-18 .u-image-1 {
+    min-height: 255px;
+  }
+
+  .u-dialog-section-18 .u-container-layout-2 {
+    padding-top: 45px;
+    padding-right: 185px;
+    padding-left: 15px;
+  }
+
+  .u-dialog-section-18 .u-tabs-1 {
+    width: 540px;
+  }
+
+  .u-dialog-section-18 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-dialog-section-18 .u-list-1 {
+    width: 520px;
+  }
+
+  .u-dialog-section-18 .u-repeater-1 {
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  }
+
+  .u-dialog-section-18 .u-text-3 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-18 .u-text-4 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-18 .u-container-layout-6 {
+    padding-top: 29px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-dialog-section-18 .u-list-2 {
+    margin-top: 1px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-18 .u-dialog-1 {
+    width: 340px;
+    min-height: 289px;
+  }
+
+  .u-dialog-section-18 .u-container-layout-1 {
+    padding-top: 30px;
+  }
+
+  .u-dialog-section-18 .u-image-1 {
+    min-height: 231px;
+  }
+
+  .u-dialog-section-18 .u-container-layout-2 {
+    padding: 35px 20px 54px;
+  }
+
+  .u-dialog-section-18 .u-text-1 {
+    width: auto;
+    margin-top: 1px;
+  }
+
+  .u-dialog-section-18 .u-text-2 {
+    font-size: 0.75rem;
+  }
+
+  .u-dialog-section-18 .u-tabs-1 {
+    min-height: 320px;
+    width: auto;
+  }
+
+  .u-dialog-section-18 .u-list-1 {
+    width: 320px;
+  }
+
+  .u-dialog-section-18 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-18 .u-repeater-2 {
+    grid-template-columns: 100%;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-19" id="carousel_ef9f">
+      <div class="u-align-left u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-style u-expanded-width-lg u-expanded-width-md u-group u-image u-shape-rectangle u-image-1" data-image-width="3556" data-image-height="1241">
+            <div class="u-container-layout u-container-layout-2">
+              <h6 class="u-text u-text-body-alt-color u-text-default u-text-1"> Faculty of Health and Life Sciences</h6>
+              <h2 class="u-subtitle u-text u-text-2"> The Faculty of Health and Life Sciences (FHLS) at Management &amp; Science University (MSU) comprises the three departments of Healthcare Professional, and Diagnostic &amp; Allied Health Science. Providing quality education in a vibrant setting, its supportive learning environment extends the boundaries of knowledge with discoveries and innovations.</h2>
+            </div>
+          </div>
+          <div class="u-expanded-width-xs u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-border-2 u-border-grey-80 u-tab-list u-unstyled" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true">Diploma</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false">Degree</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <div class="u-expanded-width u-list u-list-1">
+                    <div class="u-repeater u-repeater-1">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-4">
+                          <ul class="u-text u-text-3">
+                            <li style="padding-left: 10px;"> Advanced Diploma in Midwifery (ADM)</li>
+                            <li style="padding-left: 10px;">Diploma in Medical Laboratory Technology</li>
+                            <li style="padding-left: 10px;">Diploma in Occupational Safety and Health</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-5">
+                          <ul class="u-text u-text-4">
+                            <li style="padding-left: 10px;">Diploma in Ophthalmic Dispensing</li>
+                            <li style="padding-left: 10px;">Diploma in Radiotherapy</li>
+                            <li style="padding-left: 10px;">Diploma in Sport Science</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-container-layout-6">
+                  <div class="u-expanded-width u-list u-list-2">
+                    <div class="u-repeater u-repeater-2">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-7">
+                          <ul class="u-text u-text-default u-text-5">
+                            <li style="padding-left: 5px;"> Bachelor in Bioinformatics (Hons)</li>
+                            <li style="padding-left: 5px;">Bachelor in Cardiovascular Technology (Hons)</li>
+                            <li style="padding-left: 5px;">Bachelor in Environmental Health (Hons)</li>
+                            <li style="padding-left: 5px;">Bachelor in Food Service Technology (Hons)</li>
+                            <li style="padding-left: 5px;">Bachelor in Forensic Science (Honours)</li>
+                            <li style="padding-left: 5px;">Bachelor in Halal Quality Assurance (Hons)<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-8">
+                          <ul class="u-text u-text-default u-text-6">
+                            <li style="padding-left: 5px;"> Bachelor in Health Science Management (Hons)</li>
+                            <li style="padding-left: 5px;">Bachelor in Nutrition (Hons)</li>
+                            <li style="padding-left: 5px;">Bachelor in Occupational Safety and Health (BOSH)</li>
+                            <li style="padding-left: 5px;">Bachelor of Biomedical Science (Hons)</li>
+                            <li style="padding-left: 5px;">Bachelor of Optometry (Hons)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-19 {
+  min-height: 500px;
+}
+
+.u-dialog-section-19 .u-dialog-1 {
+  width: 1140px;
+  min-height: 290px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto 60px;
+}
+
+.u-dialog-section-19 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-19 .u-image-1 {
+  min-height: 420px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/Health-Science.png");
+  background-position: 50% 50%;
+}
+
+.u-dialog-section-19 .u-container-layout-2 {
+  padding: 80px 620px 105px 25px;
+}
+
+.u-dialog-section-19 .u-text-1 {
+  text-transform: uppercase;
+  line-height: 1.6;
+  margin: 0 auto 0 0;
+}
+
+.u-dialog-section-19 .u-text-2 {
+  margin: 19px 29px 0 0;
+}
+
+.u-dialog-section-19 .u-tabs-1 {
+  min-height: 132px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  width: 1140px;
+}
+
+.u-dialog-section-19 .u-tab-link-1 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-19 .u-tab-link-2 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-19 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-19 .u-container-layout-3 {
+  padding: 30px 14px;
+}
+
+.u-dialog-section-19 .u-list-1 {
+  margin: 0 16px;
+}
+
+.u-dialog-section-19 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 88px;
+}
+
+.u-dialog-section-19 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-dialog-section-19 .u-text-3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-19 .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-dialog-section-19 .u-text-4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-19 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-19 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-dialog-section-19 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-19 .u-repeater-2 {
+  grid-gap: 15px 15px;
+  grid-template-columns: calc(50% - 7.5px) calc(50% - 7.5px);
+  min-height: 180px;
+}
+
+.u-dialog-section-19 .u-container-layout-7 {
+  padding: 0;
+}
+
+.u-dialog-section-19 .u-text-5 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.u-dialog-section-19 .u-container-layout-8 {
+  padding: 0;
+}
+
+.u-dialog-section-19 .u-text-6 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.u-dialog-section-19 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+  background-image: none;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-19 .u-dialog-1 {
+    width: 940px;
+    min-height: 296px;
+  }
+
+  .u-dialog-section-19 .u-image-1 {
+    background-position: 0% 50%;
+    min-height: 346px;
+    height: auto;
+  }
+
+  .u-dialog-section-19 .u-container-layout-2 {
+    padding-top: 55px;
+    padding-right: 485px;
+    padding-bottom: 0;
+  }
+
+  .u-dialog-section-19 .u-text-2 {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-19 .u-tabs-1 {
+    width: 940px;
+  }
+
+  .u-dialog-section-19 .u-list-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-dialog-section-19 .u-repeater-1 {
+    min-height: 74px;
+  }
+
+  .u-dialog-section-19 .u-repeater-2 {
+    min-height: 146px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-19 .u-dialog-1 {
+    width: 720px;
+    min-height: 296px;
+  }
+
+  .u-dialog-section-19 .u-image-1 {
+    background-position: 0% 0%;
+    min-height: 281px;
+    background-size: auto 110%;
+  }
+
+  .u-dialog-section-19 .u-container-layout-2 {
+    padding-top: 45px;
+    padding-right: 305px;
+  }
+
+  .u-dialog-section-19 .u-text-2 {
+    width: auto;
+    margin-right: 9px;
+  }
+
+  .u-dialog-section-19 .u-tabs-1 {
+    min-height: 0;
+    width: 720px;
+  }
+
+  .u-dialog-section-19 .u-text-3 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-19 .u-text-4 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-19 .u-text-5 {
+    width: auto;
+    font-size: 0.875rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-19 .u-text-6 {
+    width: auto;
+    font-size: 0.875rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-19 .u-dialog-1 {
+    width: 540px;
+    min-height: 285px;
+  }
+
+  .u-dialog-section-19 .u-image-1 {
+    min-height: 258px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-19 .u-container-layout-2 {
+    padding-right: 165px;
+    padding-left: 15px;
+  }
+
+  .u-dialog-section-19 .u-text-1 {
+    line-height: 1.4;
+  }
+
+  .u-dialog-section-19 .u-text-2 {
+    margin-right: 22px;
+  }
+
+  .u-dialog-section-19 .u-tabs-1 {
+    width: 540px;
+  }
+
+  .u-dialog-section-19 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-dialog-section-19 .u-text-3 {
+    width: auto;
+  }
+
+  .u-dialog-section-19 .u-text-4 {
+    width: auto;
+  }
+
+  .u-dialog-section-19 .u-container-layout-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-19 .u-dialog-1 {
+    width: 340px;
+    min-height: 283px;
+  }
+
+  .u-dialog-section-19 .u-container-layout-1 {
+    padding-top: 30px;
+  }
+
+  .u-dialog-section-19 .u-image-1 {
+    min-height: 237px;
+  }
+
+  .u-dialog-section-19 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-dialog-section-19 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-dialog-section-19 .u-tabs-1 {
+    min-height: 317px;
+    width: auto;
+  }
+
+  .u-dialog-section-19 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-19 .u-repeater-2 {
+    grid-template-columns: 100%;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-top-xs u-dialog-section-20" id="carousel_cbd3">
+      <div class="u-align-center u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-style u-group u-image u-image-1" data-image-width="3556" data-image-height="1244">
+            <div class="u-container-layout u-container-layout-2">
+              <h6 class="u-text u-text-body-alt-color u-text-1"> Faculty of Information Sciences &amp; Engineering</h6>
+              <h2 class="u-subtitle u-text u-text-2"> The Faculty of Information Sciences &amp; Engineering (FISE) at Management &amp; Science University (MSU) comprises the three departments of Media Science &amp; Graphic, Engineering &amp; Technology, and Information Sciences &amp; Computing. Specialization is early and plenty, with close to 40 programmes offered.</h2>
+            </div>
+          </div>
+          <div class="u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-tab-list u-unstyled" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-hover-grey-75 u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true">Diploma</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-hover-grey-75 u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false">Degree</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <div class="u-expanded-width u-list u-list-1">
+                    <div class="u-repeater u-repeater-1">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-4">
+                          <ul class="u-text u-text-3">
+                            <li style="padding-left: 10px;"> Diploma in Aircraft Maintenance Technology</li>
+                            <li style="padding-left: 10px;">Diploma in Business Computing </li>
+                            <li style="padding-left: 10px;">Diploma in Computer Engineering</li>
+                            <li style="padding-left: 10px;">Diploma in Computer Forensic</li>
+                            <li style="padding-left: 10px;">Diploma in Electrical and Electronic Engineering</li>
+                            <li style="padding-left: 10px;">Diploma in Games Design and Animation</li>
+                            <li style="padding-left: 10px;">Diploma in Graphic Design</li>
+                            <li style="padding-left: 10px;">Diploma in Information Management</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-5">
+                          <ul class="u-text u-text-4">
+                            <li style="padding-left: 10px;"> Diploma in Information Technology</li>
+                            <li style="padding-left: 10px;">Diploma in Information Technology (Mobile and Wireless Technology)</li>
+                            <li style="padding-left: 10px;">Diploma in Mechanical Engineering</li>
+                            <li style="padding-left: 10px;">Diploma in Mechanical Engineering (Air Conditioning and Refrigeration)</li>
+                            <li style="padding-left: 10px;">Diploma in Interior Design</li>
+                            <li style="padding-left: 10px;">Diploma in Mechanical Engineering</li>
+                            <li style="padding-left: 10px;">Diploma in Multimedia</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-container-layout-6">
+                  <div class="u-expanded-width u-list u-list-2">
+                    <div class="u-repeater u-repeater-2">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-7">
+                          <ul class="u-text u-text-5">
+                            <li style="padding-left: 10px;"> Bachelor in Business Computing (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Computer Engineering (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Computer Forensic (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Computer Science (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Creative Multimedia (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Creative Video and Photography (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Games Design and Animation (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Graphic Design (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Information and Communication Technology (Hons)</li>
+                            <li style="padding-left: 10px;"> Bachelor in Information Systems Auditing (Hons)<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-8">
+                          <ul class="u-text u-text-6">
+                            <li style="padding-left: 10px;">Bachelor in Information Technology (Hons) Mobile Wireless and Technology</li>
+                            <li style="padding-left: 10px;">Bachelor in Instructional Multimedia (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Product Design (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Visual Communication and Marketing (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor of Engineering Technology (Electrical and Electronic) (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor of New Media (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor of Science (Hons) in Mechanical Engineering</li>
+                            <li style="padding-left: 10px;">Bachelor of Science in Aviation Management and Piloting (Hons)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-20 {
+  min-height: 500px;
+}
+
+.u-dialog-section-20 .u-dialog-1 {
+  width: 1140px;
+  min-height: 211px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto;
+}
+
+.u-dialog-section-20 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-20 .u-image-1 {
+  min-height: 398px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/Information--Engineering.png");
+  background-position: 50% 0%;
+}
+
+.u-dialog-section-20 .u-container-layout-2 {
+  padding: 55px 615px 30px 25px;
+}
+
+.u-dialog-section-20 .u-text-1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 90px 0 0;
+}
+
+.u-dialog-section-20 .u-text-2 {
+  margin: 20px 43px 0 0;
+}
+
+.u-dialog-section-20 .u-tabs-1 {
+  min-height: 256px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  width: 1140px;
+}
+
+.u-dialog-section-20 .u-tab-link-1 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-20 .u-tab-link-2 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-20 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-20 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-dialog-section-20 .u-list-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-20 .u-repeater-1 {
+  grid-gap: 16px 16px;
+  grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+  min-height: 266px;
+}
+
+.u-dialog-section-20 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-dialog-section-20 .u-text-3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-20 .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-dialog-section-20 .u-text-4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-20 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-20 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-dialog-section-20 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-20 .u-repeater-2 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 180px;
+}
+
+.u-dialog-section-20 .u-container-layout-7 {
+  padding: 0;
+}
+
+.u-dialog-section-20 .u-text-5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-20 .u-container-layout-8 {
+  padding: 0;
+}
+
+.u-dialog-section-20 .u-text-6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-20 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-20 .u-dialog-1 {
+    width: 940px;
+    min-height: 297px;
+  }
+
+  .u-dialog-section-20 .u-image-1 {
+    background-position: 0% 50%;
+    min-height: 330px;
+    height: auto;
+  }
+
+  .u-dialog-section-20 .u-container-layout-2 {
+    padding-top: 45px;
+    padding-right: 505px;
+    padding-left: 15px;
+  }
+
+  .u-dialog-section-20 .u-text-1 {
+    width: auto;
+    margin-right: 30px;
+  }
+
+  .u-dialog-section-20 .u-text-2 {
+    width: auto;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  .u-dialog-section-20 .u-tabs-1 {
+    width: 940px;
+  }
+
+  .u-dialog-section-20 .u-repeater-1 {
+    min-height: 240px;
+  }
+
+  .u-dialog-section-20 .u-repeater-2 {
+    min-height: 147px;
+  }
+
+  .u-dialog-section-20 .u-text-5 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-20 .u-text-6 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-20 .u-dialog-1 {
+    width: 720px;
+    min-height: 251px;
+  }
+
+  .u-dialog-section-20 .u-image-1 {
+    min-height: 292px;
+    background-size: auto 105%;
+  }
+
+  .u-dialog-section-20 .u-container-layout-2 {
+    padding-top: 35px;
+    padding-right: 310px;
+  }
+
+  .u-dialog-section-20 .u-text-1 {
+    margin-right: 61px;
+  }
+
+  .u-dialog-section-20 .u-tabs-1 {
+    min-height: 269px;
+    width: 720px;
+  }
+
+  .u-dialog-section-20 .u-text-3 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-20 .u-text-4 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-20 .u-text-5 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-20 .u-text-6 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-20 .u-dialog-1 {
+    width: 540px;
+    min-height: 238px;
+  }
+
+  .u-dialog-section-20 .u-image-1 {
+    min-height: 252px;
+  }
+
+  .u-dialog-section-20 .u-container-layout-2 {
+    padding-top: 30px;
+    padding-right: 190px;
+    padding-left: 10px;
+  }
+
+  .u-dialog-section-20 .u-text-1 {
+    margin-right: 61px;
+  }
+
+  .u-dialog-section-20 .u-text-2 {
+    margin-right: 33px;
+  }
+
+  .u-dialog-section-20 .u-tabs-1 {
+    width: 540px;
+  }
+
+  .u-dialog-section-20 .u-container-layout-3 {
+    padding-top: 10px;
+  }
+
+  .u-dialog-section-20 .u-container-layout-6 {
+    padding-top: 10px;
+  }
+
+  .u-dialog-section-20 .u-text-5 {
+    margin-top: 9px;
+  }
+
+  .u-dialog-section-20 .u-text-6 {
+    margin-top: 9px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-20 .u-dialog-1 {
+    width: 340px;
+    min-height: 284px;
+    margin-bottom: 60px;
+  }
+
+  .u-dialog-section-20 .u-container-layout-1 {
+    padding-top: 30px;
+  }
+
+  .u-dialog-section-20 .u-image-1 {
+    min-height: 242px;
+  }
+
+  .u-dialog-section-20 .u-container-layout-2 {
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+
+  .u-dialog-section-20 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-dialog-section-20 .u-text-2 {
+    margin-right: 13px;
+  }
+
+  .u-dialog-section-20 .u-tabs-1 {
+    min-height: 531px;
+    width: 340px;
+  }
+
+  .u-dialog-section-20 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-20 .u-repeater-2 {
+    grid-template-columns: 100%;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-21" id="carousel_d403">
+      <div class="u-align-left u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-align-left u-container-style u-expanded-width-lg u-group u-image u-image-1" data-image-width="3556" data-image-height="1245">
+            <div class="u-container-layout u-valign-top u-container-layout-2">
+              <h6 class="u-align-left u-text u-text-body-alt-color u-text-default u-text-1"> International Medical School</h6>
+              <h2 class="u-align-left u-subtitle u-text u-text-default u-text-2"> The International Medical School (IMS) of Management &amp; Science University (MSU) comprises one campus in Shah Alam Malaysia and another in Bangalore India. It aims to groom future medical doctors and healthcare professionals.</h2>
+            </div>
+          </div>
+          <div class="u-expanded-width u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-tab-list u-unstyled" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-50 u-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true">Diploma</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-50 u-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false">Degree</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <ul class="u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-3">
+                    <li style="padding-left: 10px;"> Diploma in Medical Sciences</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-container-layout-4">
+                  <ul class="u-text u-text-default u-text-4">
+                    <li style="padding-left: 10px;"> Bachelor of Medical Sciences (Honours)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-21 {
+  min-height: 500px;
+}
+
+.u-dialog-section-21 .u-dialog-1 {
+  width: 1140px;
+  min-height: 229px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto 60px;
+}
+
+.u-dialog-section-21 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-21 .u-image-1 {
+  min-height: 351px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/International-Medical-School.png");
+  background-position: 50% 50%;
+}
+
+.u-dialog-section-21 .u-container-layout-2 {
+  padding: 55px 620px 30px 30px;
+}
+
+.u-dialog-section-21 .u-text-1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 auto 0 0;
+}
+
+.u-dialog-section-21 .u-text-2 {
+  margin: 17px auto 0 0;
+}
+
+.u-dialog-section-21 .u-tabs-1 {
+  min-height: 133px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.u-dialog-section-21 .u-tab-link-1 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-21 .u-tab-link-2 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-21 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-21 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-dialog-section-21 .u-text-3 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.u-dialog-section-21 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-21 .u-container-layout-4 {
+  padding: 30px;
+}
+
+.u-dialog-section-21 .u-text-4 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.u-dialog-section-21 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-21 .u-dialog-1 {
+    width: 940px;
+    min-height: 247px;
+  }
+
+  .u-dialog-section-21 .u-image-1 {
+    min-height: 331px;
+    height: auto;
+  }
+
+  .u-dialog-section-21 .u-container-layout-2 {
+    padding-right: 505px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-21 .u-dialog-1 {
+    width: 720px;
+    min-height: 224px;
+  }
+
+  .u-dialog-section-21 .u-image-1 {
+    min-height: 245px;
+    background-position: 0% 0%;
+    background-size: 110%;
+  }
+
+  .u-dialog-section-21 .u-container-layout-2 {
+    padding-top: 40px;
+    padding-right: 360px;
+  }
+
+  .u-dialog-section-21 .u-text-2 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-21 .u-dialog-1 {
+    width: 540px;
+    min-height: 0;
+  }
+
+  .u-dialog-section-21 .u-image-1 {
+    min-height: 209px;
+    background-size: auto 110%;
+  }
+
+  .u-dialog-section-21 .u-container-layout-2 {
+    padding-top: 30px;
+    padding-right: 240px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-21 .u-dialog-1 {
+    width: 340px;
+  }
+
+  .u-dialog-section-21 .u-container-layout-1 {
+    padding-top: 40px;
+  }
+
+  .u-dialog-section-21 .u-image-1 {
+    min-height: 165px;
+    background-size: auto 120%;
+  }
+
+  .u-dialog-section-21 .u-container-layout-2 {
+    padding-top: 0;
+    padding-right: 80px;
+    padding-bottom: 0;
+  }
+
+  .u-dialog-section-21 .u-text-1 {
+    margin-top: 30px;
+  }
+
+  .u-dialog-section-21 .u-text-3 {
+    font-size: 0.875rem;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-21 .u-text-4 {
+    font-size: 0.875rem;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-top-xs u-dialog-section-22" id="carousel_8053">
+      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-style u-group u-image u-image-1" data-image-width="3556" data-image-height="1240">
+            <div class="u-container-layout u-container-layout-2">
+              <h6 class="u-text u-text-body-alt-color u-text-1"> School of Education and Social ​Sciences</h6>
+              <h2 class="u-subtitle u-text u-text-default-xl u-text-2"> The School of Education &amp; Social Sciences (SESS) sets you on your pathway to shaping the future of your community. Its broad-based curricular blends knowledge with practical experience and relevance, equipping you with the confidence and skills required of careers in education and the social sciences.</h2>
+            </div>
+          </div>
+          <div class="u-expanded-width u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-tab-list u-unstyled" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-active-white u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true">Diploma</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-active-white u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false">Degree</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <div class="u-expanded-width u-list u-list-1">
+                    <div class="u-repeater u-repeater-1">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-4">
+                          <ul class="u-text u-text-3">
+                            <li style="padding-left: 10px;"> Diploma in Counselling and Guidance</li>
+                            <li style="padding-left: 10px;">Diploma in Early Childhood Education</li>
+                            <li style="padding-left: 10px;">Diploma in Education (TESL)<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-5">
+                          <ul class="u-text u-text-4">
+                            <li style="padding-left: 10px;"> Diploma in Public Relations and Entertainment Management</li>
+                            <li style="padding-left: 10px;">Diploma in Translation and Interpretation</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-container-layout-6">
+                  <div class="u-expanded-width u-list u-list-2">
+                    <div class="u-repeater u-repeater-2">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-7">
+                          <ul class="u-text u-text-5">
+                            <li style="padding-left: 10px;"> Bachelor in Broadcasting (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Early Childhood Education (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Education - TESL (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Education (Physical Education and Health) (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Education (Science) (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Education (Visual Arts) (Hons)<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-8">
+                          <ul class="u-text u-text-6">
+                            <li style="padding-left: 10px;"> Bachelor in English Language and Literature Studies (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Education (Electrical &amp; Electronic Engineering) (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Liberal Arts (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Psychology (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor of Public Relations Management (Hons)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-22 {
+  min-height: 500px;
+}
+
+.u-dialog-section-22 .u-dialog-1 {
+  width: 1140px;
+  min-height: 250px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto 60px;
+}
+
+.u-dialog-section-22 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-22 .u-image-1 {
+  min-height: 398px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/School-of-Education-and-Social-Sciences.png");
+  background-position: 50% 50%;
+}
+
+.u-dialog-section-22 .u-container-layout-2 {
+  padding: 55px 630px 30px 30px;
+}
+
+.u-dialog-section-22 .u-text-1 {
+  text-transform: uppercase;
+  margin: 0 94px 0 0;
+}
+
+.u-dialog-section-22 .u-text-2 {
+  margin: 14px 0 0;
+}
+
+.u-dialog-section-22 .u-tabs-1 {
+  min-height: 206px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.u-dialog-section-22 .u-tab-link-1 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-22 .u-tab-link-2 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-22 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-22 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-dialog-section-22 .u-list-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-22 .u-repeater-1 {
+  grid-gap: 16px 16px;
+  grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+  min-height: 101px;
+}
+
+.u-dialog-section-22 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-dialog-section-22 .u-text-3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-22 .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-dialog-section-22 .u-text-4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-22 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-22 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-dialog-section-22 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-22 .u-repeater-2 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 180px;
+}
+
+.u-dialog-section-22 .u-container-layout-7 {
+  padding: 0;
+}
+
+.u-dialog-section-22 .u-text-5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-22 .u-container-layout-8 {
+  padding: 0;
+}
+
+.u-dialog-section-22 .u-text-6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-22 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-22 .u-dialog-1 {
+    width: 940px;
+    min-height: 209px;
+  }
+
+  .u-dialog-section-22 .u-image-1 {
+    min-height: 354px;
+    background-position: 0% 50%;
+    height: auto;
+  }
+
+  .u-dialog-section-22 .u-container-layout-2 {
+    padding-top: 45px;
+    padding-right: 485px;
+  }
+
+  .u-dialog-section-22 .u-text-1 {
+    width: auto;
+    margin-right: 105px;
+  }
+
+  .u-dialog-section-22 .u-text-2 {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-22 .u-repeater-1 {
+    min-height: 87px;
+  }
+
+  .u-dialog-section-22 .u-repeater-2 {
+    min-height: 146px;
+  }
+
+  .u-dialog-section-22 .u-text-5 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-22 .u-text-6 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-22 .u-dialog-1 {
+    width: 720px;
+    min-height: 292px;
+  }
+
+  .u-dialog-section-22 .u-image-1 {
+    min-height: 261px;
+    background-position: 17.84% 50%;
+    background-size: auto 115%;
+  }
+
+  .u-dialog-section-22 .u-container-layout-2 {
+    padding-top: 20px;
+    padding-right: 345px;
+  }
+
+  .u-dialog-section-22 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-dialog-section-22 .u-text-2 {
+    width: auto;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-22 .u-text-3 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-22 .u-text-4 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-22 .u-text-5 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-22 .u-text-6 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-22 .u-dialog-1 {
+    width: 540px;
+    min-height: 234px;
+  }
+
+  .u-dialog-section-22 .u-container-layout-2 {
+    padding-right: 210px;
+    padding-left: 10px;
+  }
+
+  .u-dialog-section-22 .u-repeater-1 {
+    min-height: 123px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-22 .u-dialog-1 {
+    width: 340px;
+    min-height: 288px;
+  }
+
+  .u-dialog-section-22 .u-container-layout-1 {
+    padding-top: 30px;
+  }
+
+  .u-dialog-section-22 .u-image-1 {
+    min-height: 218px;
+    background-position: 0% 0%;
+  }
+
+  .u-dialog-section-22 .u-container-layout-2 {
+    padding-top: 30px;
+    padding-right: 15px;
+  }
+
+  .u-dialog-section-22 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-22 .u-repeater-2 {
+    grid-template-columns: 100%;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-23" id="carousel_6923">
+      <div class="u-align-left u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-style u-group u-image u-image-1" data-image-width="3556" data-image-height="1244">
+            <div class="u-container-layout u-container-layout-2">
+              <h6 class="u-text u-text-body-alt-color u-text-1"> School of Hospitality and Creative Arts</h6>
+              <h2 class="u-subtitle u-text u-text-2"> The School of Hospitality and Creative Arts (SHCA) programmes in hospitality and creative arts are offered with a strong practical and industry focus. SHCA boasts excellent training facilities such an on-campus professional kitchen, a fashion hallway, a travel agency, a spa, and a beauty outlet.</h2>
+            </div>
+          </div>
+          <div class="u-expanded-width u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-tab-list u-unstyled" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true">Diploma</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false">Degree</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <div class="u-expanded-width-xl u-list u-list-1">
+                    <div class="u-repeater u-repeater-1">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-4">
+                          <ul class="u-text u-text-3">
+                            <li style="padding-left: 10px;"> Diploma in Beauty Management</li>
+                            <li style="padding-left: 10px;">Diploma in Culinary Arts</li>
+                            <li style="padding-left: 10px;">Diploma in Event Management</li>
+                            <li style="padding-left: 10px;">Diploma in Fashion Design</li>
+                            <li style="padding-left: 10px;">Diploma in Hairdressing</li>
+                            <li style="padding-left: 10px;">Diploma in Hospitality and Tourism Management<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-5">
+                          <ul class="u-text u-text-4">
+                            <li style="padding-left: 10px;"> Diploma in Music</li>
+                            <li style="padding-left: 10px;">Diploma in Music Technology</li>
+                            <li style="padding-left: 10px;">Diploma in Outdoor Recreation</li>
+                            <li style="padding-left: 10px;">Diploma in Patisserie Arts</li>
+                            <li style="padding-left: 10px;">Diploma in Spa Management</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-container-layout-6">
+                  <div class="u-expanded-width u-list u-list-2">
+                    <div class="u-repeater u-repeater-2">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-7">
+                          <ul class="u-text u-text-5">
+                            <li style="padding-left: 10px;"> Bachelor in Airline Services Management (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Beauty and Hair Management (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Culinary Arts (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Event Management (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Fashion Design with Marketing (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Hospitality and Tourism Management (Hons)<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-8">
+                          <ul class="u-text u-text-6">
+                            <li style="padding-left: 10px;"> Bachelor in Music (Composition and Arranging) (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Music Performance (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Music Technology (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Outdoor Recreation Management (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor in Patisserie Arts (Hons)</li>
+                            <li style="padding-left: 10px;">Bachelor of Spa Management (Hons)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-23 {
+  min-height: 500px;
+}
+
+.u-dialog-section-23 .u-dialog-1 {
+  width: 1140px;
+  min-height: 226px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto 60px;
+}
+
+.u-dialog-section-23 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-23 .u-image-1 {
+  min-height: 398px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/School-of-Hospitality-and-Creative-Arts.png");
+  background-position: 50% 0%;
+}
+
+.u-dialog-section-23 .u-container-layout-2 {
+  padding: 55px 610px 0 30px;
+}
+
+.u-dialog-section-23 .u-text-1 {
+  text-transform: uppercase;
+  margin: 0 146px 0 0;
+}
+
+.u-dialog-section-23 .u-text-2 {
+  margin: 20px 6px 0 0;
+}
+
+.u-dialog-section-23 .u-tabs-1 {
+  min-height: 251px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.u-dialog-section-23 .u-tab-link-1 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-23 .u-tab-link-2 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-23 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-23 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-dialog-section-23 .u-list-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-23 .u-repeater-1 {
+  grid-gap: 16px 16px;
+  grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+  min-height: 101px;
+}
+
+.u-dialog-section-23 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-dialog-section-23 .u-text-3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-23 .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-dialog-section-23 .u-text-4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-23 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-23 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-dialog-section-23 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-23 .u-repeater-2 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 180px;
+}
+
+.u-dialog-section-23 .u-container-layout-7 {
+  padding: 0;
+}
+
+.u-dialog-section-23 .u-text-5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-23 .u-container-layout-8 {
+  padding: 0;
+}
+
+.u-dialog-section-23 .u-text-6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-23 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-23 .u-dialog-1 {
+    width: 940px;
+    min-height: 293px;
+  }
+
+  .u-dialog-section-23 .u-image-1 {
+    min-height: 330px;
+    background-position: 0% 0%;
+    height: auto;
+  }
+
+  .u-dialog-section-23 .u-container-layout-2 {
+    padding-top: 45px;
+    padding-right: 500px;
+  }
+
+  .u-dialog-section-23 .u-text-1 {
+    margin-right: 6px;
+  }
+
+  .u-dialog-section-23 .u-text-2 {
+    width: auto;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-23 .u-list-1 {
+    width: 880px;
+  }
+
+  .u-dialog-section-23 .u-repeater-1 {
+    min-height: 0;
+  }
+
+  .u-dialog-section-23 .u-repeater-2 {
+    min-height: 147px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-23 .u-dialog-1 {
+    width: 720px;
+    min-height: 206px;
+  }
+
+  .u-dialog-section-23 .u-container-layout-1 {
+    padding-top: 40px;
+  }
+
+  .u-dialog-section-23 .u-image-1 {
+    min-height: 286px;
+    background-size: auto 105%;
+  }
+
+  .u-dialog-section-23 .u-container-layout-2 {
+    padding-top: 40px;
+    padding-right: 340px;
+  }
+
+  .u-dialog-section-23 .u-list-1 {
+    width: 660px;
+  }
+
+  .u-dialog-section-23 .u-text-3 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-23 .u-text-4 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-23 .u-text-5 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-23 .u-text-6 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-23 .u-dialog-1 {
+    width: 540px;
+    min-height: 263px;
+    margin-bottom: 44px;
+  }
+
+  .u-dialog-section-23 .u-container-layout-1 {
+    padding-top: 45px;
+  }
+
+  .u-dialog-section-23 .u-image-1 {
+    min-height: 286px;
+    width: 540px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-23 .u-container-layout-2 {
+    padding-top: 50px;
+    padding-right: 155px;
+    padding-left: 20px;
+  }
+
+  .u-dialog-section-23 .u-text-1 {
+    width: auto;
+    margin-right: 115px;
+  }
+
+  .u-dialog-section-23 .u-text-2 {
+    margin-top: 10px;
+  }
+
+  .u-dialog-section-23 .u-container-layout-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .u-dialog-section-23 .u-list-1 {
+    margin-top: 0;
+    width: 480px;
+  }
+
+  .u-dialog-section-23 .u-repeater-1 {
+    grid-gap: 0px 0px;
+    grid-template-columns: 50% 50%;
+  }
+
+  .u-dialog-section-23 .u-repeater-2 {
+    grid-gap: 5px 5px;
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-23 .u-dialog-1 {
+    width: 340px;
+    min-height: 205px;
+    margin-bottom: 60px;
+  }
+
+  .u-dialog-section-23 .u-container-layout-1 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-dialog-section-23 .u-image-1 {
+    min-height: 221px;
+    width: 340px;
+    margin-top: 30px;
+  }
+
+  .u-dialog-section-23 .u-container-layout-2 {
+    padding-top: 35px;
+    padding-right: 35px;
+  }
+
+  .u-dialog-section-23 .u-text-1 {
+    margin-right: 6px;
+  }
+
+  .u-dialog-section-23 .u-list-1 {
+    width: 320px;
+  }
+
+  .u-dialog-section-23 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-24" id="carousel_e1c3">
+      <div class="u-align-left u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-style u-group u-image u-image-1" data-image-width="3556" data-image-height="1244">
+            <div class="u-container-layout u-valign-top u-container-layout-2">
+              <h6 class="u-text u-text-body-alt-color u-text-default u-text-1"> School of Pharma​cy</h6>
+              <h2 class="u-subtitle u-text u-text-default-lg u-text-default-xl u-text-2"> The School of Pharmacy (SPH) at Management &amp; Science University (MSU) comprises the departments of Basic Medical Sciences, Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacy Practice, Clinical Pharmacy, and Traditional Chinese Medicine. It has excellent links with major national and international organizations, also prestigious partnerships with universities worldwide.</h2>
+            </div>
+          </div>
+          <div class="u-expanded-width u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-tab-list u-unstyled" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true">Diploma</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false">Degree</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <div class="u-expanded-width u-list u-list-1">
+                    <div class="u-repeater u-repeater-1">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-4">
+                          <ul class="u-text u-text-3">
+                            <li style="padding-left: 10px;"> Diploma in Pharmacy </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-container-layout-5">
+                          <ul class="u-text u-text-4">
+                            <li style="padding-left: 10px;"> Diploma in Traditional Chinese Medicine</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-container-layout-6">
+                  <div class="u-expanded-width u-list u-list-2">
+                    <div class="u-repeater u-repeater-2">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-7">
+                          <ul class="u-text u-text-5">
+                            <li style="padding-left: 10px;"> Bachelor in Traditional Chinese Medicine (Hons)<br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-8">
+                          <ul class="u-text u-text-6">
+                            <li style="padding-left: 10px;"> Bachelor of Science in Pharmaceutical Technology</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-24 {
+  min-height: 500px;
+}
+
+.u-dialog-section-24 .u-dialog-1 {
+  width: 1140px;
+  min-height: 355px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto 38px;
+}
+
+.u-dialog-section-24 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-24 .u-image-1 {
+  min-height: 395px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/School-of-Pharmacy.png");
+  background-position: 50% 50%;
+}
+
+.u-dialog-section-24 .u-container-layout-2 {
+  padding: 50px 630px 30px 30px;
+}
+
+.u-dialog-section-24 .u-text-1 {
+  font-weight: 600;
+  background-image: none;
+  text-transform: uppercase;
+  margin: 0 auto 0 0;
+}
+
+.u-dialog-section-24 .u-text-2 {
+  margin: 20px 0 0;
+}
+
+.u-dialog-section-24 .u-tabs-1 {
+  min-height: 131px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+
+.u-dialog-section-24 .u-tab-link-1 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-24 .u-tab-link-2 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-24 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-24 .u-container-layout-3 {
+  padding: 30px 30px 26px;
+}
+
+.u-dialog-section-24 .u-list-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-24 .u-repeater-1 {
+  grid-gap: 16px 16px;
+  grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+  min-height: 27px;
+}
+
+.u-dialog-section-24 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-dialog-section-24 .u-text-3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-24 .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-dialog-section-24 .u-text-4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-24 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-24 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-dialog-section-24 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-24 .u-repeater-2 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 22px;
+}
+
+.u-dialog-section-24 .u-container-layout-7 {
+  padding: 0;
+}
+
+.u-dialog-section-24 .u-text-5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-24 .u-container-layout-8 {
+  padding: 0;
+}
+
+.u-dialog-section-24 .u-text-6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-24 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-24 .u-dialog-1 {
+    width: 940px;
+    min-height: 297px;
+  }
+
+  .u-dialog-section-24 .u-image-1 {
+    height: auto;
+  }
+
+  .u-dialog-section-24 .u-container-layout-2 {
+    padding-right: 525px;
+  }
+
+  .u-dialog-section-24 .u-repeater-1 {
+    min-height: 50px;
+  }
+
+  .u-dialog-section-24 .u-repeater-2 {
+    min-height: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-24 .u-dialog-1 {
+    width: 720px;
+    min-height: 220px;
+  }
+
+  .u-dialog-section-24 .u-image-1 {
+    background-position: 0% 50%;
+    min-height: 316px;
+  }
+
+  .u-dialog-section-24 .u-container-layout-2 {
+    padding-top: 40px;
+    padding-right: 310px;
+  }
+
+  .u-dialog-section-24 .u-text-2 {
+    margin-top: 10px;
+    margin-right: 1px;
+  }
+
+  .u-dialog-section-24 .u-container-layout-3 {
+    padding-top: 26px;
+  }
+
+  .u-dialog-section-24 .u-repeater-1 {
+    min-height: 61px;
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-24 .u-text-3 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-24 .u-text-4 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-24 .u-container-layout-6 {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+
+  .u-dialog-section-24 .u-repeater-2 {
+    grid-template-columns: 100%;
+    min-height: 55px;
+  }
+
+  .u-dialog-section-24 .u-text-5 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-24 .u-text-6 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-24 .u-dialog-1 {
+    width: 540px;
+    min-height: 238px;
+  }
+
+  .u-dialog-section-24 .u-container-layout-1 {
+    padding-top: 30px;
+  }
+
+  .u-dialog-section-24 .u-image-1 {
+    background-position: 0% 0%;
+    min-height: 239px;
+    background-size: auto 110%;
+  }
+
+  .u-dialog-section-24 .u-container-layout-2 {
+    padding-top: 30px;
+    padding-right: 195px;
+    padding-left: 10px;
+  }
+
+  .u-dialog-section-24 .u-text-2 {
+    margin-right: 1px;
+  }
+
+  .u-dialog-section-24 .u-repeater-1 {
+    grid-gap: 5px 5px;
+    min-height: 50px;
+  }
+
+  .u-dialog-section-24 .u-repeater-2 {
+    grid-gap: 5px 5px;
+    min-height: 62px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-24 .u-dialog-1 {
+    width: 340px;
+    min-height: 282px;
+  }
+
+  .u-dialog-section-24 .u-image-1 {
+    min-height: 239px;
+  }
+
+  .u-dialog-section-24 .u-container-layout-2 {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-dialog-section-24 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-dialog-section-24 .u-repeater-2 {
+    min-height: 110px;
+  }
+}</style><section class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-25" id="carousel_1d77">
+      <div class="u-align-left u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="fixed-custom u-container-layout u-container-layout-1">
+          <div class="u-container-style u-group u-image u-image-1" data-image-width="3556" data-image-height="1242">
+            <div class="u-container-layout u-container-layout-2">
+              <h6 class="u-text u-text-body-alt-color u-text-default u-text-1"> Postgraduate <br>
+              </h6>
+              <h2 class="u-subtitle u-text u-text-default u-text-2"> MSU’s Graduate School of Management (GSM) is where executive careers are boosted with expanded global perspectives.<br>
+                <br>The School of Graduate Studies (SGS) provides a research education tailor-made for the global market. Its globally competitive pogrammes and highly selective recruitment distinguish MSU’s SGS for first pick among top students choosing a graduate school.&nbsp;<br>
+              </h2>
+            </div>
+          </div>
+          <div class="u-tab-links-align-left u-tabs u-tabs-1">
+            <ul class="u-tab-list u-unstyled" role="tablist">
+              <li class="u-tab-item" role="presentation">
+                <a class="active u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-1" id="link-tab-58e8" href="#tab-58e8" role="tab" aria-controls="tab-58e8" aria-selected="true"> Graduate School of Management</a>
+              </li>
+              <li class="u-tab-item" role="presentation">
+                <a class="u-active-custom-color-1 u-border-active-black u-button-style u-hover-grey-40 u-tab-link u-text-active-black u-text-grey-40 u-text-hover-black u-white u-tab-link-2" id="link-tab-2419" href="#tab-2419" role="tab" aria-controls="tab-2419" aria-selected="false"> School of Graduate Studies</a>
+              </li>
+            </ul>
+            <div class="u-tab-content">
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-active u-tab-pane u-tab-pane-1" id="tab-58e8" role="tabpanel" aria-labelledby="link-tab-58e8">
+                <div class="u-container-layout u-container-layout-3">
+                  <div class="u-expanded-width u-list u-list-1">
+                    <div class="u-repeater u-repeater-1">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+                          <ul class="u-text u-text-3">
+                            <li style="padding-left: 10px;"> Master in Business Administration&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Business Administration - PJJ&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Counselling and Guidance (MCG)&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Early Childhood Education (MECE)&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Educational Management and Leadership&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Fashion Business&nbsp;</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
+                          <ul class="u-text u-text-4">
+                            <li style="padding-left: 10px;"> Master in International Business&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in International Hospitality and Tourism Management&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Management&nbsp;</li>
+                            <li style="padding-left: 10px;">Master of Education (Teaching English as a Second Language)&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy (Accounting/Finance)&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy (Management/Business)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-color-1 u-shape-rectangle u-tab-pane u-tab-pane-2" id="tab-2419" role="tabpanel" aria-labelledby="link-tab-2419">
+                <div class="u-container-layout u-container-layout-6">
+                  <div class="u-expanded-width u-list u-list-2">
+                    <div class="u-repeater u-repeater-2">
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-7">
+                          <ul class="u-text u-text-5">
+                            <li style="padding-left: 10px;"> Master in Biomedical Sciences&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Computer Science&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Information Technology&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Science (by Research) Biomedicine&nbsp;</li>
+                            <li style="padding-left: 10px;">Master in Food Service Technology&nbsp;</li>
+                            <li style="padding-left: 10px;">Master of Anatomy&nbsp;</li>
+                            <li style="padding-left: 10px;">Master of Clinical Pharmacy&nbsp;</li>
+                            <li style="padding-left: 10px;">Master of Design&nbsp;</li>
+                            <li style="padding-left: 10px;">Master of Pharmacy&nbsp;</li>
+                            <li style="padding-left: 10px;">Master of Science (Medical Physiology) <br>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-list-item u-repeater-item">
+                        <div class="u-container-layout u-similar-container u-valign-top u-container-layout-8">
+                          <ul class="u-text u-text-6">
+                            <li style="padding-left: 10px;"> Master of Science in Engineering&nbsp;</li>
+                            <li style="padding-left: 10px;">Master of Science In Public Health&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy (Applied Science)&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy (Computer Science)&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy (Health Science)&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy in Engineering&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy in Food Service Technology&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy (by Research) in Biomedicine&nbsp;</li>
+                            <li style="padding-left: 10px;">Doctor of Philosophy (Information and Communication Technology)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><button class="u-dialog-close-button u-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9"><rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16"></rect><rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2"></rect></svg></button>
+      </div>
+    </section><style> .u-dialog-section-25 {
+  min-height: 500px;
+}
+
+.u-dialog-section-25 .u-dialog-1 {
+  width: 1140px;
+  min-height: 396px;
+  height: auto;
+  background-image: none;
+  margin: 0 auto 60px;
+}
+
+.u-dialog-section-25 .u-container-layout-1 {
+  padding: 45px 0 0;
+}
+
+.u-dialog-section-25 .u-image-1 {
+  min-height: 398px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  background-image: url("images/Postgraduate.png");
+  background-position: 50% 50%;
+}
+
+.u-dialog-section-25 .u-container-layout-2 {
+  padding: 55px 610px 30px 30px;
+}
+
+.u-dialog-section-25 .u-text-1 {
+  text-transform: uppercase;
+  margin: 0 auto 0 0;
+}
+
+.u-dialog-section-25 .u-text-2 {
+  margin: 10px auto 0 0;
+}
+
+.u-dialog-section-25 .u-tabs-1 {
+  min-height: 133px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  width: 1140px;
+}
+
+.u-dialog-section-25 .u-tab-link-1 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-25 .u-tab-link-2 {
+  text-decoration: none !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-dialog-section-25 .u-tab-pane-1 {
+  background-image: none;
+}
+
+.u-dialog-section-25 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-dialog-section-25 .u-list-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-25 .u-repeater-1 {
+  grid-gap: 16px 16px;
+  grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+  min-height: 37px;
+}
+
+.u-dialog-section-25 .u-container-layout-4 {
+  padding: 0;
+}
+
+.u-dialog-section-25 .u-text-3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-25 .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-dialog-section-25 .u-text-4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-25 .u-tab-pane-2 {
+  background-image: none;
+}
+
+.u-dialog-section-25 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-dialog-section-25 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-dialog-section-25 .u-repeater-2 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 297px;
+}
+
+.u-dialog-section-25 .u-container-layout-7 {
+  padding: 0;
+}
+
+.u-dialog-section-25 .u-text-5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-25 .u-container-layout-8 {
+  padding: 0;
+}
+
+.u-dialog-section-25 .u-text-6 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.u-dialog-section-25 .u-icon-1 {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-25 .u-dialog-1 {
+    width: 940px;
+    min-height: 278px;
+  }
+
+  .u-dialog-section-25 .u-image-1 {
+    height: auto;
+  }
+
+  .u-dialog-section-25 .u-container-layout-2 {
+    padding-top: 50px;
+    padding-right: 510px;
+  }
+
+  .u-dialog-section-25 .u-tabs-1 {
+    width: 940px;
+  }
+
+  .u-dialog-section-25 .u-repeater-1 {
+    min-height: 50px;
+  }
+
+  .u-dialog-section-25 .u-repeater-2 {
+    min-height: 242px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-25 .u-dialog-1 {
+    width: 720px;
+    min-height: 291px;
+  }
+
+  .u-dialog-section-25 .u-image-1 {
+    min-height: 319px;
+    background-position: 0% 50%;
+  }
+
+  .u-dialog-section-25 .u-container-layout-2 {
+    padding-top: 40px;
+    padding-right: 300px;
+  }
+
+  .u-dialog-section-25 .u-tabs-1 {
+    min-height: 0;
+    width: 720px;
+  }
+
+  .u-dialog-section-25 .u-text-3 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-25 .u-text-4 {
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-25 .u-container-layout-6 {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+
+  .u-dialog-section-25 .u-list-2 {
+    margin-top: 1px;
+    margin-bottom: -1px;
+  }
+
+  .u-dialog-section-25 .u-repeater-2 {
+    min-height: 67px;
+  }
+
+  .u-dialog-section-25 .u-text-5 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+
+  .u-dialog-section-25 .u-text-6 {
+    width: auto;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-25 .u-dialog-1 {
+    width: 540px;
+    min-height: 266px;
+  }
+
+  .u-dialog-section-25 .u-image-1 {
+    min-height: 245px;
+    background-position: 34.32% 0%;
+    background-size: auto 115%;
+    width: 540px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-25 .u-container-layout-2 {
+    padding-right: 245px;
+    padding-left: 10px;
+  }
+
+  .u-dialog-section-25 .u-tabs-1 {
+    width: 540px;
+  }
+
+  .u-dialog-section-25 .u-container-layout-3 {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+
+  .u-dialog-section-25 .u-repeater-1 {
+    min-height: 295px;
+  }
+
+  .u-dialog-section-25 .u-list-2 {
+    margin-bottom: 0;
+  }
+
+  .u-dialog-section-25 .u-repeater-2 {
+    min-height: 64px;
+  }
+
+  .u-dialog-section-25 .u-text-5 {
+    margin-top: 9px;
+  }
+
+  .u-dialog-section-25 .u-text-6 {
+    margin-top: 9px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-25 .u-dialog-1 {
+    width: 340px;
+    min-height: 212px;
+  }
+
+  .u-dialog-section-25 .u-container-layout-1 {
+    padding-top: 30px;
+  }
+
+  .u-dialog-section-25 .u-image-1 {
+    min-height: 245px;
+    background-position: 0% 8.37%;
+    background-size: auto 105%;
+    width: 340px;
+  }
+
+  .u-dialog-section-25 .u-container-layout-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-dialog-section-25 .u-tabs-1 {
+    width: 340px;
+  }
+
+  .u-dialog-section-25 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-25 .u-repeater-2 {
+    grid-template-columns: 100%;
+  }
+
+  .u-dialog-section-25 .u-text-5 {
+    margin-top: 0;
+  }
+
+  .u-dialog-section-25 .u-text-6 {
+    margin-top: 0;
+  }
+}</style>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'></script>
+<script type='text/javascript'>
+//your javascript goes here
+var currentTab = 0;
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+    showTab(currentTab);
+	showTab2(currentTab);
+
+});
+
+function showTab(n) {
+    var x = document.getElementsByClassName("tab");
+    x[n].style.display = "block";
+    if (n == 0) {
+        document.getElementById("prevBtn").style.display = "none";
+    } else {
+        document.getElementById("prevBtn").style.display = "inline";
+    }
+    if (n == (x.length - 1)) {
+        document.getElementById("nextBtn").innerHTML = "Submit";
+    } else {
+        document.getElementById("nextBtn").innerHTML = "Next";
+    }
+    //fixStepIndicator(n)
+}
+function showTab2(n) {
+    var x = document.getElementsByClassName("tab2");
+    x[n].style.display = "block";
+    if (n == 0) {
+        document.getElementById("prevBtn2").style.display = "none";
+    } else {
+        document.getElementById("prevBtn2").style.display = "inline";
+    }
+    if (n == (x.length - 1)) {
+        document.getElementById("nextBtn2").innerHTML = "Submit";
+    } else {
+        document.getElementById("nextBtn2").innerHTML = "Next";
+    }
+    //fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+    var x = document.getElementsByClassName("tab");
+    if (n == 1 && !validateForm()) return false;
+    x[currentTab].style.display = "none";
+    currentTab = currentTab + n;
+    if (currentTab >= x.length) {
+        // document.getElementById("regForm").submit();
+        // return false;
+        //alert("sdf");
+        document.getElementById("nextprevious").style.display = "none";
+        //document.getElementById("all-steps").style.display = "none";
+        //document.getElementById("register").style.display = "none";
+        //document.getElementById("text-message").style.display = "block";
+		document.getElementById("multi-step-form").submit();
+    }
+    showTab(currentTab);
+}
+function nextPrev2(n) {
+    var x = document.getElementsByClassName("tab2");
+	if (n == 1 && !validateForm2()) return false;
+    x[currentTab].style.display = "none";
+    currentTab = currentTab + n;
+    if (currentTab >= x.length) {
+        // document.getElementById("regForm").submit();
+        // return false;
+        //alert("sdf");
+        document.getElementById("nextprevious2").style.display = "none";
+        //document.getElementById("all-steps").style.display = "none";
+        //document.getElementById("register").style.display = "none";
+        //document.getElementById("text-message").style.display = "block";
+		document.getElementById("multi-step-form2").submit();
+    }
+    showTab2(currentTab);
+}
+
+function validateForm() {
+    var x, y, i, valid = true;
+    x = document.getElementsByClassName("tab");
+    y = x[currentTab].getElementsByTagName("input");
+	z = x[currentTab].getElementsByTagName("select");
+    for (i = 0; i < y.length; i++) {
+        if (y[i].value == "") {
+            y[i].className += " invalid";
+            valid = false;
+        }
+    }
+    for (j = 0; j < z.length; j++) {
+		//console.log(z[j].value);
+        if (z[j].value == "") {
+            z[j].className += " invalid";
+            valid = false;
+        }
+    }
+    //if (valid) { document.getElementsByClassName("step")[currentTab].className += " finish"; }
+    return valid;
+}
+function validateForm2() {
+    var x, y, i, valid = true;
+    x = document.getElementsByClassName("tab2");
+    y = x[currentTab].getElementsByTagName("input");
+	z = x[currentTab].getElementsByTagName("select");
+    for (i = 0; i < y.length; i++) {
+        if (y[i].value == "") {
+            y[i].className += " invalid";
+            valid = false;
+        }
+    }
+    for (j = 0; j < z.length; j++) {
+		//console.log(z[j].value);
+        if (z[j].value == "") {
+            z[j].className += " invalid";
+            valid = false;
+        }
+    }
+    //if (valid) { document.getElementsByClassName("step")[currentTab].className += " finish"; }
+    return valid;
+}
+
+</script>
+</body></html>

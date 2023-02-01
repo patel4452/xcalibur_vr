@@ -1,0 +1,144 @@
+ .u-section-1 {
+  min-height: 593px;
+}
+
+.u-section-1 .u-image-1 {
+  object-position: 53.05% 50%;
+}
+
+.u-section-1 .u-image-2 {
+  width: 115px;
+  height: 34px;
+  margin: 39px auto 0 47px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-2 {
+    width: 117px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    width: auto;
+    margin: 291px calc(((100% - 720px) / 2) + 307px) 60px calc(((100% - 720px) / 2));
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2) + 127px);
+    margin-left: calc(((100% - 540px) / 2));
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-2 {
+    width: 86px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: calc(((100% - 340px) / 2) + -18px);
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+    margin-top: 285px;
+    margin-right: calc(((100% - 340px) / 2) + 37px);
+    margin-left: calc(((100% - 340px) / 2) + -18px);
+  }
+} .u-section-2 {
+  background-image: url("images/edited-working-team1.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 858px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 143px;
+  height: 42px;
+  margin: 42px auto 0 28px;
+}
+
+.u-section-2 .u-text-1 {
+  line-height: 1.2;
+  font-size: 2.25rem;
+  margin: 424px 535px 60px 57px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 849px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 108px;
+    height: 37px;
+    margin-top: 71px;
+    margin-left: 16px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 401px;
+    margin-right: 430px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1114px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 0;
+    margin-right: 172px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 753px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 39px;
+    margin-left: 28px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin: 376px 65px 60px -19px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 2226px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}

@@ -1,0 +1,67 @@
+ .u-section-1 {
+  background-image: url("images/thank-you2.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 698px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 408px auto 0 70px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 0%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 576px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 343px;
+    margin-bottom: 60px;
+    margin-left: 58px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 445px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 268px;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 370px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 213px;
+    margin-left: 0;
+    padding: 8px 16px 8px 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 248px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    font-size: 0.75rem;
+    margin-top: 153px;
+    padding: 5px 11px 6px;
+  }
+}

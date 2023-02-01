@@ -1,0 +1,61 @@
+.u-section-1 .u-image-1 {
+  background-image: url("images/mobile8flippedyoung-asian-business-woman-working-with-internet-using-laptop-computer-sit-apartment-scaled.png");
+  background-position: 54.33% 50%;
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 44px 13px 60px 706px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    min-height: 634px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    width: auto;
+    margin-top: 28px;
+    margin-right: 20px;
+    margin-left: 644px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    min-height: 504px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    margin-top: 35px;
+    margin-right: 0;
+    margin-left: 424px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    min-height: 378px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+    margin-top: 39px;
+    margin-left: 343px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    min-height: 280px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 12px;
+    margin-left: 202px;
+  }
+}

@@ -1,0 +1,144 @@
+ .u-section-1 {
+  min-height: 593px;
+}
+
+.u-section-1 .u-image-1 {
+  object-position: 53.05% 50%;
+}
+
+.u-section-1 .u-image-2 {
+  width: 115px;
+  height: 34px;
+  margin: 39px auto 0 47px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-2 {
+    width: 117px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    width: auto;
+    margin: 242px calc(((100% - 720px) / 2) + 319px) 60px calc(((100% - 720px) / 2) + -12px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2) + 229px);
+    margin-left: calc(((100% - 540px) / 2) + -12px);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-2 {
+    width: 105px;
+    height: 31px;
+    margin-top: 38px;
+    margin-left: calc(((100% - 340px) / 2) + -21px);
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.25rem;
+    margin-top: 287px;
+    margin-right: calc(((100% - 340px) / 2) + 52px);
+    margin-left: calc(((100% - 340px) / 2) + -21px);
+  }
+} .u-section-2 {
+  background-image: url("images/edited-happy-woman-at-work.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 858px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 167px;
+  height: 49px;
+  margin: 42px auto 0 13px;
+}
+
+.u-section-2 .u-text-1 {
+  line-height: 1.2;
+  font-size: 2.25rem;
+  margin: 344px 570px 60px 22px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 849px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 108px;
+    height: 37px;
+    margin-top: 71px;
+    margin-left: 16px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 370px;
+    margin-right: 448px;
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1114px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin: 0 172px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 753px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 39px;
+    margin-left: 13px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin: 362px 37px 60px 13px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 2226px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+}

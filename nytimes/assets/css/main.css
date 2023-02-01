@@ -1,0 +1,1613 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+* {
+    -webkit-tap-highlight-color: transparent
+}
+
+.plugin-sprite {
+    -webkit-transform: translateZ(1000000000000px) rotate(0deg) translate(0px, 0px) !important;
+    transform: translateZ(1000000000000px) rotate(0deg) translate(0px, 0px) !important
+}
+
+.viewport-large-51 #shell {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px
+}
+
+.paid-top-bar .sub-bar .center .paid-top-logo img {
+    width: 37px;
+    height: 37px;
+    margin-top: 4px
+}
+
+html,
+body {
+    min-width: 320px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+video{
+    width:100%;
+} 
+.placeholder {
+    position: relative
+}
+
+.main {
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background: #fff url(../images/background-tile.png) center center repeat;
+    min-height: 300px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.main img {
+    display: block;
+    width: 100%
+}
+
+.main p {
+    margin: 0
+}
+
+.main ul {
+    padding: 0
+}
+
+.main .need-init {
+    position: absolute !important;
+    visibility: hidden
+}
+
+.background-video-container .nytd-player-poster {
+    pointer-events: none
+}
+
+.background-video-container video {
+    pointer-events: none
+}
+
+.placeholder {
+    display: none
+}
+
+.main .title-tablet {
+    display: none
+}
+
+.main .title-mobile {
+    display: none
+}
+
+.main .peo-tablet,
+.main .peo-mobile {
+    display: none
+}
+
+.main .display-m {
+    display: none
+}
+
+
+
+.main .section-1 .content:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.container video {
+    position:relative;
+    z-index:0;
+    width: 100%;
+    height: 730px;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .section-1 .headerline {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 70%;
+    left: 50%;
+    margin-left: -35%;
+    color: #fff
+}
+
+.main .section-1 .headerline .title-copy {
+    display: none
+}
+
+.main .section-1 .headerline .small-title {
+    font-size: 5vw;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 700px;
+    margin: 75% 0 0;
+}
+
+.main .section-1 .headerline .big-title {
+    font-size: 10vw;
+    line-height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 700px;
+    margin: 25% 0 0;
+}
+
+.main .section-1 .headerline .subtitle {
+    font-size: 2vw;
+    line-height: 40px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 390px;
+    margin: 20% 0 2%
+}
+
+.main .section-1 .headerline .arrow {
+    width: 101px
+}
+
+.main section .big-font {
+    width: 45%;
+    margin: 0 auto;
+    font-size: 1.71875vw;
+    line-height: 1.3636363636em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 3% 0
+}
+
+@media (max-width: 1280px) {
+    .main section .big-font {
+        font-size: 22px
+    }
+
+    .main .section-1 .headerline .big-title {
+        font-size: 150px;
+    }
+}
+
+@media (min-width: 1605px) {
+    .main section .big-font {
+        font-size: 27.5859375px
+    }
+
+    .main .section-1 .headerline .big-title {
+        font-size: 200px;
+    }
+}
+
+.main section .copy-main {
+    width: 63.7%;
+    margin: 0 auto
+}
+
+.main section .copy-main p {
+    font-size: 1.40625vw;
+    line-height: 1.5em;
+    padding: 0 14.67% 3% 14.67%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 38px
+}
+
+@media (max-width: 1280px) {
+    .main section .copy-main p {
+        font-size: 18px
+    }
+
+    .main .section-1 .headerline .big-title {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 1605px) {
+    .main section .copy-main p {
+        font-size: 22.5703125px
+    }
+
+    .main .section-1 .headerline .big-title {
+        font-size: 150px;
+    }
+}
+
+.main section .copy-main p a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px #000 solid
+}
+
+.main section .copy-main h1 {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 2% 14% 1%;
+    font-family: "Lora", sans-serif;
+    font-weight: 700
+}
+
+.main section .copy-main p.link {
+    font-size: 12px;
+    line-height: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #808080;
+    padding: 5px 0 0;
+    word-break: normal
+}
+
+.main section .copy-main p.link i {
+    border-bottom: 1px #808080 solid
+}
+
+.main section .copy-main .back-copy {
+    font-size: 12px;
+    line-height: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #808080;
+    padding: 6px 0 0
+}
+
+.main section .copy-main .first-letter {
+    position: relative;
+    z-index: 1
+}
+
+.main section .copy-main .first-letter span {
+    position: absolute;
+    font-size: 207px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffd200;
+    line-height: 190px;
+    top: 0;
+    z-index: -1;
+    margin-left: -63px
+}
+
+.main section .copy-main .figure-main {
+    width: 50%;
+    float: right;
+    margin: 1% 0 2% 4%;
+    overflow: hidden
+}
+
+.main section .copy-main .figure-main .line {
+    width: 100%;
+    height: 7px;
+    background: #000;
+    position: relative
+}
+
+.main section .copy-main .figure-main h6 {
+    font-size: 28px;
+    line-height: 35px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 2% 0 10%
+}
+
+.main section .copy-main .figure-main h6 i {
+    font-size: 22.5px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-style: italic
+}
+
+.main section .copy-main .figure-main h6 span {
+    font-size: 28px;
+    line-height: 35px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    display: inline-block;
+    color: #000
+}
+
+.main section .copy-main .figure-main span {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #4c4c4c;
+    line-height: 24px
+}
+
+.main section .copy-main .figure-main span i {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #4c4c4c;
+    line-height: 24px;
+    font-style: normal;
+    display: block
+}
+
+.main section .copy-main .figure-main .anim {
+    width: 100%;
+    padding-bottom: 2%
+}
+
+.main section .copy-main .figure-main .interactive {
+    width: 100%
+}
+
+.main section .copy-main .line-copy {
+    font-size: 30px;
+    border-left: 4px solid #000;
+    margin: 5% 10%;
+    padding-left: 20px
+}
+
+.main section h3.title {
+    font-size: 28px;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 0 0 1.5% 27.5%
+}
+
+.main section h3.title1 {
+    font-size: 28px;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 0 0 1.5% 18.1%
+}
+
+.main .section-3 {
+    width: 100%;
+    margin-bottom: 3%
+}
+
+@media (max-width: 539px) {
+    .main .section-3 {
+        margin-bottom: 10%
+    }
+}
+
+.main .section-3 p {
+    font-size: 19px;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 1% 0 3% 27.5%
+}
+
+.main .section-3 p span {
+    display: block
+}
+
+.main .section-5 .content {
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 3%;
+    position: relative
+}
+
+.main .section-5 .content .main-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.main .section-5 .content h1 {
+    position: absolute;
+    font-size: 86px;
+    line-height: 96px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 18%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.main .section-5 .content h1 span {
+    font-size: 180px;
+    line-height: 90px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400
+}
+
+.main .section-5 .content h1 span.quotes-top {
+    position: absolute;
+    top: 16px;
+    left: -90px
+}
+
+.main .section-5 .content h1 span.quotes-bottom {
+    position: absolute;
+    bottom: -36px
+}
+
+.main .section-5 .content h1 .author {
+    font-family: 'Lora', sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    margin-top: 2%;
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    letter-spacing: 0.3px
+}
+
+.main .section-7-destop {
+    background-color: #272727;
+    background: -moz-linear-gradient(left top, #282828, #1a1a19);
+    background: -webkit-linear-gradient(left top, #282828, #1a1a19);
+    background: -o-linear-gradient(left top, #282828, #1a1a19);
+    color: #fff
+}
+
+.main .section-7-destop .title {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700
+}
+
+.main .section-7-destop .content {
+    width: 88%;
+    margin: 0 auto 3.5%;
+    font-size: 0;
+    padding: 4.5% 0 3%
+}
+
+.main .section-7-destop ul li {
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    padding: 0 4%;
+    text-align: center
+}
+
+.main .section-7-destop ul li .icon {
+    width: 69%;
+    margin-bottom: 6%
+}
+
+.main .section-7-destop ul li h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 22px
+}
+
+.main .section-7-destop ul li p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px
+}
+
+.main .section-7-mobile {
+    z-index: -1;
+    height: 0;
+    overflow: hidden
+}
+
+.main .section-7-mobile .slick-prev,
+.main .section-7-mobile .slick-next {
+    opacity: 1;
+    background: rgba(250, 250, 250, 0) url(../images/slider-arrow.svg) no-repeat center;
+    background-size: 18px 29px;
+    width: 36px;
+    height: 50px
+}
+
+.main .section-7-mobile .slick-initialized .slick-slide {
+    position: relative
+}
+
+.main .section-7-mobile .slick-initialized .slick-slide figcaption.caption {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.main .section-9 .overlay {
+    font-size: 0px
+}
+
+.main .section-9 .overlay:after {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.main .section-9 .overlay .click-around {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center
+}
+
+.main .section-9 .overlay .click-around .icon-360 {
+    width: 97px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.main .section-9 .overlay .click-around h2 {
+    width: 260px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    line-height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 3%
+}
+
+.aframebox {
+    height: 600px;
+    width: 100%;
+}
+
+.main .section-10 {
+    background-color: #000;
+    position: relative;
+    margin-top: 5px
+}
+
+.main .section-10 .content {
+    font-size: 0px
+}
+
+.main .section-10 .content .logo {
+    width: 4.75%;
+    position: absolute;
+    right: 5%;
+    bottom: 11%;
+    min-width: 63px
+}
+
+.main .section-10 .content .E-Sedan {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.main .section-10 .content .E-Sedan .E-moblie {
+    display: none
+}
+
+.main .section-10 .content .footer-copy {
+    width: 470px;
+    margin-left: 3%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.main .section-10 .content .footer-copy p {
+    font-size: 28px;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 30px
+}
+
+.main .section-10 .content .footer-copy .cta {
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px #fff solid;
+    width: 186px
+}
+
+.main .section-10 .content .footer-copy .cta p {
+    font-size: 21px;
+    line-height: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #010101;
+    padding: 12px 0
+}
+
+.main .section-10 .content:hover .footer-copy .cta {
+    background-color: #000;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out
+}
+
+.main .section-10 .content:hover .footer-copy .cta p {
+    color: #fff;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out
+}
+
+.main .content-hero {
+    width: 100%;
+    position: relative
+}
+
+.main .content-hero #pano {
+    width: 100%;
+    position: relative
+}
+
+.main .content-hero #pano .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 1
+}
+
+.main .content-hero #pano .overlay p {
+    color: #ffffff;
+    font-size: 38px;
+    text-align: center;
+    line-height: 400px
+}
+
+.main .content-hero #pano .overlay.active {
+    display: block
+}
+
+.main .content-hero #pano .overlay {
+    display: none
+}
+
+.main .content-hero #pano #krpanoSWFObject {
+    z-index: 0
+}
+
+.mobile .main .content-hero #pano {
+    height: calc(100vh - 215px)
+}
+
+@media all and (orientation: landscape) {
+    .mobile .main .content-hero #pano .overlay {
+        left: 44px;
+        right: 44px
+    }
+}
+
+@media all and (orientation: landscape) {
+    .mobile .main .content-hero #pano {
+        padding-left: 44px;
+        padding-right: 44px;
+        height: calc(100vh - 118px);
+        box-sizing: border-box
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .main .section-1 .content {
+        min-height: 620px
+    }
+    .main .section-1 .headerline {
+        width: 64%;
+        margin-left: -32%
+    }
+    .main .section-1 .headerline .subtitle {
+        font-size: 30px;
+        line-height: 34px
+    }
+    .main .section-1 .headerline .arrow {
+        width: 86px
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .main .section-1 .content {
+        min-height: 545px
+    }
+    .main .section-1 .headerline .subtitle {
+        font-size: 26px;
+        line-height: 30px;
+        width: 264px;
+        margin: 3% 0 2%
+    }
+    .main .section-1 .headerline .arrow {
+        width: 86px
+    }
+    .main section .big-font {
+        font-size: 22px;
+        line-height: 29px
+    }
+    .main section h3.title,
+    .main section h3.title1 {
+        font-size: 22px;
+        line-height: 36px
+    }
+    .main section .copy-main h1 {
+        font-size: 32px;
+        line-height: 38px;
+        padding: 3% 14% 1%
+    }
+    .main section .copy-main .first-letter span {
+        font-size: 165px;
+        line-height: 147px;
+        margin-left: -49px
+    }
+    .main section .copy-main .figure-main h6 {
+        font-size: 22px;
+        line-height: 28px
+    }
+    .main section .copy-main .figure-main h6 span {
+        font-size: 22px;
+        line-height: 28px
+    }
+    .main section .copy-main .figure-main h6 i {
+        font-size: 18px
+    }
+    .main section .copy-main .figure-main span {
+        font-size: 15px
+    }
+    .main section .copy-main .figure-main span i {
+        font-size: 15px
+    }
+    .main section .copy-main .figure-main .line {
+        height: 6px
+    }
+    .main .section-3 p {
+        font-size: 15px;
+        line-height: 15px
+    }
+    .main .section-5 .content h1 {
+        font-size: 69px;
+        line-height: 78px;
+        margin: 0 17%
+    }
+    .main .section-5 .content h1 span {
+        font-size: 143px
+    }
+    .main .section-5 .content h1 span.quotes-top {
+        left: -70px
+    }
+    .main .section-5 .content h1 .author {
+        font-size: 19px;
+        line-height: 19px
+    }
+    .main .section-7-destop .title {
+        font-size: 22px
+    }
+    .main .section-7-destop ul li h3 {
+        font-size: 14px;
+        line-height: 18px
+    }
+    .main .section-7-destop ul li p {
+        font-size: 14px;
+        line-height: 18px
+    }
+    .main .section-9 .overlay .click-around .icon-360 {
+        width: 78px
+    }
+    .main .section-9 .overlay .click-around h2 {
+        width: 190px;
+        font-size: 20px;
+        line-height: 26px;
+        margin-left: 2%
+    }
+    .main .section-10 .content .footer-copy {
+        width: 370px
+    }
+    .main .section-10 .content .footer-copy p {
+        font-size: 22px;
+        line-height: 28px;
+        padding-bottom: 22px
+    }
+    .main .section-10 .content .footer-copy .cta {
+        width: 150px
+    }
+    .main .section-10 .content .footer-copy .cta p {
+        font-size: 17px;
+        line-height: 17px;
+        padding: 12px 0
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main .peo-tablet {
+        display: block
+    }
+    .main .section-1 .headerline {
+        width: 76%;
+        margin-left: -38%
+    }
+    .main .section-1 .headerline .subtitle {
+        font-size: 24px;
+        line-height: 28px;
+        width: 280px;
+        margin: 6% 0 2%
+    }
+    .main .section-1 .headerline .arrow {
+        width: 70px
+    }
+    .main section .big-font {
+        width: 67.44%
+    }
+    .main section h3.title {
+        line-height: 24px;
+        margin: 0 0 1.5% 16%
+    }
+    .main section h3.title1 {
+        line-height: 24px;
+        margin: 3% 0 1.5% 17%
+    }
+    .main section .copy-main {
+        width: 92%
+    }
+    .main section .copy-main h1 {
+        padding: 3% 14% 1%
+    }
+    .main section .copy-main p {
+        padding: 0px 14% 3% 14%
+    }
+    .main section .copy-main .figure-main .line {
+        height: 5px
+    }
+    .main section .copy-main .figure-main h6 {
+        padding: 2% 0 8%
+    }
+    .main section .copy-main .first-letter span {
+        font-size: 160px;
+        line-height: 150px
+    }
+    .main .section-3 p {
+        font-size: 15px;
+        margin: 1.5% 0 5% 17%
+    }
+    .main .section-5 .content h1 {
+        font-size: 55px;
+        line-height: 66px
+    }
+    .main .section-5 .content h1 span {
+        font-size: 110px
+    }
+    .main .section-5 .content h1 span.quotes-top {
+        top: 0px;
+        left: -44px
+    }
+    .main .section-5 .content h1 .author {
+        font-size: 16px;
+        line-height: 16px
+    }
+    .main .section-7-destop .title {
+        padding-top: 4%
+    }
+    .main .section-7-destop .content {
+        width: 92%;
+        padding: 5.5% 0
+    }
+    .main .section-7-destop ul li {
+        width: 23%;
+        padding: 0 1%
+    }
+    .main .section-7-destop ul li .icon {
+        margin-bottom: 7%
+    }
+    .main .section-7-destop ul li h3,
+    .main .section-7-destop ul li p {
+        font-size: 12px;
+        line-height: 17px
+    }
+    .main .section-9 .overlay .click-around .icon-360 {
+        width: 70px
+    }
+    .main .section-9 .overlay .click-around h2 {
+        width: 190px;
+        font-size: 20px;
+        line-height: 24px
+    }
+    .main .section-10 .content .E-Sedan .E-destop {
+        display: none
+    }
+    .main .section-10 .content .E-Sedan .E-moblie {
+        display: block
+    }
+    .main .section-10 .content .footer-copy {
+        width: 284px;
+        margin-left: 5%
+    }
+    .main .section-10 .content .footer-copy p {
+        padding-bottom: 40px
+    }
+    .main .section-10 .content .logo {
+        width: 61px;
+        right: 35px;
+        bottom: 14%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main .title-destop {
+        display: none
+    }
+    .main .title-tablet {
+        display: block
+    }
+   
+    .main .section-1 .headerline {
+        width: 58.85%;
+        left: 16%;
+        margin-left: 0
+    }
+    .main .section-1 .headerline .title {
+        display: none
+    }
+    .main .section-1 .headerline .title-copy {
+        display: block
+    }
+    .main .section-1 .headerline .subtitle {
+        font-size: 30px;
+        line-height: 34px;
+        width: 310px;
+        margin: 28% 0 5%
+    }
+    .main .section-1 .headerline .arrow {
+        width: 86px
+    }
+    .main .section-5 .content h1 {
+        font-size: 62px;
+        line-height: 74px;
+        text-align: center
+    }
+    .main .section-5 .content h1 span {
+        font-size: 144px
+    }
+    .main .section-5 .content h1 span.quotes-top {
+        position: relative;
+        top: 40px;
+        left: -4px
+    }
+    .main .section-5 .content h1 .author {
+        font-size: 15px;
+        line-height: 15px
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main .section-5 .content h1 {
+        font-size: 55px;
+        line-height: 66px
+    }
+    .main .section-5 .content h1 span {
+        font-size: 110px
+    }
+    .main .section-5 .content h1 span.quotes-top {
+        top: 28px;
+        left: -4px
+    }
+    .main .section-5 .content h1 .author {
+        font-size: 13px;
+        line-height: 13px
+    }
+    .main .section-10 .content .footer-copy {
+        margin-left: 3%
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main .title-tablet {
+        display: none
+    }
+    .main .title-mobile {
+        display: block
+    }
+    .main .peo-tablet {
+        display: none
+    }
+    .main .peo-mobile {
+        display: block
+    }
+    .main .display-d {
+        display: none
+    }
+    .main .display-m {
+        display: block
+    }
+    .main .figure-main .main-content .background-video-container {
+        display: block
+    }
+    .main section .big-font {
+        width: 90%;
+        padding: 8% 0
+    }
+    .main section .copy-main {
+        width: 90%
+    }
+    .main section .copy-main p {
+        padding: 0 0 7% 0
+    }
+    .main section .copy-main .figure-main {
+        width: 100%;
+        margin: 1% 0 8% 4%
+    }
+    .main section .copy-main .figure-main span {
+        line-height: 16px
+    }
+    .main section .copy-main .figure-main span i {
+        line-height: 16px
+    }
+    .main section .copy-main .figure-main .line {
+        height: 8px
+    }
+    .main section .copy-main .figure-right,
+    .main section .copy-main .figure-left {
+        float: none;
+        margin: 1% 0
+    }
+    .main section .copy-main h1 {
+        padding: 10% 0 6%;
+        margin-right: 10px
+    }
+    .main section .copy-main .line-copy {
+        border: 0;
+        padding-left: 0px;
+        margin: 10% 0
+    }
+    .main section .copy-main .first-letter span {
+        font-size: 121px;
+        line-height: 116px;
+        margin-left: -38px
+    }
+    .main section h3.title,
+    .main section h3.title1 {
+        font-size: 22px;
+        margin: 0 0 5% 5%
+    }
+    .main .section-1 .headerline {
+        width: 66.87%;
+        left: 5%
+    }
+    .main .section-1 .headerline .subtitle {
+        font-size: 35px;
+        line-height: 40px;
+        width: 100%;
+        margin: 16% 0 7%
+    }
+    .main .section-1 .headerline .arrow {
+        width: 28.5%;
+        min-width: 61px
+    }
+    .main .section-3 p {
+        margin: 3% 0 10% 5%
+    }
+    .main .section-4 .copy-main .anim-copy-2 {
+        display: inline-block
+    }
+    .main .section-5 .content {
+        margin: 5% 0 12%
+    }
+    .main .section-5 .content h1 {
+        font-size: 55px;
+        line-height: 65px
+    }
+    .main .section-5 .content h1 span {
+        font-size: 55px;
+        line-height: 55px
+    }
+    .main .section-5 .content h1 span.quotes-top {
+        top: 0;
+        left: 0
+    }
+    .main .section-5 .content h1 span.quotes-bottom {
+        position: relative;
+        bottom: 0
+    }
+    .main .section-6 figure {
+        margin: 0%
+    }
+    .main .section-7-destop {
+        display: none
+    }
+    .main .section-7-mobile {
+        z-index: 1;
+        height: auto
+    }
+    .main .section-7-mobile .slick-dots li {
+        margin: 0 3px
+    }
+    .main .section-7-mobile .slick-dots li button:before {
+        font-size: 50px;
+        line-height: 30px
+    }
+    .main .section-7-mobile .slick-initialized .slick-slide figcaption.caption .icon-img {
+        width: 84%;
+        margin: 0 auto 8%
+    }
+    .main .section-7-mobile .slick-initialized .slick-slide figcaption.caption .caption-text {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: 24px
+    }
+    .main .section-7-mobile .slick-initialized .slick-slide figcaption.caption .credit {
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff
+    }
+    .main .section-8 .copy-main .middle-copy {
+        display: inline-block
+    }
+    .main .section-9 .overlay .click-around .icon-360 {
+        width: 58px
+    }
+    .main .section-9 .overlay .click-around h2 {
+        width: 144px;
+        font-size: 15px;
+        line-height: 18px
+    }
+    .main .section-10 {
+        margin-top: 10px
+    }
+    .main .section-10 a {
+        text-decoration: none
+    }
+    .main .section-10 .content .E-Sedan {
+        width: 100%;
+        display: block
+    }
+    .main .section-10 .content .footer-copy {
+        width: 86%;
+        display: block;
+        margin: 0 auto;
+        padding: 40px 0
+    }
+    .main .section-10 .content .footer-copy p {
+        font-size: 21px;
+        line-height: 24px;
+        padding-bottom: 30px
+    }
+    .main .section-10 .content .footer-copy .cta {
+        width: 150px;
+        background-color: #000;
+        border: 2px solid #fff
+    }
+    .main .section-10 .content .footer-copy .cta p {
+        color: #fff;
+        padding: 10px 0
+    }
+    .main .section-10 .content .logo {
+        position: absolute;
+        right: 20px;
+        bottom: 36px;
+        width: 51px
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main .section-1 .headerline .subtitle {
+        font-size: 30px;
+        line-height: 34px
+    }
+    .main .section-5 .content h1 {
+        font-size: 45px;
+        line-height: 55px
+    }
+    .main .section-5 .content h1 span {
+        font-size: 45px;
+        line-height: 45px
+    }
+    .main .section-5 .content h1 .author {
+        font-size: 12px;
+        line-height: 12px
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main section .copy-main .figure-main .line {
+        height: 6px
+    }
+    .main .section-1 .content {
+        min-height: 455px
+    }
+    .main .section-1 .headerline .subtitle {
+        font-size: 26px;
+        line-height: 30px
+    }
+    .main .section-5 .content h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 4%
+    }
+    .main .section-5 .content h1 span {
+        font-size: 40px;
+        line-height: 40px
+    }
+    .main .section-7-mobile .slick-initialized .slick-slide figcaption.caption .caption-text {
+        font-size: 14px;
+        line-height: 18px
+    }
+    .main .section-7-mobile .slick-initialized .slick-slide figcaption.caption .credit {
+        font-size: 14px;
+        line-height: 18px
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .main section .copy-main .figure-main .line {
+        height: 5px
+    }
+    .main .section-1 .content {
+        min-height: 375px
+    }
+    .main .section-1 .headerline .subtitle {
+        font-size: 21px;
+        line-height: 24px
+    }
+    .main .section-5 .content h1 {
+        font-size: 33px;
+        line-height: 36px
+    }
+    .main .section-5 .content h1 span {
+        font-size: 33px;
+        line-height: 33px
+    }
+}
+
+.flip-left {
+    float: left;
+    margin: 1% 2.5% 1% 0
+}
+
+.flip-right {
+    float: right;
+    margin: 1% 0 1% 2.5%
+}
+
+.flip-container {
+    width: 22.7984%;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    -o-tap-highlight-color: transparent;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    -ms-perspective: 600px;
+    -o-perspective: 600px;
+    position: relative;
+    z-index: 999
+}
+
+.flip-container .back-link {
+    display: none
+}
+
+.flip-container .front-link {
+    display: block
+}
+
+.flip-container.flipped .front {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+    
+}
+
+.flip-container.flipped .back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg)
+}
+
+.flip-container.flipped .back-link {
+    display: block
+}
+
+.flip-container.flipped .front-link {
+    display: none
+}
+
+.flip-container .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.001)
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden
+}
+
+.face {
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -webkit-transition-duration: 1.5s;
+    -moz-transition-duration: 1.5s;
+    -ms-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s
+}
+
+.isIE11 .face {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s
+}
+
+.front {
+    position: relative;
+    z-index: 111;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg)
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+}
+
+.back .close-btn {
+    width: 7.4%;
+    position: absolute;
+    padding: 5.5%;
+    top: 0px;
+    right: 0px
+}
+
+@media screen and (max-width: 640px) {
+    .flip-left,
+    .flip-right {
+        float: none
+    }
+    .flip-container {
+        width: 64%;
+        max-width: 350px;
+        margin: 0 auto 7%
+    }
+}
+
+.vhs-media-action-overlay.vhs-homepage-cover {
+    padding-bottom: 24.75px
+}
+
+@media (min-width: 1280px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary {
+        margin-left: .9765625vw
+    }
+}
+
+@media (min-width: 1605px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary {
+        margin-left: 15.673828125px
+    }
+}
+
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-title,
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-length,
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-summary {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400
+}
+
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-length {
+    display: none
+}
+
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-title {
+    margin-top: 0
+}
+
+@media (min-width: 1280px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-title {
+        font-size: 2.34375vw;
+        line-height: 1.0833333333em
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1024px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-title {
+        font-size: 24px
+    }
+}
+
+@media (min-width: 1280px) and (min-width: 1605px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-duration-headline-summary .vhs-video-title {
+        font-size: 37.6171875px
+    }
+}
+
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-play-icon {
+    align-self: center;
+    width: 47.5px;
+    height: 47.5px;
+    flex: 0 0 auto
+}
+
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-play-icon .vhs-play-circle {
+    transform: scale(1.25);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-play-icon .vhs-play-triangle {
+    width: 100%;
+    height: 100%
+}
+
+@media (min-width: 1280px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-play-icon {
+        width: 3.7109375vw;
+        height: 3.7109375vw;
+        margin-right: .37109375vw
+    }
+}
+
+@media (min-width: 1605px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-play-icon {
+        width: 59.560546875px
+    }
+}
+
+@media (min-width: 1605px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-play-icon {
+        height: 59.560546875px
+    }
+}
+
+@media (min-width: 1605px) {
+    .vhs-media-action-overlay.vhs-homepage-cover .vhs-updated-homepage-cover .vhs-cover-play-icon {
+        margin-right: 5.9560546875px
+    }
+}
+.css-1npexfx {
+    background-color: #f7f7f7;
+}
+.css-b921h9 {
+    color: #888;
+    font-family: Source Sans Pro,helvetica,arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 0 auto;
+    padding: 9px 20px;
+    text-align: center;
+}
+/* Footer Section Start */
+.css-1e1s8k7 {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.css-15uy5yv {
+    border-top: 1px solid #ebebeb;
+    padding-top: 9px;
+}
+.css-1ho5u4o {
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.css-jq1cx6 {
+    color: #666;
+    padding: 10px 0;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.css-13o0c9t {
+    list-style: none;
+    line-height: 8px;
+    margin: 0 0 35px;
+    padding: 0;
+}
+.css-a7htku {
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 10px;
+}
+.css-a7htku:first-child {
+    border-left: none;
+}
+@media (min-width: 600px){
+    .css-1ho5u4o ,.css-13o0c9t{
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1150px){
+    .css-1e1s8k7 {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+}
+@media (min-width: 1024px){
+    .css-1e1s8k7 {
+        padding: 0 3% 9px;
+    }
+}
+
