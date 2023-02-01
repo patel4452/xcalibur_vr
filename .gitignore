@@ -2,4 +2,5 @@ demo_import/
 derrick/
 segidemo/
 test3/
+peugeotsample/lp1/Video/tvs.mp4
 find . -size +50M | cat
